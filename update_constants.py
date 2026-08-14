@@ -86,14 +86,14 @@ export const TIMES = {
 };
 
 export const PLAYLIST_CATEGORIES = [
-  { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: ''' + str(len(categories['90s'])) + ''' },
-  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: ''' + str(len(categories['nostalgic'])) + ''' },
-  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: ''' + str(len(categories['rajasthani'])) + ''' },
-  { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
-  { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 0 },
-  { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 0 },
-  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 0 },
-  { id: "english", label: "English", fullName: "Retro Roadtrip", subtitle: "Classic Rock & Road Tunes", count: 0 },
+  { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: ''' + str(len(categories.get('90s', []))) + ''' },
+  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: ''' + str(len(categories.get('nostalgic', []))) + ''' },
+  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: ''' + str(len(categories.get('rajasthani', []))) + ''' },
+  { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: ''' + str(len(categories.get('english', []))) + ''' },
+  { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: ''' + str(len(categories.get('hitlist', []))) + ''' },
+  { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: ''' + str(len(categories.get('punjabi', []))) + ''' },
+  { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: ''' + str(len(categories.get('haryanvi', []))) + ''' },
+  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: ''' + str(len(categories.get('pahadi', []))) + ''' },
 ];
 '''
 

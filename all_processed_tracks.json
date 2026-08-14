@@ -1126,197 +1126,6 @@
       "category": "90s"
     }
   ],
-  "rajasthani": [
-    {
-      "id": "rajasthani_1",
-      "title": "Aur Rang De",
-      "artist": "Seema Mishra",
-      "album": "Balam Chhoto So (Rajasthani Dance Songs)",
-      "duration": 417,
-      "url": "/audio/rajasthani_001.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_2",
-      "title": "Baawre",
-      "artist": "Mame Khan, Shankar Mahadevan, Loy Mendonsa, Shankar-Ehsaan-Loy, Javed Akhtar",
-      "album": "Luck By Chance",
-      "duration": 308,
-      "url": "/audio/rajasthani_002.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_3",
-      "title": "Baisaa",
-      "artist": "Gazi Khan Barna",
-      "album": "Parched",
-      "duration": 246,
-      "url": "/audio/rajasthani_003.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_4",
-      "title": "Banni",
-      "artist": "Kapil Jangir, Komal Amrawat",
-      "album": "Kapil's - EP",
-      "duration": 162,
-      "url": "/audio/rajasthani_004.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_5",
-      "title": "Boli Pyari Lage",
-      "artist": "Kheta Khan, Kailash Jangid",
-      "album": "Boli Pyari Lage",
-      "duration": 295,
-      "url": "/audio/rajasthani_005.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_6",
-      "title": "Chaudhary - Studio",
-      "artist": "Mame Khan, Amit Trivedi, Shellee",
-      "album": "Coke Studio S2",
-      "duration": 420,
-      "url": "/audio/rajasthani_006.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_7",
-      "title": "Chirmi",
-      "artist": "Seema Mishra",
-      "album": "Ghoomar, Vol. 3",
-      "duration": 401,
-      "url": "/audio/rajasthani_007.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_8",
-      "title": "Ghani Khamma 2",
-      "artist": "Anchal Bhatt, SP Jodha, Shyamli Thakur",
-      "album": "Ghani Khamma 2",
-      "duration": 294,
-      "url": "/audio/rajasthani_008.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_9",
-      "title": "Ghani Khamma",
-      "artist": "Anchal Bhatt",
-      "album": "Ghani Khamma",
-      "duration": 290,
-      "url": "/audio/rajasthani_009.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_10",
-      "title": "Ghoomar",
-      "artist": "Shreya Ghoshal, Swaroop Khan, A.M. Turaz, Sanjay Leela Bhansali",
-      "album": "Ghoomar (From \"Padmaavat\")",
-      "duration": 282,
-      "url": "/audio/rajasthani_010.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_11",
-      "title": "Hichki",
-      "artist": "Seema Mishra",
-      "album": "Ghoomar, Vol. 3",
-      "duration": 384,
-      "url": "/audio/rajasthani_011.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_12",
-      "title": "Jalalo Bilalo",
-      "artist": "Raahein Gharana, Anwar Khan, Husain Khan, Aslam Khan",
-      "album": "Jalalo Bilalo",
-      "duration": 318,
-      "url": "/audio/rajasthani_012.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_13",
-      "title": "Kajaliyo",
-      "artist": "Kapil Jangir, Aakanksha Sharma",
-      "album": "Kajaliyo",
-      "duration": 204,
-      "url": "/audio/rajasthani_013.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_14",
-      "title": "Kalyo Kood Padyo Mela Me",
-      "artist": "Seema Mishra",
-      "album": "Chudi Chamke (Rajasthani Folk Songs)",
-      "duration": 413,
-      "url": "/audio/rajasthani_014.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_15",
-      "title": "Kesariya Balam",
-      "artist": "Salim–Sulaiman",
-      "album": "Dor",
-      "duration": 273,
-      "url": "/audio/rajasthani_015.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_16",
-      "title": "Laal Peeli Ankhiyan",
-      "artist": "Mame Khan",
-      "album": "Laal Peeli Ankhiyan",
-      "duration": 287,
-      "url": "/audio/rajasthani_016.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_17",
-      "title": "Moriya",
-      "artist": "Kheta Khan",
-      "album": "Unknown Album",
-      "duration": 312,
-      "url": "/audio/rajasthani_017.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_18",
-      "title": "Naina Ra Lobhi",
-      "artist": "Seema Mishra",
-      "album": "Ghoomar, Vol. 2",
-      "duration": 442,
-      "url": "/audio/rajasthani_018.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_19",
-      "title": "Padharo Mhare Desh Ghoomar",
-      "artist": "Mame Khan",
-      "album": "Padharo Mhare Desh Ghoomar",
-      "duration": 154,
-      "url": "/audio/rajasthani_019.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_20",
-      "title": "Peeli Lugdi",
-      "artist": "Rekha Rao, Parmeshwar Premi",
-      "album": "Gori Nakhra Wali",
-      "duration": 360,
-      "url": "/audio/rajasthani_020.mp3",
-      "category": "rajasthani"
-    },
-    {
-      "id": "rajasthani_21",
-      "title": "Tuti Bajuda Re Loom",
-      "artist": "Seema Mishra",
-      "album": "Ghoomar, Vol. 2",
-      "duration": 414,
-      "url": "/audio/rajasthani_021.mp3",
-      "category": "rajasthani"
-    }
-  ],
   "nostalgic": [
     {
       "id": "nostalgic_1",
@@ -2497,5 +2306,913 @@
       "url": "/audio/nostalgic_131.mp3",
       "category": "nostalgic"
     }
-  ]
+  ],
+  "rajasthani": [
+    {
+      "id": "rajasthani_1",
+      "title": "Aur Rang De",
+      "artist": "Seema Mishra",
+      "album": "Balam Chhoto So (Rajasthani Dance Songs)",
+      "duration": 417,
+      "url": "/audio/rajasthani_001.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_2",
+      "title": "Baawre",
+      "artist": "Mame Khan, Shankar Mahadevan, Loy Mendonsa, Shankar-Ehsaan-Loy, Javed Akhtar",
+      "album": "Luck By Chance",
+      "duration": 308,
+      "url": "/audio/rajasthani_002.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_3",
+      "title": "Baisaa",
+      "artist": "Gazi Khan Barna",
+      "album": "Parched",
+      "duration": 246,
+      "url": "/audio/rajasthani_003.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_4",
+      "title": "Banni",
+      "artist": "Kapil Jangir, Komal Amrawat",
+      "album": "Kapil's - EP",
+      "duration": 162,
+      "url": "/audio/rajasthani_004.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_5",
+      "title": "Boli Pyari Lage",
+      "artist": "Kheta Khan, Kailash Jangid",
+      "album": "Boli Pyari Lage",
+      "duration": 295,
+      "url": "/audio/rajasthani_005.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_6",
+      "title": "Chaudhary - Studio",
+      "artist": "Mame Khan, Amit Trivedi, Shellee",
+      "album": "Coke Studio S2",
+      "duration": 420,
+      "url": "/audio/rajasthani_006.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_7",
+      "title": "Chirmi",
+      "artist": "Seema Mishra",
+      "album": "Ghoomar, Vol. 3",
+      "duration": 401,
+      "url": "/audio/rajasthani_007.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_8",
+      "title": "Ghani Khamma 2",
+      "artist": "Anchal Bhatt, SP Jodha, Shyamli Thakur",
+      "album": "Ghani Khamma 2",
+      "duration": 294,
+      "url": "/audio/rajasthani_008.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_9",
+      "title": "Ghani Khamma",
+      "artist": "Anchal Bhatt",
+      "album": "Ghani Khamma",
+      "duration": 290,
+      "url": "/audio/rajasthani_009.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_10",
+      "title": "Ghoomar",
+      "artist": "Shreya Ghoshal, Swaroop Khan, A.M. Turaz, Sanjay Leela Bhansali",
+      "album": "Ghoomar (From \"Padmaavat\")",
+      "duration": 282,
+      "url": "/audio/rajasthani_010.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_11",
+      "title": "Hichki",
+      "artist": "Seema Mishra",
+      "album": "Ghoomar, Vol. 3",
+      "duration": 384,
+      "url": "/audio/rajasthani_011.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_12",
+      "title": "Jalalo Bilalo",
+      "artist": "Raahein Gharana, Anwar Khan, Husain Khan, Aslam Khan",
+      "album": "Jalalo Bilalo",
+      "duration": 318,
+      "url": "/audio/rajasthani_012.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_13",
+      "title": "Kajaliyo",
+      "artist": "Kapil Jangir, Aakanksha Sharma",
+      "album": "Kajaliyo",
+      "duration": 204,
+      "url": "/audio/rajasthani_013.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_14",
+      "title": "Kalyo Kood Padyo Mela Me",
+      "artist": "Seema Mishra",
+      "album": "Chudi Chamke (Rajasthani Folk Songs)",
+      "duration": 413,
+      "url": "/audio/rajasthani_014.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_15",
+      "title": "Kesariya Balam",
+      "artist": "Salim–Sulaiman",
+      "album": "Dor",
+      "duration": 273,
+      "url": "/audio/rajasthani_015.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_16",
+      "title": "Laal Peeli Ankhiyan",
+      "artist": "Mame Khan",
+      "album": "Laal Peeli Ankhiyan",
+      "duration": 287,
+      "url": "/audio/rajasthani_016.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_17",
+      "title": "Moriya",
+      "artist": "Kheta Khan",
+      "album": "Unknown Album",
+      "duration": 312,
+      "url": "/audio/rajasthani_017.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_18",
+      "title": "Naina Ra Lobhi",
+      "artist": "Seema Mishra",
+      "album": "Ghoomar, Vol. 2",
+      "duration": 442,
+      "url": "/audio/rajasthani_018.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_19",
+      "title": "Padharo Mhare Desh Ghoomar",
+      "artist": "Mame Khan",
+      "album": "Padharo Mhare Desh Ghoomar",
+      "duration": 154,
+      "url": "/audio/rajasthani_019.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_20",
+      "title": "Peeli Lugdi",
+      "artist": "Rekha Rao, Parmeshwar Premi",
+      "album": "Gori Nakhra Wali",
+      "duration": 360,
+      "url": "/audio/rajasthani_020.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_21",
+      "title": "Tuti Bajuda Re Loom",
+      "artist": "Seema Mishra",
+      "album": "Ghoomar, Vol. 2",
+      "duration": 414,
+      "url": "/audio/rajasthani_021.mp3",
+      "category": "rajasthani"
+    }
+  ],
+  "english": [
+    {
+      "id": "eng_1",
+      "title": "Ashes in the Wind",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 267,
+      "url": "/audio/eng_001.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_2",
+      "title": "Attention",
+      "artist": "Charlie Puth",
+      "album": "Voicenotes",
+      "duration": 208,
+      "url": "/audio/eng_002.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_3",
+      "title": "Avalon",
+      "artist": "Alan Walker, Anne Gudrun",
+      "album": "Avalon",
+      "duration": 136,
+      "url": "/audio/eng_003.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_4",
+      "title": "Baby",
+      "artist": "Justin Bieber, Ludacris",
+      "album": "Baby",
+      "duration": 214,
+      "url": "/audio/eng_004.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_5",
+      "title": "Back One Day (Outro Song)",
+      "artist": "TheFatRat, NEFFEX",
+      "album": "Back One Day (Outro Song)",
+      "duration": 231,
+      "url": "/audio/eng_005.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_6",
+      "title": "Beautiful Nightmare",
+      "artist": "Alan Walker, bludnymph",
+      "album": "Neon Nights",
+      "duration": 167,
+      "url": "/audio/eng_006.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_7",
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "duration": 204,
+      "url": "/audio/eng_007.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_8",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": 200,
+      "url": "/audio/eng_008.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_9",
+      "title": "Born Between Extremes",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 239,
+      "url": "/audio/eng_009.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_10",
+      "title": "Cheap Thrills",
+      "artist": "Sia",
+      "album": "This Is Acting (Deluxe Version)",
+      "duration": 211,
+      "url": "/audio/eng_010.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_11",
+      "title": "Cheri Cheri Lady",
+      "artist": "Modern Talking",
+      "album": "Let's Talk About Love",
+      "duration": 226,
+      "url": "/audio/eng_011.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_12",
+      "title": "Close To The Sun",
+      "artist": "TheFatRat, Anjulie",
+      "album": "Unity - 10th Anniversary Compilation",
+      "duration": 192,
+      "url": "/audio/eng_012.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_13",
+      "title": "Con Calma",
+      "artist": "Daddy Yankee, Snow",
+      "album": "Con Calma",
+      "duration": 193,
+      "url": "/audio/eng_013.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_14",
+      "title": "Conquer Yourself",
+      "artist": "Bob Dominator",
+      "album": "Conquer Yourself",
+      "duration": 158,
+      "url": "/audio/eng_014.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_15",
+      "title": "Dandelions",
+      "artist": "Ruth B.",
+      "album": "Safe Haven",
+      "duration": 233,
+      "url": "/audio/eng_015.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_16",
+      "title": "Demons",
+      "artist": "Imagine Dragons",
+      "album": "Night Visions",
+      "duration": 177,
+      "url": "/audio/eng_016.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_17",
+      "title": "Devil In Disguise",
+      "artist": "RAGS AND RICHES",
+      "album": "Devil In Disguise",
+      "duration": 136,
+      "url": "/audio/eng_017.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_18",
+      "title": "Diamond Heart",
+      "artist": "Alan Walker, Sophia Somajo",
+      "album": "Different World",
+      "duration": 240,
+      "url": "/audio/eng_018.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_19",
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "album": "Starboy",
+      "duration": 260,
+      "url": "/audio/eng_019.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_20",
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga, Bruno Mars",
+      "album": "Die With A Smile",
+      "duration": 251,
+      "url": "/audio/eng_020.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_21",
+      "title": "Different World (feat. CORSAK)",
+      "artist": "Alan Walker, K-391, Sofia Carson, CORSAK",
+      "album": "Different World",
+      "duration": 202,
+      "url": "/audio/eng_021.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_22",
+      "title": "Dracula",
+      "artist": "Tame Impala",
+      "album": "Dracula",
+      "duration": 205,
+      "url": "/audio/eng_022.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_23",
+      "title": "FREAKED OUT",
+      "artist": "Fat Papi, prodshushy",
+      "album": "FREAKED OUT",
+      "duration": 158,
+      "url": "/audio/eng_023.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_24",
+      "title": "Fairytale",
+      "artist": "Alexander Rybak",
+      "album": "Fairytale",
+      "duration": 182,
+      "url": "/audio/eng_024.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_25",
+      "title": "Fly Away",
+      "artist": "TheFatRat, Anjulie",
+      "album": "Fly Away",
+      "duration": 194,
+      "url": "/audio/eng_025.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_26",
+      "title": "Forest Drums",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 111,
+      "url": "/audio/eng_026.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_27",
+      "title": "Free Me",
+      "artist": "NEFFEX",
+      "album": "Free Me",
+      "duration": 137,
+      "url": "/audio/eng_027.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_28",
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio, L.V.",
+      "album": "Gangsta's Paradise",
+      "duration": 240,
+      "url": "/audio/eng_028.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_29",
+      "title": "Ghost Light",
+      "artist": "TheFatRat, EVERGLOW",
+      "album": "Ghost Light",
+      "duration": 191,
+      "url": "/audio/eng_029.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_30",
+      "title": "Give Myself To You",
+      "artist": "TheFatRat, Laura Brehm",
+      "album": "Give Myself To You",
+      "duration": 170,
+      "url": "/audio/eng_030.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_31",
+      "title": "Harleys In Hawaii",
+      "artist": "Katy Perry",
+      "album": "Smile",
+      "duration": 185,
+      "url": "/audio/eng_031.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_32",
+      "title": "Headlights (feat. KIDDO)",
+      "artist": "Alok, Alan Walker, KIDDO",
+      "album": "Headlights (feat. KIDDO)",
+      "duration": 158,
+      "url": "/audio/eng_032.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_33",
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "album": "Dreamland",
+      "duration": 238,
+      "url": "/audio/eng_033.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_34",
+      "title": "Held by the Dark",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 220,
+      "url": "/audio/eng_034.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_35",
+      "title": "Hero",
+      "artist": "Alan Walker, Sasha Alex Sloan",
+      "album": "Hero",
+      "duration": 175,
+      "url": "/audio/eng_035.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_36",
+      "title": "I Don't Give a Fuck (What You Think about Me)",
+      "artist": "Cole Mercer",
+      "album": "Unknown Album",
+      "duration": 167,
+      "url": "/audio/eng_036.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_37",
+      "title": "I Don't Wanna Go",
+      "artist": "Alan Walker, Julie Bergan",
+      "album": "Different World",
+      "duration": 161,
+      "url": "/audio/eng_037.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_38",
+      "title": "In The End",
+      "artist": "Tommee Profitt, Fleurie, Jung Youth",
+      "album": "In The End",
+      "duration": 234,
+      "url": "/audio/eng_038.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_39",
+      "title": "Kupala Fire",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 228,
+      "url": "/audio/eng_039.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_40",
+      "title": "Let Me Down Slowly",
+      "artist": "Alec Benjamin",
+      "album": "Narrated For You",
+      "duration": 169,
+      "url": "/audio/eng_040.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_41",
+      "title": "Lily",
+      "artist": "Alan Walker, K-391, Emelie Hollow",
+      "album": "Different World",
+      "duration": 195,
+      "url": "/audio/eng_041.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_42",
+      "title": "Live Fast - PUBGM",
+      "artist": "Alan Walker, A$AP Rocky, Kameron",
+      "album": "Live Fast (PUBGM)",
+      "duration": 225,
+      "url": "/audio/eng_042.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_43",
+      "title": "Lonely (feat. ISÁK & Omar Noir)",
+      "artist": "Alan Walker, Steve Aoki, ISÁK, Omar Noir",
+      "album": "Different World",
+      "duration": 216,
+      "url": "/audio/eng_043.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_44",
+      "title": "Loser",
+      "artist": "Tame Impala",
+      "album": "Loser",
+      "duration": 223,
+      "url": "/audio/eng_044.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_45",
+      "title": "Lost Control",
+      "artist": "Alan Walker, Sorana",
+      "album": "Different World",
+      "duration": 222,
+      "url": "/audio/eng_045.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_46",
+      "title": "Mockingbird",
+      "artist": "Eminem",
+      "album": "Encore (Deluxe Version)",
+      "duration": 250,
+      "url": "/audio/eng_046.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_47",
+      "title": "Morrígan – When the Raven speaks my Name",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 213,
+      "url": "/audio/eng_047.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_48",
+      "title": "Myself & I",
+      "artist": "TheFatRat, RIELL",
+      "album": "Myself & I",
+      "duration": 203,
+      "url": "/audio/eng_048.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_49",
+      "title": "Neon Mirage",
+      "artist": "Zayle Manroe",
+      "album": "Unknown Album",
+      "duration": 191,
+      "url": "/audio/eng_049.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_50",
+      "title": "Night Changes",
+      "artist": "One Direction",
+      "album": "FOUR (Deluxe)",
+      "duration": 226,
+      "url": "/audio/eng_050.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_51",
+      "title": "Old Town Road",
+      "artist": "Lil Nas X",
+      "album": "7",
+      "duration": 113,
+      "url": "/audio/eng_051.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_52",
+      "title": "On The Floor",
+      "artist": "Jennifer Lopez, Pitbull",
+      "album": "Love?",
+      "duration": 284,
+      "url": "/audio/eng_052.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_53",
+      "title": "Paradise",
+      "artist": "Alan Walker, K-391, Boy In Space",
+      "album": "World Of Walker",
+      "duration": 183,
+      "url": "/audio/eng_053.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_54",
+      "title": "Party Monster",
+      "artist": "The Weeknd",
+      "album": "Starboy",
+      "duration": 249,
+      "url": "/audio/eng_054.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_55",
+      "title": "Popular (with Playboi Carti & Madonna)",
+      "artist": "The Weeknd, Playboi Carti, Madonna",
+      "album": "Popular (Music from the HBO Original Series)",
+      "duration": 215,
+      "url": "/audio/eng_055.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_56",
+      "title": "Rescue Me",
+      "artist": "OneRepublic",
+      "album": "Rescue Me",
+      "duration": 159,
+      "url": "/audio/eng_056.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_57",
+      "title": "Ride It",
+      "artist": "Jay Sean",
+      "album": "My Own Way",
+      "duration": 190,
+      "url": "/audio/eng_057.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_58",
+      "title": "Rise Up",
+      "artist": "TheFatRat",
+      "album": "Rise Up",
+      "duration": 169,
+      "url": "/audio/eng_058.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_59",
+      "title": "Safari",
+      "artist": "Serena",
+      "album": "Safari",
+      "duration": 189,
+      "url": "/audio/eng_059.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_60",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": 215,
+      "url": "/audio/eng_060.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_61",
+      "title": "Señorita",
+      "artist": "Shawn Mendes, Camila Cabello",
+      "album": "Señorita",
+      "duration": 191,
+      "url": "/audio/eng_061.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_62",
+      "title": "Skyfall",
+      "artist": "Adele",
+      "album": "Skyfall",
+      "duration": 286,
+      "url": "/audio/eng_062.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_63",
+      "title": "Sorry",
+      "artist": "Alan Walker, ISÁK",
+      "album": "Sorry (feat. ISÁK)",
+      "duration": 165,
+      "url": "/audio/eng_063.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_64",
+      "title": "Stan",
+      "artist": "Eminem, Dido",
+      "album": "The Marshall Mathers LP",
+      "duration": 404,
+      "url": "/audio/eng_064.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_65",
+      "title": "Starboy",
+      "artist": "The Weeknd, Daft Punk",
+      "album": "Starboy",
+      "duration": 230,
+      "url": "/audio/eng_065.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_66",
+      "title": "Sugar & Brownies",
+      "artist": "DHARIA",
+      "album": "Sugar & Brownies",
+      "duration": 197,
+      "url": "/audio/eng_066.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_67",
+      "title": "São Paulo (feat. Anitta)",
+      "artist": "The Weeknd, Anitta",
+      "album": "Hurry Up Tomorrow",
+      "duration": 301,
+      "url": "/audio/eng_067.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_68",
+      "title": "The Beacon Chain",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 278,
+      "url": "/audio/eng_068.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_69",
+      "title": "The Deer Path - Jelení stezka",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 192,
+      "url": "/audio/eng_069.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_70",
+      "title": "The Drum",
+      "artist": "Alan Walker",
+      "album": "The Drum",
+      "duration": 189,
+      "url": "/audio/eng_070.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_71",
+      "title": "The Forest Remembers",
+      "artist": "Shana Veyra",
+      "album": "Unknown Album",
+      "duration": 249,
+      "url": "/audio/eng_071.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_72",
+      "title": "Thunder",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "duration": 187,
+      "url": "/audio/eng_072.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_73",
+      "title": "Unity",
+      "artist": "TheFatRat",
+      "album": "Unity",
+      "duration": 249,
+      "url": "/audio/eng_073.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_74",
+      "title": "Unstoppable",
+      "artist": "Sia",
+      "album": "This Is Acting",
+      "duration": 217,
+      "url": "/audio/eng_074.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_75",
+      "title": "VALHALLA CALLING",
+      "artist": "Ragal Ironbull",
+      "album": "VALHALLA CALLING",
+      "duration": 195,
+      "url": "/audio/eng_075.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_76",
+      "title": "Venom - Music From The Motion Picture",
+      "artist": "Eminem",
+      "album": "Venom (Music From The Motion Picture)",
+      "duration": 269,
+      "url": "/audio/eng_076.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_77",
+      "title": "Way down We Go",
+      "artist": "KALEO",
+      "album": "A/B",
+      "duration": 213,
+      "url": "/audio/eng_077.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_78",
+      "title": "You Problem",
+      "artist": "Dust & Harmony",
+      "album": "Unknown Album",
+      "duration": 234,
+      "url": "/audio/eng_078.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_79",
+      "title": "Матушка",
+      "artist": "Татьяна Куртукова",
+      "album": "Матушка",
+      "duration": 173,
+      "url": "/audio/eng_079.mp3",
+      "category": "english"
+    }
+  ],
+  "hitlist": [],
+  "punjabi": [],
+  "haryanvi": [],
+  "pahadi": []
 }

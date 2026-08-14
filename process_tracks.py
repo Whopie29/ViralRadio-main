@@ -18,6 +18,13 @@ categories_config = [
         "default_album": "Golden Era 90s"
     },
     {
+        "key": "nostalgic",
+        "folder": "old bangers/Nostalgic",
+        "prefix": "nostalgic",
+        "default_artist": "Bollywood Classic",
+        "default_album": "Timeless Memories"
+    },
+    {
         "key": "rajasthani",
         "folder": "old bangers/Rajasthani",
         "prefix": "rajasthani",
@@ -25,11 +32,39 @@ categories_config = [
         "default_album": "Rajasthani Heritage"
     },
     {
-        "key": "nostalgic",
-        "folder": "old bangers/Nostalgic",
-        "prefix": "nostalgic",
-        "default_artist": "Bollywood Classic",
-        "default_album": "Timeless Memories"
+        "key": "english",
+        "folder": "old bangers/English",
+        "prefix": "eng",
+        "default_artist": "Retro Artist",
+        "default_album": "Retro Roadtrip"
+    },
+    {
+        "key": "hitlist",
+        "folder": "old bangers/Hitlist",
+        "prefix": "hit",
+        "default_artist": "Top Hit",
+        "default_album": "Highway Hits"
+    },
+    {
+        "key": "punjabi",
+        "folder": "old bangers/Punjabi",
+        "prefix": "punjabi",
+        "default_artist": "Punjabi Artist",
+        "default_album": "Punjabi Bangers"
+    },
+    {
+        "key": "haryanvi",
+        "folder": "old bangers/Haryanvi",
+        "prefix": "haryanvi",
+        "default_artist": "Haryanvi Artist",
+        "default_album": "Haryanvi Hits"
+    },
+    {
+        "key": "pahadi",
+        "folder": "old bangers/Pahadi",
+        "prefix": "pahadi",
+        "default_artist": "Pahadi Folk",
+        "default_album": "Pahadi Safar"
     }
 ]
 

@@ -12,7 +12,7 @@ import InfoReadout from "@/components/InfoReadout";
 import TimeReadout from "@/components/TimeReadout";
 import SettingsPanel from "@/components/SettingsPanel";
 import KarwaanTitle from "@/components/KarwaanTitle";
-import { SAMPLE_TRACKS } from "@/lib/constants";
+import { TRACK_CATEGORIES, SAMPLE_TRACKS } from "@/lib/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useAmbientAudio } from "@/hooks/useAmbientAudio";
 
@@ -20,6 +20,7 @@ const DEFAULTS = {
   location: "himachal",
   weather: "rain",
   time: "evening",
+  category: "90s",
   musicVol: 0.8,
   envVol: 0.5,
   busVol: 0.5,
@@ -35,6 +36,7 @@ export default function App() {
   const [location, setLocation] = useLocalStorage("ps.location", DEFAULTS.location);
   const [weather, setWeather] = useLocalStorage("ps.weather", DEFAULTS.weather);
   const [time, setTime] = useLocalStorage("ps.time", DEFAULTS.time);
+  const [category, setCategory] = useLocalStorage("ps.category", DEFAULTS.category);
   const [musicVol, setMusicVol] = useLocalStorage("ps.musicVol", DEFAULTS.musicVol);
   const [envVol, setEnvVol] = useLocalStorage("ps.envVol", DEFAULTS.envVol);
   const [busVol, setBusVol] = useLocalStorage("ps.busVol", DEFAULTS.busVol);
@@ -43,7 +45,7 @@ export default function App() {
   const [shuffle, setShuffle] = useLocalStorage("ps.shuffle", DEFAULTS.shuffle);
   const [repeat, setRepeat] = useLocalStorage("ps.repeat", DEFAULTS.repeat);
 
-  const tracks = SAMPLE_TRACKS;
+  const tracks = TRACK_CATEGORIES[category] || TRACK_CATEGORIES["90s"] || SAMPLE_TRACKS;
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [playlistOpen, setPlaylistOpen] = useState(false);
@@ -55,7 +57,7 @@ export default function App() {
   const ambient = useAmbientAudio();
   const { hornHonk } = ambient;
 
-  const safeIndex = Math.min(index, tracks.length - 1);
+  const safeIndex = Math.min(index, Math.max(0, tracks.length - 1));
   const track = tracks[safeIndex] || tracks[0];
 
   // ---- ambient wiring ----
@@ -165,7 +167,16 @@ export default function App() {
     setCurrentTime(t);
     const a = audioRef.current; if (track?.url && a) a.currentTime = t;
   };
-  const selectTrack = (i) => { setIndex(i); setCurrentTime(0); setPlaying(true); };
+  const selectTrack = (cat, i) => {
+    if (typeof cat === "string") {
+      setCategory(cat);
+      setIndex(i);
+    } else {
+      setIndex(cat);
+    }
+    setCurrentTime(0);
+    setPlaying(true);
+  };
   const cycleRepeat = () => setRepeat((r) => (r === "off" ? "all" : r === "all" ? "one" : "off"));
 
   const begin = () => {
@@ -179,6 +190,7 @@ export default function App() {
 
   const resetPrefs = () => {
     setLocation(DEFAULTS.location); setWeather(DEFAULTS.weather); setTime(DEFAULTS.time);
+    setCategory(DEFAULTS.category);
     setMusicVol(DEFAULTS.musicVol); setEnvVol(DEFAULTS.envVol); setBusVol(DEFAULTS.busVol);
     setMuted(DEFAULTS.muted); setShuffle(DEFAULTS.shuffle); setRepeat(DEFAULTS.repeat);
   };
@@ -244,7 +256,7 @@ export default function App() {
           <PlaylistDrawer
             open={playlistOpen}
             onClose={() => setPlaylistOpen(false)}
-            tracks={tracks}
+            currentCategory={category}
             currentIndex={safeIndex}
             playing={playing}
             onSelect={selectTrack}

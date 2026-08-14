@@ -8,7 +8,7 @@ export default function KarwaanTitle() {
     >
       <div className="relative flex flex-col items-center gap-0.5">
 
-        {/* Top: "100+ tracks" — small tracked caps above the main title */}
+        {/* Top: "270+ tracks" — small tracked caps above the main title */}
         <div
           className="text-center tracking-[0.35em] uppercase"
           style={{
@@ -21,7 +21,7 @@ export default function KarwaanTitle() {
               "0 1px 8px rgba(0,0,0,0.9), 0 0 18px rgba(0,0,0,0.7)",
           }}
         >
-          100+ tracks
+          270+ tracks
         </div>
 
         {/* Main: कारवां — heavy bold Devanagari headline */}

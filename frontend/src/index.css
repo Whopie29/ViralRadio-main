@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-tech: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* nostalgic palette */
+  --cream: #efe6d0;
+  --cream-dim: #cdbf9f;
+  --brown: #2b2015;
+  --brown-2: #3f3120;
+  --faded-green: #5f7a5a;
+  --warm-yellow: #e6b64c;
+  --orange: #d47a3f;
+  --charcoal: #16130e;
+  --lcd: #b7e46b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #0b0f18;
+  color: var(--cream);
+  overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-body { font-family: var(--font-body); }
+.font-tech { font-family: var(--font-tech); }
+
+::selection {
+  background: var(--warm-yellow);
+  color: var(--charcoal);
+}
+
+/* thin nostalgic scrollbars */
+.thin-scroll::-webkit-scrollbar { width: 6px; }
+.thin-scroll::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+.thin-scroll::-webkit-scrollbar-thumb { background: rgba(230,182,76,0.4); border-radius: 3px; }
+
+@layer base {
+  * { @apply border-border; }
+}

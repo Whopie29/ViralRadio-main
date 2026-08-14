@@ -1,0 +1,108 @@
+{
+  "theme": {
+    "name": "Nostalgic 1990s Indian Hill-Road Bus Journey",
+    "feeling": "Nostalgic, peaceful, cinematic, cozy, slightly dreamy, monsoon-road-trip atmosphere, authentic Indian 1990s aesthetic.",
+    "default_atmosphere": "Monsoon evening"
+  },
+  "typography": {
+    "headings": "Playfair Display",
+    "body": "Manrope",
+    "technical": "IBM Plex Mono",
+    "instructions_to_main_agent": "Use Playfair Display for cinematic text (e.g., loading screens, emotional prompts). Use IBM Plex Mono for cassette track details, times, and location coordinates. Use Manrope for standard UI elements like menus and settings. MUST apply tight tracking on headings. Use standard .js files for React components."
+  },
+  "colors": {
+    "background_presets": {
+      "monsoon_night": "#0f172a",
+      "monsoon_evening": "#1e293b",
+      "clear_morning": "#e0f2fe",
+      "afternoon": "#fef3c7"
+    },
+    "surface": {
+      "glass": "bg-black/40 backdrop-blur-xl border border-white/10",
+      "cassette_plastic": "#262626",
+      "cassette_accent": "#d4d4d4",
+      "bus_interior": "#171717"
+    },
+    "accent": {
+      "warm_light": "#f59e0b",
+      "play_button": "#ef4444",
+      "lcd_green": "#4ade80"
+    },
+    "text": {
+      "primary": "#f8fafc",
+      "secondary": "#94a3b8",
+      "technical": "#a3e635"
+    },
+    "instructions_to_main_agent": "Implement a dynamic palette that shifts based on the time of day. UI elements should use Glassmorphism (Crystal variant) with deep blur and subtle white borders to look like misty bus windows. Ensure dropdowns and overlays NEVER have a completely transparent background."
+  },
+  "visual_enhancers": {
+    "textures": [
+      "Grain/Noise overlay across the entire screen (opacity 0.15, pointer-events-none) for filmic nostalgia.",
+      "Rain droplet texture/overlay on the bus window (z-index below the UI, above the parallax)."
+    ],
+    "shadows": [
+      "Deep ambient shadows for the cassette player to make it feel tangible.",
+      "Inner glow on the LCD screen to mimic old electronics."
+    ]
+  },
+  "grids_and_layouts": {
+    "global": "h-screen w-screen overflow-hidden relative font-sans text-slate-100",
+    "parallax_layers": [
+      "Layer 0: Sky (Fixed)",
+      "Layer 1: Mountains (Slow pan, duration: 120s linear infinite)",
+      "Layer 2: Forest (Medium pan, duration: 60s linear infinite)",
+      "Layer 3: Foreground Objects (Fast pan, duration: 15s linear infinite)",
+      "Layer 4: Window Frame & Rain (Fixed overlay with droplet animations)",
+      "Layer 5: UI Layer (Absolute positioned elements)"
+    ],
+    "ui_layout": "Grid-based absolute positioning. Bottom-center for the Cassette Player. Top-right for minimal controls (weather/location selectors). Bottom-left for poetic location/status readout."
+  },
+  "motion_and_interactions": {
+    "parallax": "Use continuous CSS `translateX` animations for the landscape layers (e.g., repeating background-image sliding left).",
+    "cassette": "When playing, the tape reels must rotate infinitely. Play/Pause buttons should have a satisfying physical 'press' down translation (`active:translate-y-1 active:scale-95`).",
+    "weather": "Rain must fall at an angle (CSS animation or Canvas). Raindrops on the window should slowly slide down.",
+    "loading": "Start with a solid dark screen 'LOADING JOURNEY...'. Transition to 'Put your headphones on. The journey begins.' Fade to transparent over 3-4 seconds."
+  },
+  "components": {
+    "CassettePlayer": "A skeuomorphic or highly tactile 2D design. Must include rotating wheels, a progress bar, play/pause, prev/next, and a mini LCD screen for song info. Add ambient shadow.",
+    "WeatherSelector": "Minimal glassmorphism dropdown. Options: Clear, Rain, Snow.",
+    "LocationSelector": "Dropdown or toggle between 'Himachal Pradesh' and 'Uttarakhand'.",
+    "PlaylistDrawer": "Slide-in panel from the right or bottom. Frosted glass effect.",
+    "BusWindow": "SVG or CSS frame border that mimics looking out of a bus. A subtle handrail or window edge in the foreground.",
+    "Controls": "Independent volume controls (Music / Environment / Bus), Settings panel, Fullscreen toggle."
+  },
+  "accessibility": {
+    "contrast": "Ensure white text on glass panels meets 4.5:1 ratio. Add text-shadow if necessary.",
+    "motion": "Respect `prefers-reduced-motion` by disabling parallax if true.",
+    "attributes": "Add `data-testid` to all interactive controls (play, pause, location, weather)."
+  },
+  "media_and_assets": {
+    "image_urls": {
+      "mountains": "https://images.unsplash.com/photo-1621617249658-f7541ef42a93?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxoaW1hbGF5YW4lMjBtb3VudGFpbnMlMjBtb29keXxlbnwwfHx8fDE3ODY3MDIzOTB8MA&ixlib=rb-4.1.0&q=85",
+      "forest": "https://images.unsplash.com/photo-1551120738-c3fcea8d0cf8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwyfHxwaW50YWdlJTIwY2Fzc2V0dGUlMjB0YXBlfGVufDB8fHx8MTc4NjcwMjM5MHww&ixlib=rb-4.1.0&q=85",
+      "window_rain": "https://images.unsplash.com/photo-1636293399988-bbd3de7013cb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwyfHxidXMlMjB3aW5kb3clMjByYWlufGVufDB8fHx8MTc4NjcwMjM5MHww&ixlib=rb-4.1.0&q=85",
+      "cassette": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHx2aW50YWdlJTIwY2Fzc2V0dGUlMjB0YXBlfGVufDB8fHx8MTc4NjcwMjM5MHww&ixlib=rb-4.1.0&q=85"
+    },
+    "instructions_to_main_agent": "Use these images as texture backgrounds or references. Mountains and forest can be used as repeating background-image layers for the parallax effect. Apply CSS filters (brightness, contrast, sepia, hue-rotate) to tint them based on the time of day and weather to achieve the 'AI-generated illustrated background' feel."
+  },
+  "libraries": {
+    "framer-motion": "For UI transitions, drawer slide, loading screen fades.",
+    "lucide-react": "For UI icons.",
+    "react-use": "Optional, for window size or audio hooks.",
+    "tailwind-merge": "For class merging."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "GENERAL UI UX DESIGN GUIDELINES",
+    "Write all React components using .js files (no .tsx).",
+    "CRITICAL: DO NOT use complete `transparent` background in header, overlays, any surface that has content under it. Example: Dropdown with transparent background.",
+    "All interactive and key informational elements MUST include a `data-testid` attribute to facilitate robust automated testing.",
+    "No generic centered layouts. Use absolute positioning to build a cinematic scene.",
+    "Create depth through z-index layering (Parallax background -> Window frame -> UI).",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) for UI panels.",
+    "Do NOT apply `transition: all`. Target specific properties.",
+    "Every interaction needs micro-animations (hover states, active scales).",
+    "Do not use placeholder text for missing images. Use provided assets.",
+    "Include a global film-grain overlay div to enhance the 90s nostalgia.",
+    "Ensure UI text has a subtle shadow (`drop-shadow-md`) for legibility over complex backgrounds."
+  ]
+}

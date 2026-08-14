@@ -10,13 +10,13 @@ export default function PlaylistDrawer({ open, onClose, tracks, currentIndex, pl
       {open && (
         <>
           <motion.div
-            className="fixed inset-0 z-[70] bg-black/50"
+            className="fixed inset-0 z-[90] bg-black/50"
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
             onClick={onClose}
             data-testid="playlist-backdrop"
           />
           <motion.aside
-            className="glass-panel fixed z-[71] flex flex-col
+            className="glass-panel fixed z-[91] flex flex-col
                        right-0 top-0 bottom-0 w-[86vw] max-w-[380px] rounded-l-2xl
                        sm:rounded-l-2xl"
             initial={{ x: "100%" }}

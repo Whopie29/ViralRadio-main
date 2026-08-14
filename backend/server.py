@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, WebSocket, WebSocketDisconnect
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -15,9 +15,9 @@ ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
 # MongoDB connection
-mongo_url = os.environ['MONGO_URL']
+mongo_url = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
 client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+db = client[os.environ.get('DB_NAME', 'viral_radio')]
 
 # Create the main app without a prefix
 app = FastAPI()
@@ -41,6 +41,53 @@ class StatusCheckCreate(BaseModel):
 @api_router.get("/")
 async def root():
     return {"message": "Hello World"}
+
+# Passenger connection manager for real-time live listeners
+class PassengerManager:
+    def __init__(self):
+        self.active_connections: list[WebSocket] = []
+        self.base_organic_count = 18
+
+    def get_current_count(self) -> int:
+        return self.base_organic_count + len(self.active_connections)
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+        await self.broadcast_count()
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+
+    async def broadcast_count(self):
+        count = self.get_current_count()
+        payload = {"type": "count", "count": count}
+        for connection in list(self.active_connections):
+            try:
+                await connection.send_json(payload)
+            except Exception:
+                pass
+
+passenger_manager = PassengerManager()
+
+@api_router.get("/passengers/count")
+async def get_passengers_count():
+    return {"count": passenger_manager.get_current_count()}
+
+@api_router.websocket("/ws/passengers")
+async def websocket_passengers(websocket: WebSocket):
+    await passenger_manager.connect(websocket)
+    try:
+        while True:
+            data = await websocket.receive_text()
+            # Handle client heartbeats or status updates if needed
+    except WebSocketDisconnect:
+        passenger_manager.disconnect(websocket)
+        await passenger_manager.broadcast_count()
+    except Exception:
+        passenger_manager.disconnect(websocket)
+        await passenger_manager.broadcast_count()
 
 @api_router.post("/status", response_model=StatusCheck)
 async def create_status_check(input: StatusCheckCreate):
@@ -68,6 +115,7 @@ async def get_status_checks():
 
 # Include the router in the main app
 app.include_router(api_router)
+
 
 app.add_middleware(
     CORSMiddleware,

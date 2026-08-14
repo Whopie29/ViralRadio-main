@@ -1,36 +1,40 @@
-import React, { useRef } from "react";
-import { Play, Pause, SkipBack, SkipForward, Shuffle, Repeat, Repeat1, ListMusic, Volume2 } from "lucide-react";
+import React, { useRef, useState } from "react";
+import {
+  Play,
+  Pause,
+  SkipBack,
+  SkipForward,
+  Shuffle,
+  Repeat,
+  Repeat1,
+  ListMusic,
+  Volume2,
+  VolumeX,
+  Disc3,
+} from "lucide-react";
 import { fmtTime } from "../lib/constants";
 
-const Reel = ({ spinning }) => (
-  <div className="reel" style={{ position: "relative", width: 48, height: 48 }}>
-    <div className={spinning ? "reel-spin" : ""} style={{ position: "absolute", inset: 0 }}>
-      {[0, 60, 120].map((deg) => (
-        <div
-          key={deg}
-          style={{
-            position: "absolute",
-            left: "50%",
-            top: "50%",
-            width: 2,
-            height: 20,
-            background: "#0c0906",
-            transform: `translate(-50%,-50%) rotate(${deg}deg)`,
-          }}
-        />
-      ))}
-    </div>
-  </div>
-);
-
 export default function CassettePlayer({
-  track, playing, currentTime, duration,
-  onTogglePlay, onPrev, onNext, onSeek,
-  musicVol, onMusicVol, shuffle, repeat, onShuffle, onRepeat, onOpenPlaylist,
+  track,
+  playing,
+  currentTime,
+  duration,
+  onTogglePlay,
+  onPrev,
+  onNext,
+  onSeek,
+  musicVol,
+  onMusicVol,
+  shuffle,
+  repeat,
+  onShuffle,
+  onRepeat,
+  onOpenPlaylist,
 }) {
   const barRef = useRef(null);
+  const [showVolume, setShowVolume] = useState(false);
   const dur = duration || track?.duration || 1;
-  const pct = Math.min(100, (currentTime / dur) * 100);
+  const pct = Math.min(100, Math.max(0, (currentTime / dur) * 100));
 
   const seekFromEvent = (clientX) => {
     const el = barRef.current;
@@ -42,81 +46,192 @@ export default function CassettePlayer({
 
   return (
     <div
-      className="cassette px-4 py-3 sm:px-5 sm:py-4 w-[92vw] max-w-[520px]"
+      className="relative z-[80] select-none w-full max-w-[94vw] sm:max-w-[480px] md:max-w-[500px] lg:max-w-[560px] xl:max-w-[620px]"
       data-testid="cassette-player"
     >
-      {/* cassette window with reels + label */}
-      <div className="flex items-center gap-3 rounded-lg px-3 py-2 mb-3" style={{ background: "linear-gradient(180deg,#0f0c08,#1c1610)", border: "1px solid rgba(0,0,0,0.6)" }}>
-        <Reel spinning={playing} />
-        <div className="flex-1 min-w-0 text-center">
-          <div className="lcd rounded px-2 py-1">
-            <div className="font-tech text-[13px] sm:text-sm truncate" data-testid="now-playing-title">{track?.title || "—"}</div>
-            <div className="font-tech text-[10px] opacity-80 truncate">{track?.artist || ""} · {track?.album || ""}</div>
-          </div>
-          <div className="flex items-center justify-center gap-2 mt-1">
-            <div className={`eq ${playing ? "play" : ""}`}>
-              <span /><span /><span /><span /><span />
+      {/* Horizontal Round Cylinder Container */}
+      <div className="flex items-center justify-between gap-2.5 sm:gap-4 px-3.5 py-2 sm:px-5 sm:py-3 rounded-full bg-gradient-to-r from-[#231b12]/95 via-[#1a140d]/95 to-[#261c13]/95 backdrop-blur-xl border border-[rgba(233,201,120,0.22)] shadow-[0_16px_45px_-8px_rgba(0,0,0,0.85),inset_0_1px_0_rgba(255,255,255,0.12)]">
+        
+        {/* Left Section: Circular Album / Vinyl Cover & Info */}
+        <div className="flex items-center gap-3 sm:gap-4 min-w-0 flex-1">
+          {/* Circular Vinyl / Album Art */}
+          <div
+            className="relative w-11 h-11 sm:w-14 sm:h-14 rounded-full overflow-hidden shrink-0 shadow-md border border-[rgba(233,201,120,0.3)] bg-gradient-to-br from-[#2a2015] to-[#120e0a] flex items-center justify-center cursor-pointer group"
+            onClick={onOpenPlaylist}
+            title="Open Playlist"
+          >
+            <div
+              className={`absolute inset-0 flex items-center justify-center ${
+                playing ? "animate-[spin_4s_linear_infinite]" : ""
+              }`}
+            >
+              {/* Vinyl grooves */}
+              <div className="absolute inset-1 rounded-full border border-white/10" />
+              <div className="absolute inset-2.5 rounded-full border border-white/5" />
+              {/* Center disc label */}
+              <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-tr from-[#d47a3f] to-[#e6b64c] flex items-center justify-center shadow-inner">
+                <div className="w-1.5 h-1.5 rounded-full bg-[#120e0a]" />
+              </div>
             </div>
-            <span className="font-tech text-[9px] text-[#8a7a55] tracking-widest">{playing ? "PLAY" : "PAUSE"}</span>
+            {/* Center disc icon overlay */}
+            <Disc3
+              size={20}
+              className={`text-[#e6b64c] transition-opacity duration-300 ${
+                playing ? "opacity-0" : "opacity-90 group-hover:opacity-100"
+              }`}
+            />
+          </div>
+
+          {/* Track Titles & Horizontal Progress Bar */}
+          <div className="flex flex-col min-w-0 flex-1 justify-center">
+            {/* Title & Artist */}
+            <div className="flex flex-col min-w-0">
+              <h3
+                className="font-body font-bold text-xs sm:text-sm text-[#efe6d0] truncate tracking-wide"
+                data-testid="now-playing-title"
+                title={track?.title}
+              >
+                {track?.title || "No Track Selected"}
+              </h3>
+              <p
+                className="font-body text-[10px] sm:text-xs text-[#a99b78] truncate"
+                title={`${track?.artist || ""} • ${track?.album || ""}`}
+              >
+                {track?.artist || "Pahadi Safar Radio"}
+                {track?.album ? ` • ${track?.album}` : ""}
+              </p>
+            </div>
+
+            {/* Inline Horizontal Progress Bar */}
+            <div className="flex items-center gap-2 mt-1 sm:mt-1.5 w-full max-w-[320px]">
+              <span
+                className="font-tech text-[9.5px] sm:text-[10px] text-[#8a7a55] w-7 sm:w-8 text-right shrink-0"
+                data-testid="time-current"
+              >
+                {fmtTime(currentTime)}
+              </span>
+              <div
+                ref={barRef}
+                className="relative flex-1 h-1 sm:h-1.5 rounded-full bg-black/50 overflow-hidden cursor-pointer group/bar"
+                data-testid="progress-bar"
+                onClick={(e) => seekFromEvent(e.clientX)}
+              >
+                <div
+                  className="absolute left-0 top-0 bottom-0 rounded-full bg-gradient-to-r from-[#e6b64c] to-[#d47a3f] transition-all duration-75"
+                  style={{ width: `${pct}%` }}
+                />
+              </div>
+              <span
+                className="font-tech text-[9.5px] sm:text-[10px] text-[#8a7a55] w-7 sm:w-8 shrink-0"
+                data-testid="time-total"
+              >
+                {fmtTime(dur)}
+              </span>
+            </div>
           </div>
         </div>
-        <Reel spinning={playing} />
-      </div>
 
-      {/* progress */}
-      <div className="flex items-center gap-2">
-        <span className="font-tech text-[10px] text-[#cdbf9f] w-9 text-right" data-testid="time-current">{fmtTime(currentTime)}</span>
-        <div
-          ref={barRef}
-          className="track-bar flex-1"
-          data-testid="progress-bar"
-          onClick={(e) => seekFromEvent(e.clientX)}
-        >
-          <div className="track-fill" style={{ width: `${pct}%` }} />
-          <div className="track-knob" style={{ left: `${pct}%` }} />
-        </div>
-        <span className="font-tech text-[10px] text-[#cdbf9f] w-9" data-testid="time-total">{fmtTime(dur)}</span>
-      </div>
-
-      {/* transport */}
-      <div className="flex items-center justify-between mt-3">
-        <div className="flex items-center gap-2">
-          <button className={`tbtn ${shuffle ? "on" : ""} w-9 h-9`} data-testid="shuffle-btn" onClick={onShuffle} title="Shuffle">
+        {/* Right Section: Playback Controls */}
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
+          {/* Shuffle (desktop) */}
+          <button
+            className={`hidden md:flex p-1.5 rounded-full transition-colors ${
+              shuffle
+                ? "text-[#e6b64c] bg-[rgba(230,182,76,0.15)]"
+                : "text-[#a99b78] hover:text-[#efe6d0]"
+            }`}
+            data-testid="shuffle-btn"
+            onClick={onShuffle}
+            title="Shuffle"
+          >
             <Shuffle size={15} />
           </button>
-          <button className="tbtn w-11 h-10" data-testid="prev-btn" onClick={onPrev} title="Previous">
-            <SkipBack size={18} />
+
+          {/* Previous Button */}
+          <button
+            className="p-1.5 sm:p-2 text-[#efe6d0] hover:text-[#e6b64c] hover:scale-110 active:scale-95 transition-all"
+            data-testid="prev-btn"
+            onClick={onPrev}
+            title="Previous"
+          >
+            <SkipBack size={18} className="fill-current sm:w-5 sm:h-5" />
+          </button>
+
+          {/* Large Circular White Play/Pause Button */}
+          <button
+            className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#fdfbf7] text-[#120e0a] flex items-center justify-center shadow-[0_4px_16px_rgba(0,0,0,0.5)] hover:bg-white hover:scale-105 active:scale-95 transition-all shrink-0"
+            data-testid="play-pause-btn"
+            onClick={onTogglePlay}
+            title={playing ? "Pause" : "Play"}
+          >
+            {playing ? (
+              <Pause size={20} className="fill-current sm:w-[22px] sm:h-[22px]" />
+            ) : (
+              <Play size={20} className="fill-current ml-0.5 sm:w-[22px] sm:h-[22px]" />
+            )}
+          </button>
+
+          {/* Next Button */}
+          <button
+            className="p-1.5 sm:p-2 text-[#efe6d0] hover:text-[#e6b64c] hover:scale-110 active:scale-95 transition-all"
+            data-testid="next-btn"
+            onClick={onNext}
+            title="Next"
+          >
+            <SkipForward size={18} className="fill-current sm:w-5 sm:h-5" />
+          </button>
+
+          {/* Volume Control */}
+          <div className="relative flex items-center">
+            <button
+              className="p-1.5 sm:p-2 text-[#a99b78] hover:text-[#efe6d0] transition-colors"
+              data-testid="volume-toggle"
+              onClick={() => setShowVolume((prev) => !prev)}
+              title="Volume"
+            >
+              {musicVol === 0 ? <VolumeX size={17} /> : <Volume2 size={17} />}
+            </button>
+
+            {showVolume && (
+              <div className="absolute bottom-full right-0 mb-3 px-3 py-2 rounded-xl bg-[#1e1710] border border-[rgba(233,201,120,0.25)] shadow-xl flex items-center gap-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+                <input
+                  type="range"
+                  className="range w-24 accent-[#e6b64c]"
+                  data-testid="music-volume"
+                  min={0}
+                  max={1}
+                  step={0.01}
+                  value={musicVol}
+                  onChange={(e) => onMusicVol(parseFloat(e.target.value))}
+                />
+              </div>
+            )}
+          </div>
+
+          {/* Repeat */}
+          <button
+            className={`hidden sm:flex p-1.5 rounded-full transition-colors ${
+              repeat !== "off"
+                ? "text-[#e6b64c] bg-[rgba(230,182,76,0.15)]"
+                : "text-[#a99b78] hover:text-[#efe6d0]"
+            }`}
+            data-testid="repeat-btn"
+            onClick={onRepeat}
+            title={`Repeat: ${repeat}`}
+          >
+            {repeat === "one" ? <Repeat1 size={16} /> : <Repeat size={16} />}
+          </button>
+
+          {/* Playlist Drawer Button */}
+          <button
+            className="p-1.5 sm:p-2 text-[#a99b78] hover:text-[#efe6d0] transition-colors"
+            data-testid="open-playlist-btn"
+            onClick={onOpenPlaylist}
+            title="Open Playlist"
+          >
+            <ListMusic size={18} />
           </button>
         </div>
-
-        <button className="tbtn play w-14 h-14 rounded-full" data-testid="play-pause-btn" onClick={onTogglePlay} title={playing ? "Pause" : "Play"}>
-          {playing ? <Pause size={24} /> : <Play size={24} style={{ marginLeft: 2 }} />}
-        </button>
-
-        <div className="flex items-center gap-2">
-          <button className="tbtn w-11 h-10" data-testid="next-btn" onClick={onNext} title="Next">
-            <SkipForward size={18} />
-          </button>
-          <button className={`tbtn ${repeat !== "off" ? "on" : ""} w-9 h-9`} data-testid="repeat-btn" onClick={onRepeat} title={`Repeat: ${repeat}`}>
-            {repeat === "one" ? <Repeat1 size={15} /> : <Repeat size={15} />}
-          </button>
-        </div>
-      </div>
-
-      {/* bottom row: volume + playlist */}
-      <div className="flex items-center gap-3 mt-3 pt-3" style={{ borderTop: "1px solid rgba(233,201,120,0.12)" }}>
-        <Volume2 size={15} className="text-[#cdbf9f]" />
-        <input
-          type="range"
-          className="range flex-1"
-          data-testid="music-volume"
-          min={0} max={1} step={0.01}
-          value={musicVol}
-          onChange={(e) => onMusicVol(parseFloat(e.target.value))}
-        />
-        <button className="chip px-3 py-1.5 text-xs font-tech tracking-wide" data-testid="open-playlist-btn" onClick={onOpenPlaylist}>
-          <ListMusic size={14} /> PLAYLIST
-        </button>
       </div>
     </div>
   );

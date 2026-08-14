@@ -26,9 +26,9 @@ export default function SettingsPanel({
           <motion.div className="fixed inset-0 z-[90] bg-black/55" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} data-testid="settings-backdrop" />
           <motion.div
             className="glass-panel fixed z-[91] left-1/2 top-1/2 w-[90vw] max-w-[420px] rounded-2xl p-5"
-            style={{ translateX: "-50%", translateY: "-50%" }}
-            initial={{ opacity: 0, scale: 0.94, y: "-46%" }}
-            animate={{ opacity: 1, scale: 1, y: "-50%" }}
+            style={{ x: "-50%", y: "-50%" }}
+            initial={{ opacity: 0, scale: 0.94 }}
+            animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.94 }}
             transition={{ duration: 0.2 }}
             data-testid="settings-panel"

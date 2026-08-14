@@ -9,7 +9,9 @@ import CassettePlayer from "@/components/CassettePlayer";
 import PlaylistDrawer from "@/components/PlaylistDrawer";
 import TopControls from "@/components/TopControls";
 import InfoReadout from "@/components/InfoReadout";
+import TimeReadout from "@/components/TimeReadout";
 import SettingsPanel from "@/components/SettingsPanel";
+import KarwaanTitle from "@/components/KarwaanTitle";
 import { SAMPLE_TRACKS } from "@/lib/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useAmbientAudio } from "@/hooks/useAmbientAudio";
@@ -192,6 +194,8 @@ export default function App() {
 
       {started && (
         <>
+          <KarwaanTitle />
+
           <TopControls
             location={location} setLocation={setLocation}
             weather={weather} setWeather={setWeather}
@@ -203,26 +207,38 @@ export default function App() {
             onHorn={hornHonk}
           />
 
-          <InfoReadout location={location} weather={weather} />
+          {/* Bottom Bar: Left (Location/Weather/Passengers), Center (Cylinder Player), Right (Time/Date) */}
+          <div className="fixed bottom-3 sm:bottom-6 left-0 right-0 px-3 sm:px-6 z-[80] pointer-events-none flex items-center justify-between gap-2 sm:gap-4">
+            {/* Left: Location & Weather & Live Passengers */}
+            <div className="pointer-events-auto flex-1 flex justify-start min-w-0">
+              <InfoReadout location={location} weather={weather} playing={playing} />
+            </div>
 
-          <div className="fixed bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 z-[80]">
-            <CassettePlayer
-              track={track}
-              playing={playing}
-              currentTime={currentTime}
-              duration={track?.duration}
-              onTogglePlay={togglePlay}
-              onPrev={prev}
-              onNext={next}
-              onSeek={seek}
-              musicVol={musicVol}
-              onMusicVol={setMusicVol}
-              shuffle={shuffle}
-              repeat={repeat}
-              onShuffle={() => setShuffle((s) => !s)}
-              onRepeat={cycleRepeat}
-              onOpenPlaylist={() => setPlaylistOpen(true)}
-            />
+            {/* Center: Horizontal Cylinder Player */}
+            <div className="pointer-events-auto shrink-0 flex justify-center translate-x-20 sm:translate-x-24">
+              <CassettePlayer
+                track={track}
+                playing={playing}
+                currentTime={currentTime}
+                duration={track?.duration}
+                onTogglePlay={togglePlay}
+                onPrev={prev}
+                onNext={next}
+                onSeek={seek}
+                musicVol={musicVol}
+                onMusicVol={setMusicVol}
+                shuffle={shuffle}
+                repeat={repeat}
+                onShuffle={() => setShuffle((s) => !s)}
+                onRepeat={cycleRepeat}
+                onOpenPlaylist={() => setPlaylistOpen(true)}
+              />
+            </div>
+
+            {/* Right: Time & Date — hidden when playlist is open to avoid overlap */}
+            <div className={`pointer-events-auto flex-1 flex justify-end min-w-0 hidden md:flex transition-opacity duration-200 ${playlistOpen ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+              <TimeReadout time={time} />
+            </div>
           </div>
 
           <PlaylistDrawer

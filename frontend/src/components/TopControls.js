@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   CloudRain, Sun, Snowflake, MapPin, Clock, ListMusic, Settings2,
-  Maximize, Minimize, Volume2, VolumeX, Cloud, Check,
+  Maximize, Minimize, Volume2, VolumeX, Cloud, Check, Megaphone,
 } from "lucide-react";
 import { LOCATIONS, WEATHERS, TIMES } from "../lib/constants";
 
@@ -113,38 +113,15 @@ export default function TopControls({
 
       {/* Horn */}
       <motion.button
+        className={`chip px-3 py-2 ${hornPressed ? "active" : ""}`}
         data-testid="horn-button"
         title="Honk horn"
         onClick={handleHorn}
-        animate={hornPressed ? { scale: 0.82 } : { scale: 1 }}
+        animate={hornPressed ? { scale: 0.92 } : { scale: 1 }}
         transition={{ type: "spring", stiffness: 600, damping: 18 }}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "5px",
-          padding: "7px 12px",
-          borderRadius: "10px",
-          border: "1px solid rgba(230,182,76,0.55)",
-          background: hornPressed
-            ? "rgba(230,182,76,0.35)"
-            : "rgba(230,182,76,0.12)",
-          color: "#e6b64c",
-          cursor: "pointer",
-          fontFamily: "'Courier New', monospace",
-          fontSize: "11px",
-          letterSpacing: "0.08em",
-          fontWeight: "700",
-          backdropFilter: "blur(10px)",
-          WebkitBackdropFilter: "blur(10px)",
-          userSelect: "none",
-          boxShadow: hornPressed
-            ? "0 0 12px rgba(230,182,76,0.4)"
-            : "0 0 0px rgba(230,182,76,0)",
-          transition: "background 0.15s, box-shadow 0.15s",
-        }}
       >
-        <span style={{ fontSize: "16px", lineHeight: 1 }}>📯</span>
-        <span className="hidden sm:inline">HORN</span>
+        <Megaphone size={16} />
+        <span className="hidden sm:inline font-tech text-xs tracking-wide">Horn</span>
       </motion.button>
 
       {/* Settings */}

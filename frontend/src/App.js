@@ -51,6 +51,7 @@ export default function App() {
   const audioRef = useRef(null);
   const simRef = useRef(null);
   const ambient = useAmbientAudio();
+  const { hornHonk } = ambient;
 
   const safeIndex = Math.min(index, tracks.length - 1);
   const track = tracks[safeIndex] || tracks[0];
@@ -199,6 +200,7 @@ export default function App() {
             onOpenSettings={() => setSettingsOpen(true)}
             muted={muted} onToggleMute={() => setMuted((m) => !m)}
             onToggleFullscreen={toggleFullscreen} isFullscreen={isFullscreen}
+            onHorn={hornHonk}
           />
 
           <InfoReadout location={location} weather={weather} />

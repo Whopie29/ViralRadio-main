@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   CloudRain, Sun, Snowflake, MapPin, Clock, ListMusic, Settings2,
@@ -45,11 +45,19 @@ function Item({ active, onClick, icon: Icon, label, testid }) {
 export default function TopControls({
   location, setLocation, weather, setWeather, time, setTime,
   onOpenPlaylist, onOpenSettings, muted, onToggleMute, onToggleFullscreen, isFullscreen,
+  onHorn,
 }) {
   const [menu, setMenu] = useState(null);
+  const [hornPressed, setHornPressed] = useState(false);
   const toggle = (m) => setMenu((cur) => (cur === m ? null : m));
   const WIcon = weatherIcon[weather];
   const TIcon = timeIcon[time];
+
+  const handleHorn = () => {
+    setHornPressed(true);
+    onHorn?.();
+    setTimeout(() => setHornPressed(false), 200);
+  };
 
   return (
     <div className="fixed top-3 right-3 sm:top-5 sm:right-5 z-[80] flex items-center gap-2" data-testid="top-controls">
@@ -102,6 +110,42 @@ export default function TopControls({
       <button className={`chip w-9 h-9 justify-center ${muted ? "active" : ""}`} data-testid="mute-toggle" onClick={onToggleMute} title="Mute ambience">
         {muted ? <VolumeX size={16} /> : <Volume2 size={16} />}
       </button>
+
+      {/* Horn */}
+      <motion.button
+        data-testid="horn-button"
+        title="Honk horn"
+        onClick={handleHorn}
+        animate={hornPressed ? { scale: 0.82 } : { scale: 1 }}
+        transition={{ type: "spring", stiffness: 600, damping: 18 }}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "5px",
+          padding: "7px 12px",
+          borderRadius: "10px",
+          border: "1px solid rgba(230,182,76,0.55)",
+          background: hornPressed
+            ? "rgba(230,182,76,0.35)"
+            : "rgba(230,182,76,0.12)",
+          color: "#e6b64c",
+          cursor: "pointer",
+          fontFamily: "'Courier New', monospace",
+          fontSize: "11px",
+          letterSpacing: "0.08em",
+          fontWeight: "700",
+          backdropFilter: "blur(10px)",
+          WebkitBackdropFilter: "blur(10px)",
+          userSelect: "none",
+          boxShadow: hornPressed
+            ? "0 0 12px rgba(230,182,76,0.4)"
+            : "0 0 0px rgba(230,182,76,0)",
+          transition: "background 0.15s, box-shadow 0.15s",
+        }}
+      >
+        <span style={{ fontSize: "16px", lineHeight: 1 }}>📯</span>
+        <span className="hidden sm:inline">HORN</span>
+      </motion.button>
 
       {/* Settings */}
       <button className="chip w-9 h-9 justify-center" data-testid="settings-toggle" onClick={onOpenSettings} title="Settings">

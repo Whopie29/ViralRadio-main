@@ -1,7 +1,9 @@
 import { useRef, useCallback, useEffect } from "react";
 
-// Synthesised ambient soundscape (engine, road, wind, rain, birds, horn) via Web Audio.
+// Ambient soundscape (engine, road, wind, birds, horn) via Web Audio.
+// Rain is a real MP3 file played via HTMLAudioElement in a seamless loop.
 // Two mix buses: `bus` (vehicle) and `env` (environment). Music is handled separately.
+const HORN_FILES = ["/audio/horn_1.mp3", "/audio/horn_3.mp3"];
 export function useAmbientAudio() {
   const ref = useRef(null);
 
@@ -88,29 +90,45 @@ export function useAmbientAudio() {
     windLfo.connect(windLfoGain);
     windLfoGain.connect(windGain.gain);
 
-    // ---- rain ----
-    const rain = makeNoise();
-    const rainHP = ctx.createBiquadFilter();
-    rainHP.type = "highpass";
-    rainHP.frequency.value = 1200;
-    const rainLP = ctx.createBiquadFilter();
-    rainLP.type = "lowpass";
-    rainLP.frequency.value = 8000;
-    const rainGain = ctx.createGain();
-    rainGain.gain.value = 0; // set by weather
-    rain.connect(rainHP);
-    rainHP.connect(rainLP);
-    rainLP.connect(rainGain);
-    rainGain.connect(envGain);
+    // ---- rain (real MP3, loops via HTMLAudioElement) ----
+    const rainAudio = new Audio("/audio/rain.mp3");
+    rainAudio.loop = true;
+    rainAudio.volume = 0;   // starts silent; setWeather fades it in
+    rainAudio.preload = "auto";
+    // We keep a ref so we can smoothly fade volume with JS
+    let rainFadeTimer = null;
+    const setRainVolume = (target, durationMs = 600) => {
+      if (rainFadeTimer) clearInterval(rainFadeTimer);
+      const steps = 30;
+      const interval = durationMs / steps;
+      const start = rainAudio.volume;
+      const delta = (target - start) / steps;
+      let step = 0;
+      // If fading in, make sure audio is playing
+      if (target > 0) {
+        rainAudio.play().catch(() => {});
+      }
+      rainFadeTimer = setInterval(() => {
+        step++;
+        rainAudio.volume = Math.min(1, Math.max(0, start + delta * step));
+        if (step >= steps) {
+          clearInterval(rainFadeTimer);
+          rainFadeTimer = null;
+          // Pause when fully silent to save resources
+          if (target === 0) rainAudio.pause();
+        }
+      }, interval);
+    };
 
     const nodes = {
-      ctx, master, busGain, envGain, engGain, windGain, rainGain,
+      ctx, master, busGain, envGain, engGain, windGain,
+      rainAudio, setRainVolume,
       birdTimer: null, honkTimer: null, weather: "clear",
       makeNoise,
     };
 
-    // start continuous sources
-    [eng1, eng2, lfo, road, wind, windLfo, rain].forEach((s) => {
+    // start continuous Web Audio sources (rain MP3 is started on demand)
+    [eng1, eng2, lfo, road, wind, windLfo].forEach((s) => {
       try { s.start(); } catch { /* already */ }
     });
 
@@ -163,6 +181,39 @@ export function useAmbientAudio() {
     });
   }, []);
 
+  const currentHornRef = useRef(null);
+  const hornIndexRef = useRef(0);
+
+  const hornHonk = useCallback(() => {
+    // If a horn is currently playing, immediately cut it off
+    if (currentHornRef.current) {
+      try {
+        currentHornRef.current.pause();
+        currentHornRef.current.currentTime = 0;
+        currentHornRef.current.src = "";
+      } catch { /* ignore */ }
+      currentHornRef.current = null;
+    }
+
+    if (!HORN_FILES.length) return;
+
+    // Pick next horn in sequence (alternates so you get a different horn each time)
+    const file = HORN_FILES[hornIndexRef.current % HORN_FILES.length];
+    hornIndexRef.current += 1;
+
+    const audio = new Audio(file);
+    audio.volume = 1.0;
+    currentHornRef.current = audio;
+
+    audio.addEventListener("ended", () => {
+      if (currentHornRef.current === audio) {
+        currentHornRef.current = null;
+      }
+    }, { once: true });
+
+    audio.play().catch(() => {});
+  }, []);
+
   const start = useCallback(() => {
     const n = build();
     if (n.ctx.state === "suspended") n.ctx.resume();
@@ -187,9 +238,11 @@ export function useAmbientAudio() {
     if (!n) return;
     n.weather = weather;
     const t = n.ctx.currentTime;
-    const rainTarget = weather === "rain" ? 0.11 : 0;
-    n.rainGain.gain.setTargetAtTime(rainTarget, t, 0.6);
-    const windTarget = weather === "snow" ? 0.075 : weather === "rain" ? 0.06 : 0.05;
+    // Fade real rain MP3 in/out
+    const rainTarget = weather === "rain" ? 0.55 : 0;
+    n.setRainVolume(rainTarget, 800);
+    // Wind still responds to weather via Web Audio
+    const windTarget = weather === "snow" ? 0.075 : weather === "rain" ? 0.04 : 0.05;
     n.windGain.gain.setTargetAtTime(windTarget, t, 0.8);
   }, []);
 
@@ -207,10 +260,22 @@ export function useAmbientAudio() {
       if (!n) return;
       if (n.honkTimer) clearTimeout(n.honkTimer);
       if (n.birdTimer) clearInterval(n.birdTimer);
+      if (currentHornRef.current) {
+        try {
+          currentHornRef.current.pause();
+          currentHornRef.current.src = "";
+        } catch { /* ignore */ }
+        currentHornRef.current = null;
+      }
+      // Stop and clean up the rain audio element
+      try {
+        n.rainAudio.pause();
+        n.rainAudio.src = "";
+      } catch { /* ignore */ }
       try { n.ctx.close(); } catch { /* ignore */ }
       ref.current = null;
     };
   }, []);
 
-  return { start, setWeather, setVolumes, honk };
+  return { start, setWeather, setVolumes, honk, hornHonk };
 }

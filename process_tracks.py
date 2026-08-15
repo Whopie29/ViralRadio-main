@@ -71,12 +71,13 @@ categories_config = [
 def clean_text(s):
     if not s:
         return ""
-    s = s.strip()
+    s = s.replace('\ufffd', '-').strip()
     return s
 
 def clean_artist(artist, default_artist):
     if not artist:
         return default_artist
+    artist = artist.replace('\ufffd', '-').replace('\xef\xbf\xbd', '-')
     artist = re.sub(r',?\s*Super Cassettes Industries.*', '', artist, flags=re.IGNORECASE)
     artist = re.sub(r',?\s*Tips Music.*', '', artist, flags=re.IGNORECASE)
     artist = re.sub(r',?\s*Venus Worldwide.*', '', artist, flags=re.IGNORECASE)
@@ -89,6 +90,7 @@ def clean_artist(artist, default_artist):
 def clean_album(album, default_album):
     if not album:
         return default_album
+    album = album.replace('\ufffd', '-').replace('\xef\xbf\xbd', '-')
     album = re.sub(r'\(Original Motion Picture Soundtrack\)', '', album, flags=re.IGNORECASE)
     album = re.sub(r'\[Original Motion Picture Soundtrack\]', '', album, flags=re.IGNORECASE)
     album = re.sub(r'_ Soundtrack Version', '', album, flags=re.IGNORECASE)
@@ -99,6 +101,7 @@ def clean_album(album, default_album):
 def clean_title(title, filename):
     if not title:
         title = filename
+    title = title.replace('\ufffd', '-').replace('\xef\xbf\xbd', '-')
     title = title.replace('_spotdown.org.mp3', '').replace('_spotdown.org', '').replace('.mp3', '')
     title = re.sub(r'\s*-\s*From\s+["\'][^"\']+["\']', '', title, flags=re.IGNORECASE)
     title = re.sub(r'\s*\(From\s+["\'][^"\']+["\']\)', '', title, flags=re.IGNORECASE)
@@ -161,9 +164,8 @@ for cat_cfg in categories_config:
         safe_name = f"{prefix}_{copied:03d}.mp3"
         dest_path = os.path.join('frontend/public/audio', safe_name)
         
-        # Copy file if not already existing with same size
-        if not os.path.exists(dest_path) or os.path.getsize(dest_path) != os.path.getsize(fp):
-            shutil.copy2(fp, dest_path)
+        # Copy file
+        shutil.copy2(fp, dest_path)
 
         cat_tracks.append({
             "id": f"{prefix}_{copied}",
@@ -175,6 +177,17 @@ for cat_cfg in categories_config:
             "category": cat_key
         })
 
+    # Clean any leftover orphaned files with this prefix beyond current copied count
+    existing_prefix_files = glob.glob(os.path.join('frontend/public/audio', f"{prefix}_*.mp3"))
+    for epf in existing_prefix_files:
+        epf_basename = os.path.basename(epf)
+        match = re.match(rf"^{prefix}_(\d+)\.mp3$", epf_basename)
+        if match:
+            idx = int(match.group(1))
+            if idx > copied:
+                os.remove(epf)
+                print(f"  Removed orphaned audio file: {epf_basename}")
+
     print(f"  Done: {copied} valid unique tracks for '{cat_key}'")
     all_categories_data[cat_key] = cat_tracks
 
@@ -185,3 +198,4 @@ print("\n--- Summary ---")
 for k, v in all_categories_data.items():
     print(f"{k}: {len(v)} tracks")
 print("Total tracks:", sum(len(v) for v in all_categories_data.values()))
+

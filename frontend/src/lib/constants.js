@@ -86,7 +86,7 @@ export const PLAYLIST_CATEGORIES = [
   { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 21 },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 79 },
   { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
-  { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 0 },
+  { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 97 },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 0 },
   { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 0 },
 ];
@@ -4196,7 +4196,881 @@ export const TRACK_CATEGORIES = {
     }
   ],
   "hitlist": [],
-  "punjabi": [],
+  "punjabi": [
+    {
+      "id": "punjabi_1",
+      "title": "12 Saal",
+      "artist": "Bilal Saeed",
+      "album": "Twelve By Bilal Saeed",
+      "duration": 204,
+      "url": "/audio/punjabi_001.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_2",
+      "title": "3 Peg",
+      "artist": "Sharry Mann, Raviraj",
+      "album": "3 Peg",
+      "duration": 204,
+      "url": "/audio/punjabi_002.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_3",
+      "title": "5 Taara",
+      "artist": "Diljit Dosanjh",
+      "album": "Top Hits-Baisakhi Special",
+      "duration": 178,
+      "url": "/audio/punjabi_003.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_4",
+      "title": "8 Parche",
+      "artist": "Baani Sandhu, Gur Sidhu, Jassi Lokha",
+      "album": "8 Parche",
+      "duration": 210,
+      "url": "/audio/punjabi_004.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_5",
+      "title": "Aaja We Mahiya",
+      "artist": "Imran Khan",
+      "album": "Unforgettable",
+      "duration": 232,
+      "url": "/audio/punjabi_005.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_6",
+      "title": "Adi Adi Raat",
+      "artist": "Bilal Saeed",
+      "album": "Twelve By Bilal Saeed",
+      "duration": 247,
+      "url": "/audio/punjabi_006.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_7",
+      "title": "All Black",
+      "artist": "Raftaar, Sukh-E Muzical Doctorz, Jaani",
+      "album": "All Black",
+      "duration": 218,
+      "url": "/audio/punjabi_007.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_8",
+      "title": "Amplifier",
+      "artist": "Imran Khan",
+      "album": "Unforgettable",
+      "duration": 232,
+      "url": "/audio/punjabi_008.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_9",
+      "title": "Angreji Beat",
+      "artist": "Yo Yo Honey Singh, Gippy Grewal",
+      "album": "International Villager",
+      "duration": 217,
+      "url": "/audio/punjabi_009.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_10",
+      "title": "Badnam ( Orignal Version )",
+      "artist": "Mankirt Aulakh, DJ Flow",
+      "album": "Badnam (original Version)",
+      "duration": 203,
+      "url": "/audio/punjabi_010.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_11",
+      "title": "Ban Ja Rani",
+      "artist": "Guru Randhawa, Rajat Nagpal, Haji Springer",
+      "album": "Ban Ja Rani (From \"Tumhari Sulu\")",
+      "duration": 225,
+      "url": "/audio/punjabi_011.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_12",
+      "title": "Bapu Zimidar",
+      "artist": "Jassie Gill, Jatinder Shah",
+      "album": "Replay",
+      "duration": 180,
+      "url": "/audio/punjabi_012.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_13",
+      "title": "Bewafa",
+      "artist": "Imran Khan",
+      "album": "Unforgettable",
+      "duration": 224,
+      "url": "/audio/punjabi_013.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_14",
+      "title": "Billian Billian",
+      "artist": "Guri",
+      "album": "Billian Billian",
+      "duration": 177,
+      "url": "/audio/punjabi_014.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_15",
+      "title": "Billo",
+      "artist": "J Star",
+      "album": "Billo",
+      "duration": 260,
+      "url": "/audio/punjabi_015.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_16",
+      "title": "Birthday Bash",
+      "artist": "Yo Yo Honey Singh, Alfaaz",
+      "album": "Super Hits Of Yo Yo Honey Singh",
+      "duration": 251,
+      "url": "/audio/punjabi_016.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_17",
+      "title": "Blue Eyes",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Blue Eyes",
+      "duration": 220,
+      "url": "/audio/punjabi_017.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_18",
+      "title": "Boss",
+      "artist": "Jass Manak",
+      "album": "Boss",
+      "duration": 162,
+      "url": "/audio/punjabi_018.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_19",
+      "title": "Breakup Party",
+      "artist": "Leo Grewal, Yo Yo Honey Singh",
+      "album": "Breakup Party",
+      "duration": 282,
+      "url": "/audio/punjabi_019.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_20",
+      "title": "Bring Me Back",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Spoken Word",
+      "duration": 246,
+      "url": "/audio/punjabi_020.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_21",
+      "title": "Brown Rang",
+      "artist": "Yo Yo Honey Singh",
+      "album": "International Villager",
+      "duration": 186,
+      "url": "/audio/punjabi_021.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_22",
+      "title": "Butterfly",
+      "artist": "Jass Manak",
+      "album": "No Competition",
+      "duration": 151,
+      "url": "/audio/punjabi_022.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_23",
+      "title": "Call Aundi",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Zorawar",
+      "duration": 216,
+      "url": "/audio/punjabi_023.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_24",
+      "title": "Chaar Botal Vodka",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Yo Yo Honey Singh Is Back",
+      "duration": 225,
+      "url": "/audio/punjabi_024.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_25",
+      "title": "Chaar Din",
+      "artist": "Sandeep Brar, Kulwinder Billa, Abbi Fatehgarhia",
+      "album": "Chaar Din",
+      "duration": 316,
+      "url": "/audio/punjabi_025.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_26",
+      "title": "Chal Mere Ghar",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "duration": 153,
+      "url": "/audio/punjabi_026.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_27",
+      "title": "Chaska",
+      "artist": "Raja Baath, Yo Yo Honey Singh",
+      "album": "The Crown",
+      "duration": 183,
+      "url": "/audio/punjabi_027.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_28",
+      "title": "Daang",
+      "artist": "Mankirt Aulakh",
+      "album": "Mankirt Aulakh - Best Hits",
+      "duration": 228,
+      "url": "/audio/punjabi_028.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_29",
+      "title": "Daaru Party",
+      "artist": "Millind Gaba",
+      "album": "Daaru Party - Single",
+      "duration": 208,
+      "url": "/audio/punjabi_029.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_30",
+      "title": "Daftar Ki Girl",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "duration": 187,
+      "url": "/audio/punjabi_030.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_31",
+      "title": "Daru Badnaam",
+      "artist": "Param Singh, Kamal Kahlon, Pratik Studio",
+      "album": "Daru Badnaam",
+      "duration": 185,
+      "url": "/audio/punjabi_031.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_32",
+      "title": "Desi Kalakaar",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "duration": 253,
+      "url": "/audio/punjabi_032.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_33",
+      "title": "Dheere Dheere",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Dheere Dheere",
+      "duration": 212,
+      "url": "/audio/punjabi_033.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_34",
+      "title": "Dil Lutiya (feat. Apache Indian)",
+      "artist": "Jazzy B, Apache Indian",
+      "album": "Romeo",
+      "duration": 188,
+      "url": "/audio/punjabi_034.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_35",
+      "title": "Do You Know",
+      "artist": "Diljit Dosanjh",
+      "album": "In Love With Diljit Dosanjh",
+      "duration": 212,
+      "url": "/audio/punjabi_035.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_36",
+      "title": "Dollar",
+      "artist": "Sidhu Moose Wala, Byg Byrd",
+      "album": "Dollar (From \"Dakuaan Da Munda\")",
+      "duration": 157,
+      "url": "/audio/punjabi_036.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_37",
+      "title": "Dooriyan (Female)",
+      "artist": "Tanya, Guri",
+      "album": "Dooriyan (Female Version)",
+      "duration": 225,
+      "url": "/audio/punjabi_037.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_38",
+      "title": "Dope Shope",
+      "artist": "Yo Yo Honey Singh, Deep Money",
+      "album": "International Villager",
+      "duration": 194,
+      "url": "/audio/punjabi_038.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_39",
+      "title": "Excuses",
+      "artist": "AP Dhillon, Gurinder Gill, Intense",
+      "album": "Excuses",
+      "duration": 176,
+      "url": "/audio/punjabi_039.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_40",
+      "title": "Gangland",
+      "artist": "Mankirt Aulakh, DJ Flow",
+      "album": "Gangland",
+      "duration": 168,
+      "url": "/audio/punjabi_040.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_41",
+      "title": "Glassy",
+      "artist": "Yo Yo Honey Singh, Ashok Mastie, Channi Rakhala, Bonafide, Koncept",
+      "album": "Glassy",
+      "duration": 222,
+      "url": "/audio/punjabi_041.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_42",
+      "title": "Goliya",
+      "artist": "Diljit Dosanjh, Yo Yo Honey Singh",
+      "album": "International Villager",
+      "duration": 197,
+      "url": "/audio/punjabi_042.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_43",
+      "title": "Half Window Down",
+      "artist": "Ikka",
+      "album": "Half Window Down",
+      "duration": 215,
+      "url": "/audio/punjabi_043.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_44",
+      "title": "Haye Mera Dil",
+      "artist": "Alfaaz, Yo Yo Honey Singh",
+      "album": "Boy Next Door",
+      "duration": 203,
+      "url": "/audio/punjabi_044.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_45",
+      "title": "High Heels",
+      "artist": "Jaz Dhami, Yo Yo Honey Singh",
+      "album": "High Heels",
+      "duration": 297,
+      "url": "/audio/punjabi_045.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_46",
+      "title": "Hostel",
+      "artist": "Sharry Mann",
+      "album": "Hostel",
+      "duration": 323,
+      "url": "/audio/punjabi_046.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_47",
+      "title": "Hulara",
+      "artist": "J Star",
+      "album": "Hulara",
+      "duration": 214,
+      "url": "/audio/punjabi_047.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_48",
+      "title": "Hum Jaha Jaake Khade Ho",
+      "artist": "Suraj Jagan",
+      "album": "Unknown Album",
+      "duration": 221,
+      "url": "/audio/punjabi_048.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_49",
+      "title": "Insane",
+      "artist": "Sukh-E Muzical Doctorz",
+      "album": "Insane",
+      "duration": 155,
+      "url": "/audio/punjabi_049.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_50",
+      "title": "Ishare Tere",
+      "artist": "Guru Randhawa, Dhvani Bhanushali",
+      "album": "Ishare Tere",
+      "duration": 189,
+      "url": "/audio/punjabi_050.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_51",
+      "title": "Jaguar",
+      "artist": "Sukh-E Muzical Doctorz",
+      "album": "Jaguar",
+      "duration": 167,
+      "url": "/audio/punjabi_051.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_52",
+      "title": "Jatt Da Blood",
+      "artist": "Mankirt Aulakh, Goldboy",
+      "album": "Jatt Da Blood",
+      "duration": 170,
+      "url": "/audio/punjabi_052.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_53",
+      "title": "Jugadu",
+      "artist": "Amar Mohile",
+      "album": "Shakal Pe Mat Ja",
+      "duration": 74,
+      "url": "/audio/punjabi_053.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_54",
+      "title": "Kangna",
+      "artist": "Dr Zeus, Master Rakesh, Shortie, Deepti",
+      "album": "Unda Da Influence",
+      "duration": 210,
+      "url": "/audio/punjabi_054.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_55",
+      "title": "Khaab",
+      "artist": "Akhil",
+      "album": "Khaab",
+      "duration": 201,
+      "url": "/audio/punjabi_055.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_56",
+      "title": "Khair Mangdi",
+      "artist": "Bilal Saeed",
+      "album": "Twelve By Bilal Saeed",
+      "duration": 177,
+      "url": "/audio/punjabi_056.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_57",
+      "title": "Khayal",
+      "artist": "Mankirt Aulakh",
+      "album": "Khayal",
+      "duration": 221,
+      "url": "/audio/punjabi_057.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_58",
+      "title": "Label Black",
+      "artist": "Gupz Sehra",
+      "album": "Label Black",
+      "duration": 175,
+      "url": "/audio/punjabi_058.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_59",
+      "title": "Laden",
+      "artist": "Jassie Gill",
+      "album": "Replay",
+      "duration": 192,
+      "url": "/audio/punjabi_059.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_60",
+      "title": "Laembadgini",
+      "artist": "Diljit Dosanjh, Jatinder Shah",
+      "album": "Laembadgini",
+      "duration": 186,
+      "url": "/audio/punjabi_060.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_61",
+      "title": "Lak 28 Kudi Da",
+      "artist": "Diljit Dosanjh, Yo Yo Honey Singh",
+      "album": "The Lion Of Punjab",
+      "duration": 211,
+      "url": "/audio/punjabi_061.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_62",
+      "title": "Le Chakk Main Aa Gya",
+      "artist": "Parmish Verma",
+      "album": "Le Chakk Main Aa Gya",
+      "duration": 248,
+      "url": "/audio/punjabi_062.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_63",
+      "title": "Lehanga",
+      "artist": "Jass Manak",
+      "album": "Lehanga",
+      "duration": 210,
+      "url": "/audio/punjabi_063.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_64",
+      "title": "Love Dose",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "duration": 224,
+      "url": "/audio/punjabi_064.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_65",
+      "title": "Mahi Aaja",
+      "artist": "Sasha, Manj Musik",
+      "album": "Singh Is Bliing",
+      "duration": 200,
+      "url": "/audio/punjabi_065.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_66",
+      "title": "Mast Kalander",
+      "artist": "Mika Singh, Yo Yo Honey Singh",
+      "album": "Mika Singh Is King",
+      "duration": 270,
+      "url": "/audio/punjabi_066.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_67",
+      "title": "Meherbaan",
+      "artist": "Mohit Chauhan",
+      "album": "Unknown Album",
+      "duration": 298,
+      "url": "/audio/punjabi_067.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_68",
+      "title": "Mil Gaya",
+      "artist": "Salim Merchant",
+      "album": "Unknown Album",
+      "duration": 160,
+      "url": "/audio/punjabi_068.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_69",
+      "title": "Mill Lo Na",
+      "artist": "Guri, Sukh-E Muzical Doctorz",
+      "album": "Mill Lo Na",
+      "duration": 169,
+      "url": "/audio/punjabi_069.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_70",
+      "title": "Na Ja",
+      "artist": "Pav Dharia",
+      "album": "Na Ja",
+      "duration": 208,
+      "url": "/audio/punjabi_070.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_71",
+      "title": "No Competition",
+      "artist": "DIVINE, Jass Manak",
+      "album": "No Competition",
+      "duration": 205,
+      "url": "/audio/punjabi_071.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_72",
+      "title": "One Bottle Down",
+      "artist": "Yo Yo Honey Singh",
+      "album": "One Bottle Down",
+      "duration": 196,
+      "url": "/audio/punjabi_072.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_73",
+      "title": "One Thousand Miles",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "duration": 283,
+      "url": "/audio/punjabi_073.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_74",
+      "title": "Pata Chalgea",
+      "artist": "Imran Khan",
+      "album": "Unforgettable",
+      "duration": 230,
+      "url": "/audio/punjabi_074.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_75",
+      "title": "Patiala Peg",
+      "artist": "Diljit Dosanjh",
+      "album": "Patiala Peg",
+      "duration": 188,
+      "url": "/audio/punjabi_075.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_76",
+      "title": "Patola (feat. Bohemia)",
+      "artist": "Guru Randhawa, Bohemia",
+      "album": "High Rated Gabru - Guru Randhawa",
+      "duration": 208,
+      "url": "/audio/punjabi_076.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_77",
+      "title": "Prada",
+      "artist": "Jass Manak",
+      "album": "Prada",
+      "duration": 182,
+      "url": "/audio/punjabi_077.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_78",
+      "title": "Proper Patola",
+      "artist": "Badshah, Diljit Dosanjh, Aastha Gill",
+      "album": "Namaste England",
+      "duration": 178,
+      "url": "/audio/punjabi_078.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_79",
+      "title": "Raat Di Gedi",
+      "artist": "Diljit Dosanjh",
+      "album": "Chaar Ikke",
+      "duration": 198,
+      "url": "/audio/punjabi_079.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_80",
+      "title": "Raat Jashan Di",
+      "artist": "Yo Yo Honey Singh, Jasmine Sandlas",
+      "album": "Zorawar",
+      "duration": 295,
+      "url": "/audio/punjabi_080.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_81",
+      "title": "Sakhiyaan",
+      "artist": "Maninder Buttar, Babbu, MixSingh",
+      "album": "Sakhiyaan",
+      "duration": 179,
+      "url": "/audio/punjabi_081.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_82",
+      "title": "Same Time Same Jagah (Chaar Din)",
+      "artist": "Sandeep Brar, Kulwinder Billa",
+      "album": "Same Time Same Jagah (Chaar Din)",
+      "duration": 316,
+      "url": "/audio/punjabi_082.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_83",
+      "title": "Satisfya",
+      "artist": "Imran Khan",
+      "album": "Satisfya",
+      "duration": 180,
+      "url": "/audio/punjabi_083.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_84",
+      "title": "Shakal Pe Mat Ja - Theme",
+      "artist": "Amar Mohile",
+      "album": "Unknown Album",
+      "duration": 114,
+      "url": "/audio/punjabi_084.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_85",
+      "title": "Shakal Pe Mat Ja",
+      "artist": "Gagan Sindhu, Alamgeer",
+      "album": "Shakal Pe Mat Ja",
+      "duration": 176,
+      "url": "/audio/punjabi_085.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_86",
+      "title": "Shoot Da Order",
+      "artist": "Jass Manak, Jagpal Sandhu",
+      "album": "Shoot Da Order (From \"Shooter\")",
+      "duration": 217,
+      "url": "/audio/punjabi_086.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_87",
+      "title": "So High",
+      "artist": "Sidhu Moose Wala",
+      "album": "So High",
+      "duration": 233,
+      "url": "/audio/punjabi_087.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_88",
+      "title": "Suit Punjabi",
+      "artist": "Jass Manak",
+      "album": "Suit Punjabi",
+      "duration": 201,
+      "url": "/audio/punjabi_088.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_89",
+      "title": "Suit Suit",
+      "artist": "Guru Randhawa, Arjun",
+      "album": "Hits Of Guru Randhawa",
+      "duration": 190,
+      "url": "/audio/punjabi_089.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_90",
+      "title": "Tera Mera Viah",
+      "artist": "Jass Manak",
+      "album": "Tera Mera Viah",
+      "duration": 197,
+      "url": "/audio/punjabi_090.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_91",
+      "title": "This Party Getting Hot",
+      "artist": "Jazzy B, Yo Yo Honey Singh",
+      "album": "This Party Getting Hot",
+      "duration": 211,
+      "url": "/audio/punjabi_091.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_92",
+      "title": "Vail",
+      "artist": "Mankirt Aulakh, Nimrat Khaira, Shree Brar",
+      "album": "Vail",
+      "duration": 201,
+      "url": "/audio/punjabi_092.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_93",
+      "title": "Viah",
+      "artist": "Jass Manak",
+      "album": "Age 19",
+      "duration": 162,
+      "url": "/audio/punjabi_093.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_94",
+      "title": "Wakhra Swag",
+      "artist": "Navv Inder, Badshah",
+      "album": "Wakhra Swag & Other Hits",
+      "duration": 190,
+      "url": "/audio/punjabi_094.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_95",
+      "title": "Woofer (feat. Snoop Dogg, Zora Randhawa & Nargis Fakhri)",
+      "artist": "Dr Zeus, Snoop Dogg, Zora Randhawa, Nargis Fakhri",
+      "album": "Woofer (feat. Snoop Dogg, Zora Randhawa & Nargis Fakhri)",
+      "duration": 172,
+      "url": "/audio/punjabi_095.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_96",
+      "title": "Yaar Anmule",
+      "artist": "Sharry Mann",
+      "album": "Yaar Anmulle",
+      "duration": 276,
+      "url": "/audio/punjabi_096.mp3",
+      "category": "punjabi"
+    },
+    {
+      "id": "punjabi_97",
+      "title": "Yaar Berozgaar",
+      "artist": "Preet Harpal, Jatinder Shah",
+      "album": "Yaar Berozgaar",
+      "duration": 229,
+      "url": "/audio/punjabi_097.mp3",
+      "category": "punjabi"
+    }
+  ],
   "haryanvi": [],
   "pahadi": []
 };

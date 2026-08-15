@@ -88,7 +88,7 @@ export const PLAYLIST_CATEGORIES = [
   { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 97 },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 64 },
-  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 0 },
+  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 26 },
 ];
 
 export const TRACK_CATEGORIES = {
@@ -5649,7 +5649,242 @@ export const TRACK_CATEGORIES = {
       "category": "haryanvi"
     }
   ],
-  "pahadi": []
+  "pahadi": [
+    {
+      "id": "pahadi_1",
+      "title": "Aachhri",
+      "artist": "Darshan Farswan",
+      "album": "Aachhri",
+      "duration": 290,
+      "url": "/audio/pahadi_001.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_2",
+      "title": "Babli Tero Mobile",
+      "artist": "Gajendra Rana, Meena Rana",
+      "album": "Hima Maarchhyan",
+      "duration": 366,
+      "url": "/audio/pahadi_002.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_3",
+      "title": "Bedu Pako - Uttarakhandi Folk Song",
+      "artist": "Narendra Singh Negi",
+      "album": "Unknown Album",
+      "duration": 443,
+      "url": "/audio/pahadi_003.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_4",
+      "title": "Chaita Ki Chaitwali",
+      "artist": "Anil Bisht",
+      "album": "Unknown Album",
+      "duration": 583,
+      "url": "/audio/pahadi_004.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_5",
+      "title": "Chhakk Chhina - Uttrakhandi",
+      "artist": "Prahlad Mehra",
+      "album": "Unknown Album",
+      "duration": 309,
+      "url": "/audio/pahadi_005.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_6",
+      "title": "Dev Bhumi - Uttarakhandi",
+      "artist": "Lalit Mohan Joshi",
+      "album": "Unknown Album",
+      "duration": 245,
+      "url": "/audio/pahadi_006.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_7",
+      "title": "Ghasyeri",
+      "artist": "Sahab Singh Ramola",
+      "album": "Unknown Album",
+      "duration": 470,
+      "url": "/audio/pahadi_007.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_8",
+      "title": "Ghumede Munsyar",
+      "artist": "Mamta Arya",
+      "album": "Unknown Album",
+      "duration": 422,
+      "url": "/audio/pahadi_008.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_9",
+      "title": "Ghur Ghur Almora",
+      "artist": "Fauji Lalit Mohan Joshi",
+      "album": "Ghur Ghur Almora",
+      "duration": 245,
+      "url": "/audio/pahadi_009.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_10",
+      "title": "Gori Tera Gaon Bada Pyara",
+      "artist": "K. J. Yesudas",
+      "album": "Chitchor",
+      "duration": 307,
+      "url": "/audio/pahadi_010.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_11",
+      "title": "Gulabi Sharara",
+      "artist": "Inder Arya",
+      "album": "Gulabi Sharara",
+      "duration": 206,
+      "url": "/audio/pahadi_011.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_12",
+      "title": "Kindi Chale Bathade",
+      "artist": "Vicky Chauhan",
+      "album": "Kindi Chale Bathade",
+      "duration": 217,
+      "url": "/audio/pahadi_012.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_13",
+      "title": "Laal Suit Maa",
+      "artist": "Fauji Lalit Mohan Joshi",
+      "album": "Unknown Album",
+      "duration": 438,
+      "url": "/audio/pahadi_013.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_14",
+      "title": "Lachima",
+      "artist": "Diksha Dhoundiyal, Vijay Prakash",
+      "album": "Lachima",
+      "duration": 258,
+      "url": "/audio/pahadi_014.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_15",
+      "title": "Lal Botal Sharaba - Garhwali",
+      "artist": "Prakash kahala",
+      "album": "Unknown Album",
+      "duration": 308,
+      "url": "/audio/pahadi_015.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_16",
+      "title": "Meri Bhanu",
+      "artist": "Lalit Mohan Joshi",
+      "album": "Meri Bhanu",
+      "duration": 391,
+      "url": "/audio/pahadi_016.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_17",
+      "title": "Nainital Ki Madhuli - Pahadi",
+      "artist": "Lalit Mohan Joshi",
+      "album": "Unknown Album",
+      "duration": 337,
+      "url": "/audio/pahadi_017.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_18",
+      "title": "PAHADI - The Folk Songs of Uttarakhand",
+      "artist": "Nupur Pant",
+      "album": "PAHADI - The Folk Songs of Uttarakhand",
+      "duration": 259,
+      "url": "/audio/pahadi_018.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_19",
+      "title": "Photo Teri - Kumaoni",
+      "artist": "Inder Arya",
+      "album": "Photo Teri (Kumaoni)",
+      "duration": 272,
+      "url": "/audio/pahadi_019.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_20",
+      "title": "Pingli Sadee",
+      "artist": "Fauji Lalit Mohan Joshi",
+      "album": "Pingli Sadee",
+      "duration": 219,
+      "url": "/audio/pahadi_020.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_21",
+      "title": "Ramdai Ka Hotel",
+      "artist": "Satyendra Gangola",
+      "album": "Unknown Album",
+      "duration": 319,
+      "url": "/audio/pahadi_021.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_22",
+      "title": "Ranikhet Ki Baand Neeru",
+      "artist": "Lalit Mohan Joshi",
+      "album": "Unknown Album",
+      "duration": 466,
+      "url": "/audio/pahadi_022.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_23",
+      "title": "Rifle Meri Kani Ma",
+      "artist": "Fauji Lalit Mohan Joshi",
+      "album": "Rifle Meri Kani Ma",
+      "duration": 334,
+      "url": "/audio/pahadi_023.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_24",
+      "title": "Sangeeta - Kumaoni",
+      "artist": "Jitendra Tomkyal",
+      "album": "Unknown Album",
+      "duration": 350,
+      "url": "/audio/pahadi_024.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_25",
+      "title": "Tak Taka Tak Kamla - Pahari",
+      "artist": "Lalit Mohan Joshi",
+      "album": "Unknown Album",
+      "duration": 422,
+      "url": "/audio/pahadi_025.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_26",
+      "title": "Udi Ja Panchhi",
+      "artist": "Fauji Lalit Mohan Joshi",
+      "album": "Ki Bhalo Tero Mann",
+      "duration": 330,
+      "url": "/audio/pahadi_026.mp3",
+      "category": "pahadi"
+    }
+  ]
 };
 
 export const SAMPLE_TRACKS = TRACK_CATEGORIES["90s"];

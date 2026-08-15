@@ -4978,6 +4978,583 @@
       "category": "punjabi"
     }
   ],
-  "haryanvi": [],
+  "haryanvi": [
+    {
+      "id": "haryanvi_1",
+      "title": "52 Gaj Ka Daman",
+      "artist": "Renuka Panwar, MJ",
+      "album": "52 Gaj Ka Daman",
+      "duration": 163,
+      "url": "/audio/haryanvi_001.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_2",
+      "title": "6 Raniyan",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 140,
+      "url": "/audio/haryanvi_002.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_3",
+      "title": "7 Janam",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 201,
+      "url": "/audio/haryanvi_003.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_4",
+      "title": "Baba Ji",
+      "artist": "Vishu Puthi, Sapna Choudhary",
+      "album": "Baba Ji",
+      "duration": 198,
+      "url": "/audio/haryanvi_004.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_5",
+      "title": "Bahu Kale Ki",
+      "artist": "Gajender Phogat, Anu Kadyan",
+      "album": "Bahu Kale Ki",
+      "duration": 228,
+      "url": "/audio/haryanvi_005.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_6",
+      "title": "Bairan",
+      "artist": "Banjaare",
+      "album": "Bairan",
+      "duration": 150,
+      "url": "/audio/haryanvi_006.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_7",
+      "title": "Balam",
+      "artist": "Ashu Twinkle",
+      "album": "Unknown Album",
+      "duration": 265,
+      "url": "/audio/haryanvi_007.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_8",
+      "title": "Barsaat",
+      "artist": "Banjaare, Roni",
+      "album": "Barsaat",
+      "duration": 185,
+      "url": "/audio/haryanvi_008.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_9",
+      "title": "Bawli Tared",
+      "artist": "Sumit Goswami, Vicky Kajla",
+      "album": "Bawli Tared",
+      "duration": 228,
+      "url": "/audio/haryanvi_009.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_10",
+      "title": "Bhaan Ka Rola",
+      "artist": "Raju Punjabi",
+      "album": "Bhaan Ka Rola",
+      "duration": 197,
+      "url": "/audio/haryanvi_010.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_11",
+      "title": "Chand",
+      "artist": "Masoom Sharma",
+      "album": "Chand",
+      "duration": 188,
+      "url": "/audio/haryanvi_011.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_12",
+      "title": "Chetak",
+      "artist": "Raj Mawer",
+      "album": "Chetak",
+      "duration": 253,
+      "url": "/audio/haryanvi_012.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_13",
+      "title": "Chhori Jail Karawegi Re",
+      "artist": "Vinu Gaur",
+      "album": "Chhori Jail Karawegi Re",
+      "duration": 257,
+      "url": "/audio/haryanvi_013.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_14",
+      "title": "Choudhar Jaat Ki",
+      "artist": "Raju Punjabi",
+      "album": "Choudhar Jaat Ki",
+      "duration": 242,
+      "url": "/audio/haryanvi_014.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_15",
+      "title": "Churma (feat. Pranjal Dahiya)",
+      "artist": "Ndee Kundu, Upasna Gahlot, Pranjal Dahiya",
+      "album": "Churma (feat. Pranjal Dahiya)",
+      "duration": 145,
+      "url": "/audio/haryanvi_015.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_16",
+      "title": "Curfew",
+      "artist": "Sukh Deswal",
+      "album": "Unknown Album",
+      "duration": 174,
+      "url": "/audio/haryanvi_016.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_17",
+      "title": "Dabya Ni Karde",
+      "artist": "Ndee Kundu, Bintu Pabra",
+      "album": "Dabya Ni Karde",
+      "duration": 219,
+      "url": "/audio/haryanvi_017.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_18",
+      "title": "Desi Desi Na Bolya Kar",
+      "artist": "Raju Punjabi, KD DESIROCK, MD DesiRockstar",
+      "album": "Desi Desi Na Bolya Kar",
+      "duration": 216,
+      "url": "/audio/haryanvi_018.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_19",
+      "title": "Desi Haan Ji",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 260,
+      "url": "/audio/haryanvi_019.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_20",
+      "title": "Father Saab",
+      "artist": "Khasa Aala Chahar",
+      "album": "Father Saab",
+      "duration": 317,
+      "url": "/audio/haryanvi_020.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_21",
+      "title": "Feelings",
+      "artist": "Sumit Goswami",
+      "album": "Feelings",
+      "duration": 224,
+      "url": "/audio/haryanvi_021.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_22",
+      "title": "Gajban",
+      "artist": "Vishvajeet Choudhary, Sapna Choudhary",
+      "album": "Gajban",
+      "duration": 221,
+      "url": "/audio/haryanvi_022.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_23",
+      "title": "Haryane Ka Jaat",
+      "artist": "Raju Punjabi",
+      "album": "Haryane Ka Jaat",
+      "duration": 167,
+      "url": "/audio/haryanvi_023.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_24",
+      "title": "His Grace",
+      "artist": "Ndee Kundu, Bintu Pabra, Shine",
+      "album": "His Grace",
+      "duration": 217,
+      "url": "/audio/haryanvi_024.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_25",
+      "title": "Jaatta Ka Chhora",
+      "artist": "Mika Singh",
+      "album": "Something Something",
+      "duration": 225,
+      "url": "/audio/haryanvi_025.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_26",
+      "title": "Jadugarni",
+      "artist": "Sintaa, Riyaazi",
+      "album": "Jadugarni",
+      "duration": 145,
+      "url": "/audio/haryanvi_026.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_27",
+      "title": "Jat Clan",
+      "artist": "Dhanda Nyoliwala, Yogi Aulakh",
+      "album": "Jat Clan",
+      "duration": 206,
+      "url": "/audio/haryanvi_027.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_28",
+      "title": "Jat Supremacy",
+      "artist": "Ndee Kundu",
+      "album": "Jat Supremacy",
+      "duration": 158,
+      "url": "/audio/haryanvi_028.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_29",
+      "title": "Jhotte",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 222,
+      "url": "/audio/haryanvi_029.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_30",
+      "title": "Jodi (feat. Mahi Dhaka)",
+      "artist": "Ndee Kundu, Shine, Mahi Dhaka",
+      "album": "Jodi (feat. Mahi Dhaka)",
+      "duration": 154,
+      "url": "/audio/haryanvi_030.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_31",
+      "title": "Kabootar 2",
+      "artist": "Renuka Panwar, Surender Romio, Aamin Barodi",
+      "album": "Kabootar 2",
+      "duration": 146,
+      "url": "/audio/haryanvi_031.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_32",
+      "title": "Khote Chad Lalkarun",
+      "artist": "Masoom Sharma, Sheenam",
+      "album": "Khote Chad Lalkarun",
+      "duration": 296,
+      "url": "/audio/haryanvi_032.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_33",
+      "title": "Knife Brows",
+      "artist": "Dhanda Nyoliwala",
+      "album": "DNW Vol. 1",
+      "duration": 175,
+      "url": "/audio/haryanvi_033.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_34",
+      "title": "Laada ka Lada",
+      "artist": "Harjeet Diwana, Pranjal Dahiya, Aman Jaji",
+      "album": "Laada ka Lada",
+      "duration": 141,
+      "url": "/audio/haryanvi_034.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_35",
+      "title": "Laado",
+      "artist": "MC SQUARE, Hiten",
+      "album": "Laado",
+      "duration": 148,
+      "url": "/audio/haryanvi_035.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_36",
+      "title": "Lofar",
+      "artist": "Masoom Sharma, Swara Verma",
+      "album": "Lofar",
+      "duration": 129,
+      "url": "/audio/haryanvi_036.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_37",
+      "title": "Matak Chalungi",
+      "artist": "Raj Mawar, Manisha Sharma, Aman Jaji, Sapna Choudhary",
+      "album": "Matak Chalungi",
+      "duration": 176,
+      "url": "/audio/haryanvi_037.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_38",
+      "title": "Mera Dol Kue Me Latke Se",
+      "artist": "Krishan Chouhan, Seenam Khatolic",
+      "album": "Mera Dol Kue Me Latke Se - Single",
+      "duration": 326,
+      "url": "/audio/haryanvi_038.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_39",
+      "title": "Mhare Gaam Ka Pani",
+      "artist": "Raju Punjabi",
+      "album": "Unknown Album",
+      "duration": 192,
+      "url": "/audio/haryanvi_039.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_40",
+      "title": "Mithi Bole Bangro",
+      "artist": "Masoom Sharma, Sapna Choudhary",
+      "album": "Mithi Bole Bangro",
+      "duration": 174,
+      "url": "/audio/haryanvi_040.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_41",
+      "title": "Mithi Boli",
+      "artist": "Raju Punjabi",
+      "album": "Unknown Album",
+      "duration": 152,
+      "url": "/audio/haryanvi_041.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_42",
+      "title": "Mittran Di Chhatri",
+      "artist": "Babbu Maan",
+      "album": "Pyass",
+      "duration": 337,
+      "url": "/audio/haryanvi_042.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_43",
+      "title": "Moto",
+      "artist": "Diler Kharkiya",
+      "album": "Moto",
+      "duration": 181,
+      "url": "/audio/haryanvi_043.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_44",
+      "title": "Nakhro",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 172,
+      "url": "/audio/haryanvi_044.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_45",
+      "title": "Nandi Ke Beera",
+      "artist": "Ruchika Jangid",
+      "album": "Nandi Ke Beera",
+      "duration": 161,
+      "url": "/audio/haryanvi_045.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_46",
+      "title": "Not Guilty",
+      "artist": "Dhanda Nyoliwala",
+      "album": "Not Guilty",
+      "duration": 175,
+      "url": "/audio/haryanvi_046.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_47",
+      "title": "Pani Chhalke",
+      "artist": "Manisha Sharma",
+      "album": "Unknown Album",
+      "duration": 169,
+      "url": "/audio/haryanvi_047.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_48",
+      "title": "Phoolan Ki Kyari (She Blooms)",
+      "artist": "Ndee Kundu, Guri Nimana",
+      "album": "Phoolan Ki Kyari (She Blooms)",
+      "duration": 145,
+      "url": "/audio/haryanvi_048.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_49",
+      "title": "Raam Ki Su",
+      "artist": "Somveer Kathurwal",
+      "album": "Raam Ki Su",
+      "duration": 291,
+      "url": "/audio/haryanvi_049.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_50",
+      "title": "Raat Ke Shikari",
+      "artist": "Masoom Sharma, Sweta Chauhan, Yash Thukral",
+      "album": "Raat Ke Shikari",
+      "duration": 148,
+      "url": "/audio/haryanvi_050.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_51",
+      "title": "Radke Radke",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 139,
+      "url": "/audio/haryanvi_051.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_52",
+      "title": "Roots",
+      "artist": "Bintu Pabra",
+      "album": "Roots",
+      "duration": 263,
+      "url": "/audio/haryanvi_052.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_53",
+      "title": "Rose Garden",
+      "artist": "Ndee Kundu, Isha Sharma",
+      "album": "Rose Garden",
+      "duration": 171,
+      "url": "/audio/haryanvi_053.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_54",
+      "title": "Russian Bandana",
+      "artist": "Dhanda Nyoliwala",
+      "album": "Russian Bandana",
+      "duration": 197,
+      "url": "/audio/haryanvi_054.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_55",
+      "title": "Solid Body",
+      "artist": "Raju Punjabi, Sheenam Katholic",
+      "album": "Solid Body",
+      "duration": 176,
+      "url": "/audio/haryanvi_055.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_56",
+      "title": "Superman Jat",
+      "artist": "Ndee Kundu, Pranjal Dahiya",
+      "album": "Superman Jat",
+      "duration": 171,
+      "url": "/audio/haryanvi_056.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_57",
+      "title": "Sweety",
+      "artist": "Raju Punjabi",
+      "album": "Sweety",
+      "duration": 221,
+      "url": "/audio/haryanvi_057.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_58",
+      "title": "System Pe System",
+      "artist": "R Maan, Billa Sonipat Ala, Vikram Sarkar",
+      "album": "System Pe System",
+      "duration": 184,
+      "url": "/audio/haryanvi_058.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_59",
+      "title": "Tagdi",
+      "artist": "Gagan Haryanvi, Ak Jatti",
+      "album": "Tagdi",
+      "duration": 202,
+      "url": "/audio/haryanvi_059.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_60",
+      "title": "Tension",
+      "artist": "Dhanda Nyoliwala",
+      "album": "Tension",
+      "duration": 143,
+      "url": "/audio/haryanvi_060.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_61",
+      "title": "Teri Ramjhol Bole Gi (feat. Kay D)",
+      "artist": "Masoom Sharma, Sheenam Katholic, Mr. Boota, Aarohi Raghav, Kay D",
+      "album": "Teri Ramjhol Bole Gi (feat. Kay D)",
+      "duration": 147,
+      "url": "/audio/haryanvi_061.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_62",
+      "title": "The Villagers",
+      "artist": "Sumit Goswami, Jerry",
+      "album": "The Villagers",
+      "duration": 185,
+      "url": "/audio/haryanvi_062.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_63",
+      "title": "Unchi Haveli",
+      "artist": "Renuka Panwar, Aditya Kalkal, MST",
+      "album": "Unchi Haveli",
+      "duration": 161,
+      "url": "/audio/haryanvi_063.mp3",
+      "category": "haryanvi"
+    },
+    {
+      "id": "haryanvi_64",
+      "title": "Yaaran Ki Rees",
+      "artist": "Ndee Kundu",
+      "album": "Unknown Album",
+      "duration": 185,
+      "url": "/audio/haryanvi_064.mp3",
+      "category": "haryanvi"
+    }
+  ],
   "pahadi": []
 }

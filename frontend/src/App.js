@@ -60,6 +60,12 @@ export default function App() {
   // Flag set by handleEnd so the load effect knows to autoplay the next track
   // even if the setPlaying(true) state update hasn't been committed yet.
   const shouldAutoPlayRef = useRef(false);
+  // Always-fresh ref for tracks so handleEnd never captures a stale length.
+  const tracksRef = useRef(tracks);
+  useEffect(() => { tracksRef.current = tracks; }, [tracks]);
+  // Guard: true while we are loading a new src — suppresses spurious 'ended' events
+  // that some browsers fire when src is reassigned and load() is called.
+  const isLoadingRef = useRef(false);
   const ambient = useAmbientAudio();
   const { hornHonk } = ambient;
 
@@ -85,6 +91,9 @@ export default function App() {
     setCurrentTime(0);
     const a = audioRef.current;
     if (!a) return;
+    // Raise the loading guard BEFORE touching src so any spurious 'ended' from
+    // load() is ignored by handleEnd.
+    isLoadingRef.current = true;
     if (track?.url) {
       a.src = track.url;
       a.load();
@@ -92,38 +101,53 @@ export default function App() {
       // when handleEnd advances to the next track before setPlaying(true) commits.
       const shouldPlay = shouldAutoPlayRef.current || playingRef.current;
       shouldAutoPlayRef.current = false; // consume the flag
-      if (shouldPlay) a.play().catch(() => {});
+      if (shouldPlay) {
+        a.play()
+          .then(() => { isLoadingRef.current = false; })
+          .catch(() => { isLoadingRef.current = false; });
+      } else {
+        // Not playing — clear the guard after a short delay so real ended events
+        // are handled correctly once the user presses play.
+        setTimeout(() => { isLoadingRef.current = false; }, 500);
+      }
     } else {
       shouldAutoPlayRef.current = false;
       a.removeAttribute("src");
       a.load();
+      setTimeout(() => { isLoadingRef.current = false; }, 500);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [safeIndex, track?.url]);
 
   const handleEnd = useCallback(() => {
+    // Ignore spurious 'ended' events fired during src load.
+    if (isLoadingRef.current) return;
+
+    const currentTracks = tracksRef.current;
+    const currentIdx = Math.min(index, Math.max(0, currentTracks.length - 1));
+
     if (repeat === "one") {
       setCurrentTime(0);
       const a = audioRef.current;
       if (track?.url && a) { a.currentTime = 0; a.play().catch(() => {}); }
       return;
     }
-    const last = safeIndex === tracks.length - 1;
+    const last = currentIdx === currentTracks.length - 1;
     let nextIdx;
     if (shuffle) {
-      nextIdx = tracks.length > 1 ? (safeIndex + 1 + Math.floor(Math.random() * (tracks.length - 1))) % tracks.length : 0;
+      nextIdx = currentTracks.length > 1 ? (currentIdx + 1 + Math.floor(Math.random() * (currentTracks.length - 1))) % currentTracks.length : 0;
     } else if (last) {
       if (repeat === "all") nextIdx = 0;
       else { setPlaying(false); setCurrentTime(0); return; }
     } else {
-      nextIdx = safeIndex + 1;
+      nextIdx = currentIdx + 1;
     }
     // Set the flag BEFORE setIndex so the load effect sees it when it fires.
     shouldAutoPlayRef.current = true;
     setIndex(nextIdx);
     setCurrentTime(0);
     setPlaying(true);
-  }, [repeat, shuffle, safeIndex, tracks.length, track?.url, setIndex]);
+  }, [repeat, shuffle, index, track?.url, setIndex]);
 
   // ---- playback tick (audio for real files, simulation for placeholders) ----
   useEffect(() => {
@@ -132,7 +156,7 @@ export default function App() {
     if (!playing) { if (a) a.pause(); return; }
 
     if (track?.url) {
-      if (a) a.play().catch(() => {});
+      if (a) a.play().then(() => { isLoadingRef.current = false; }).catch(() => { isLoadingRef.current = false; });
     } else {
       const dur = track?.duration || 1;
       simRef.current = setInterval(() => {

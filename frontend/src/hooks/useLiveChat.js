@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { supabase } from "../lib/supabaseClient";
 
 // Unique session ID per browser tab
 function getTabSessionId() {
@@ -18,164 +19,113 @@ export function useLiveChat() {
   const [messages, setMessages] = useState([]);
   const [isConnected, setIsConnected] = useState(false);
   const sessionId = useRef(getTabSessionId()).current;
-  const wsRef = useRef(null);
-  const reconnectTimeoutRef = useRef(null);
-  const pingIntervalRef = useRef(null);
+  const channelRef = useRef(null);
 
-  // Helper to determine WebSocket URL
-  const getWsUrl = useCallback(() => {
-    try {
-      const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-      const host = window.location.hostname || "localhost";
-      const port = process.env.REACT_APP_BACKEND_PORT || "8000";
-
-      if (process.env.REACT_APP_BACKEND_URL) {
-        const backendUrl = process.env.REACT_APP_BACKEND_URL.replace(
-          /^http(s?):\/\//,
-          "$1" === "s" ? "wss://" : "ws://"
-        );
-        return `${backendUrl}/api/ws/chat`;
-      }
-
-      if (window.location.port === "3000") {
-        return `${protocol}//${host}:${port}/api/ws/chat`;
-      }
-
-      return `${protocol}//${window.location.host}/api/ws/chat`;
-    } catch {
-      return "ws://localhost:8000/api/ws/chat";
-    }
-  }, []);
-
-  // Connect & maintain WebSocket lifecycle
   useEffect(() => {
     let isUnmounted = false;
 
-    // Fetch message history fallback via HTTP
+    // 1. Fetch last 50 messages for history on mount
     const fetchHistory = async () => {
       try {
-        const protocol = window.location.protocol;
-        const host = window.location.hostname || "localhost";
-        const port = window.location.port === "3000" ? ":8000" : (window.location.port ? `:${window.location.port}` : "");
-        const res = await fetch(`${protocol}//${host}${port}/api/chat/messages`);
-        if (res.ok && !isUnmounted) {
-          const data = await res.json();
-          if (data.messages && Array.isArray(data.messages)) {
-            setMessages((prev) => {
-              const existingIds = new Set(prev.map((m) => m.id));
-              const fresh = data.messages.filter((m) => !existingIds.has(m.id));
-              return [...fresh, ...prev];
-            });
-          }
+        const { data, error } = await supabase
+          .from("chat_messages")
+          .select("id, sender, session_id, text, timestamp")
+          .order("created_at", { ascending: true })
+          .limit(50);
+
+        if (!error && data && !isUnmounted) {
+          const formatted = data.map((row) => ({
+            id: row.id,
+            sender: row.sender,
+            sessionId: row.session_id,
+            text: row.text,
+            timestamp: row.timestamp,
+          }));
+          setMessages(formatted);
         }
       } catch (e) {
-        // ignore
+        console.error("[LiveChat] History fetch failed:", e);
       }
     };
 
     fetchHistory();
 
-    const connectWebSocket = () => {
-      if (isUnmounted) return;
-      const wsUrl = getWsUrl();
-      if (!wsUrl) return;
-
-      try {
-        const ws = new WebSocket(wsUrl);
-        wsRef.current = ws;
-
-        ws.onopen = () => {
+    // 2. Subscribe to Realtime inserts on chat_messages table
+    const channel = supabase
+      .channel("chat-messages-channel")
+      .on(
+        "postgres_changes",
+        { event: "INSERT", schema: "public", table: "chat_messages" },
+        (payload) => {
           if (isUnmounted) return;
+          const row = payload.new;
+          const newMsg = {
+            id: row.id,
+            sender: row.sender,
+            sessionId: row.session_id,
+            text: row.text,
+            timestamp: row.timestamp,
+          };
+          setMessages((prev) => {
+            if (prev.some((m) => m.id === newMsg.id)) return prev;
+            return [...prev, newMsg];
+          });
+        }
+      )
+      .subscribe((status) => {
+        if (isUnmounted) return;
+        if (status === "SUBSCRIBED") {
           setIsConnected(true);
-
-          // Keepalive ping every 15s
-          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-          pingIntervalRef.current = setInterval(() => {
-            if (ws.readyState === WebSocket.OPEN) {
-              ws.send(JSON.stringify({ type: "ping" }));
-            }
-          }, 15000);
-        };
-
-        ws.onmessage = (event) => {
-          if (isUnmounted) return;
-          try {
-            const data = JSON.parse(event.data);
-            if (data.type === "pong") return;
-
-            if (data.type === "history" && Array.isArray(data.messages)) {
-              setMessages(data.messages);
-            } else if (data.type === "message" && data.message) {
-              setMessages((prev) => {
-                if (prev.some((m) => m.id === data.message.id)) return prev;
-                return [...prev, data.message];
-              });
-            }
-          } catch (err) {
-            console.error("Chat parse error", err);
-          }
-        };
-
-        ws.onclose = () => {
-          if (isUnmounted) return;
+        } else if (status === "CLOSED" || status === "CHANNEL_ERROR") {
           setIsConnected(false);
-          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-          // Try reconnecting after 3 seconds
-          if (reconnectTimeoutRef.current) clearTimeout(reconnectTimeoutRef.current);
-          reconnectTimeoutRef.current = setTimeout(connectWebSocket, 3000);
-        };
+        }
+      });
 
-        ws.onerror = () => {
-          if (isUnmounted) return;
-          try {
-            ws.close();
-          } catch {}
-        };
-      } catch (err) {
-        console.error("WebSocket init error", err);
-        if (reconnectTimeoutRef.current) clearTimeout(reconnectTimeoutRef.current);
-        reconnectTimeoutRef.current = setTimeout(connectWebSocket, 3000);
-      }
-    };
-
-    connectWebSocket();
+    channelRef.current = channel;
 
     return () => {
       isUnmounted = true;
-      if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-      if (reconnectTimeoutRef.current) clearTimeout(reconnectTimeoutRef.current);
-      if (wsRef.current) {
-        wsRef.current.close();
-        wsRef.current = null;
+      if (channelRef.current) {
+        supabase.removeChannel(channelRef.current);
+        channelRef.current = null;
       }
     };
-  }, [getWsUrl]);
+  }, []);
 
-  // Send message function
-  const sendMessage = useCallback((text, senderName) => {
-    const trimmed = (text || "").trim();
-    if (!trimmed) return;
+  // Send message: insert into Supabase table (Realtime broadcasts to all subscribers)
+  const sendMessage = useCallback(
+    async (text, senderName) => {
+      const trimmed = (text || "").trim();
+      if (!trimmed) return;
 
-    const payload = {
-      sender: senderName || "Passenger",
-      sessionId: sessionId,
-      text: trimmed,
-    };
+      const timestamp = new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      });
 
-    if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-      wsRef.current.send(JSON.stringify(payload));
-    } else {
-      // Local optimistic fallback
-      const localMsg = {
-        id: "local_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
-        sender: senderName || "Passenger",
-        sessionId: sessionId,
-        text: trimmed,
-        timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false }),
-      };
-      setMessages((prev) => [...prev, localMsg]);
-    }
-  }, [sessionId]);
+      const { error } = await supabase.from("chat_messages").insert({
+        sender: (senderName || "Passenger").substring(0, 30),
+        session_id: sessionId,
+        text: trimmed.substring(0, 500),
+        timestamp,
+      });
+
+      if (error) {
+        console.error("[LiveChat] Failed to send message:", error.message);
+        // Optimistic local fallback so the sender still sees their own message
+        const localMsg = {
+          id: "local_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
+          sender: senderName || "Passenger",
+          sessionId,
+          text: trimmed,
+          timestamp,
+        };
+        setMessages((prev) => [...prev, localMsg]);
+      }
+    },
+    [sessionId]
+  );
 
   return {
     messages,

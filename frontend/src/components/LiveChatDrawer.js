@@ -1,160 +1,15 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, User, MessageSquare } from "lucide-react";
-
-// Unique session ID for each browser tab
-function getTabSessionId() {
-  try {
-    let sid = sessionStorage.getItem("karwaan_tab_session_id");
-    if (!sid) {
-      sid = "tab_" + Math.random().toString(36).substring(2, 9) + Date.now().toString(36);
-      sessionStorage.setItem("karwaan_tab_session_id", sid);
-    }
-    return sid;
-  } catch {
-    return "tab_default";
-  }
-}
+import { useLiveChat } from "../hooks/useLiveChat";
 
 export default function LiveChatDrawer({ open, onClose }) {
   const [name, setName] = useState(() => localStorage.getItem("karwaan_passenger_name") || "");
   const [tempName, setTempName] = useState("");
-  const [messages, setMessages] = useState([]);
   const [inputMsg, setInputMsg] = useState("");
-  const [isConnected, setIsConnected] = useState(false);
-
-  const sessionId = useRef(getTabSessionId()).current;
-  const wsRef = useRef(null);
-  const reconnectTimerRef = useRef(null);
-  const pingIntervalRef = useRef(null);
   const bottomRef = useRef(null);
-  const unmountedRef = useRef(false);
 
-  // Helper to determine WebSocket URL
-  const getWsUrl = useCallback(() => {
-    try {
-      const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-      const host = window.location.hostname || "localhost";
-
-      if (process.env.REACT_APP_BACKEND_URL) {
-        const backendUrl = process.env.REACT_APP_BACKEND_URL.replace(
-          /^http(s?):\/\//,
-          "$1" === "s" ? "wss://" : "ws://"
-        );
-        return `${backendUrl}/api/ws/chat`;
-      }
-
-      if (window.location.port === "3000") {
-        return `${protocol}//${host}:8000/api/ws/chat`;
-      }
-
-      return `${protocol}//${window.location.host}/api/ws/chat`;
-    } catch {
-      return "ws://localhost:8000/api/ws/chat";
-    }
-  }, []);
-
-  // Fetch initial history via HTTP as a fallback
-  const fetchHttpHistory = useCallback(async () => {
-    try {
-      const protocol = window.location.protocol;
-      const host = window.location.hostname || "localhost";
-      const port = window.location.port === "3000" ? ":8000" : (window.location.port ? `:${window.location.port}` : "");
-      const res = await fetch(`${protocol}//${host}${port}/api/chat/messages`);
-      if (res.ok) {
-        const data = await res.json();
-        if (data.messages && data.messages.length > 0) {
-          setMessages((prev) => {
-            if (prev.length === 0) return data.messages;
-            // Merge without duplicates
-            const existingIds = new Set(prev.map((m) => m.id));
-            const newOnes = data.messages.filter((m) => !existingIds.has(m.id));
-            return [...newOnes, ...prev];
-          });
-        }
-      }
-    } catch (e) {
-      // ignore
-    }
-  }, []);
-
-  // Connect & maintain WebSocket for real-time messages
-  useEffect(() => {
-    unmountedRef.current = false;
-    fetchHttpHistory();
-
-    const connect = () => {
-      if (unmountedRef.current) return;
-      const url = getWsUrl();
-
-      try {
-        const ws = new WebSocket(url);
-        wsRef.current = ws;
-
-        ws.onopen = () => {
-          if (unmountedRef.current) return;
-          setIsConnected(true);
-
-          // Start ping heartbeat every 15s
-          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-          pingIntervalRef.current = setInterval(() => {
-            if (ws.readyState === WebSocket.OPEN) {
-              ws.send(JSON.stringify({ type: "ping" }));
-            }
-          }, 15000);
-        };
-
-        ws.onmessage = (event) => {
-          if (unmountedRef.current) return;
-          try {
-            const data = JSON.parse(event.data);
-            if (data.type === "pong") return;
-
-            if (data.type === "history") {
-              setMessages(data.messages || []);
-            } else if (data.type === "message" && data.message) {
-              setMessages((prev) => {
-                if (prev.some((m) => m.id === data.message.id)) return prev;
-                return [...prev, data.message];
-              });
-            }
-          } catch (err) {
-            console.error("Chat message parse error", err);
-          }
-        };
-
-        ws.onclose = () => {
-          if (unmountedRef.current) return;
-          setIsConnected(false);
-          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-          // Auto reconnect after 2.5 seconds
-          if (reconnectTimerRef.current) clearTimeout(reconnectTimerRef.current);
-          reconnectTimerRef.current = setTimeout(connect, 2500);
-        };
-
-        ws.onerror = () => {
-          if (unmountedRef.current) return;
-          setIsConnected(false);
-        };
-      } catch (err) {
-        console.error("WebSocket init error", err);
-        if (reconnectTimerRef.current) clearTimeout(reconnectTimerRef.current);
-        reconnectTimerRef.current = setTimeout(connect, 3000);
-      }
-    };
-
-    connect();
-
-    return () => {
-      unmountedRef.current = true;
-      if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
-      if (reconnectTimerRef.current) clearTimeout(reconnectTimerRef.current);
-      if (wsRef.current) {
-        wsRef.current.close();
-        wsRef.current = null;
-      }
-    };
-  }, [getWsUrl, fetchHttpHistory]);
+  const { messages, isConnected, sendMessage, sessionId } = useLiveChat();
 
   // Scroll to bottom when new messages arrive or drawer opens
   useEffect(() => {
@@ -179,27 +34,7 @@ export default function LiveChatDrawer({ open, onClose }) {
     const trimmed = inputMsg.trim();
     if (!trimmed) return;
 
-    const payload = {
-      sender: name || "Passenger",
-      sessionId: sessionId,
-      text: trimmed,
-    };
-
-    // If WebSocket is open, send to server
-    if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-      wsRef.current.send(JSON.stringify(payload));
-    } else {
-      // Local optimistic display if reconnecting
-      const localMsg = {
-        id: "local_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
-        sender: name || "Passenger",
-        sessionId: sessionId,
-        text: trimmed,
-        timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false }),
-      };
-      setMessages((prev) => [...prev, localMsg]);
-    }
-
+    sendMessage(trimmed, name);
     setInputMsg("");
   };
 
@@ -302,7 +137,7 @@ export default function LiveChatDrawer({ open, onClose }) {
                     Chatting as: <strong className="text-[#e6b64c] font-medium">{name}</strong>
                   </span>
                   <span className="text-[10px] text-emerald-400 font-tech uppercase tracking-wide flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping inline-block" />
+                    <span className={`w-1.5 h-1.5 rounded-full inline-block ${isConnected ? "bg-emerald-400 animate-ping" : "bg-amber-400"}`} />
                     {isConnected ? "Live Sync" : "Connecting..."}
                   </span>
                 </div>

@@ -52,13 +52,14 @@ export function useLiveChat() {
 
     // 2. Subscribe to Realtime inserts on chat_messages table
     const channel = supabase
-      .channel("chat-messages-channel")
+      .channel("chat-room")
       .on(
         "postgres_changes",
         { event: "INSERT", schema: "public", table: "chat_messages" },
         (payload) => {
           if (isUnmounted) return;
           const row = payload.new;
+          if (!row) return;
           const newMsg = {
             id: row.id,
             sender: row.sender,
@@ -72,12 +73,15 @@ export function useLiveChat() {
           });
         }
       )
-      .subscribe((status) => {
+      .subscribe((status, err) => {
         if (isUnmounted) return;
         if (status === "SUBSCRIBED") {
           setIsConnected(true);
-        } else if (status === "CLOSED" || status === "CHANNEL_ERROR") {
+        } else if (status === "CLOSED" || status === "CHANNEL_ERROR" || status === "TIMED_OUT") {
           setIsConnected(false);
+          if (err) {
+            console.warn("[LiveChat] Supabase subscription status:", status, err);
+          }
         }
       });
 

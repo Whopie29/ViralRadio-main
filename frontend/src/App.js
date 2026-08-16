@@ -54,6 +54,12 @@ export default function App() {
 
   const audioRef = useRef(null);
   const simRef = useRef(null);
+  // Keep a ref that always mirrors `playing` so effects/callbacks never see a stale closure value.
+  const playingRef = useRef(playing);
+  useEffect(() => { playingRef.current = playing; }, [playing]);
+  // Flag set by handleEnd so the load effect knows to autoplay the next track
+  // even if the setPlaying(true) state update hasn't been committed yet.
+  const shouldAutoPlayRef = useRef(false);
   const ambient = useAmbientAudio();
   const { hornHonk } = ambient;
 
@@ -82,8 +88,13 @@ export default function App() {
     if (track?.url) {
       a.src = track.url;
       a.load();
-      if (playing) a.play().catch(() => {});
+      // Use the ref (not the stale `playing` closure) so we correctly autoplay
+      // when handleEnd advances to the next track before setPlaying(true) commits.
+      const shouldPlay = shouldAutoPlayRef.current || playingRef.current;
+      shouldAutoPlayRef.current = false; // consume the flag
+      if (shouldPlay) a.play().catch(() => {});
     } else {
+      shouldAutoPlayRef.current = false;
       a.removeAttribute("src");
       a.load();
     }
@@ -107,6 +118,8 @@ export default function App() {
     } else {
       nextIdx = safeIndex + 1;
     }
+    // Set the flag BEFORE setIndex so the load effect sees it when it fires.
+    shouldAutoPlayRef.current = true;
     setIndex(nextIdx);
     setCurrentTime(0);
     setPlaying(true);

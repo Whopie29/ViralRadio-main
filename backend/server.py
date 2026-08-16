@@ -75,13 +75,16 @@ passenger_manager = PassengerManager()
 class ChatManager:
     def __init__(self):
         self.active_connections: list[WebSocket] = []
-        self.recent_messages: list[dict] = []  # Keep recent messages for instant sync
+        self.recent_messages: list[dict] = []  # Lightning fast in-memory buffer
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
         self.active_connections.append(websocket)
-        # Send previous messages on join
-        await websocket.send_json({"type": "history", "messages": self.recent_messages})
+        # Send instant in-memory history on connect (0ms delay)
+        try:
+            await websocket.send_json({"type": "history", "messages": self.recent_messages})
+        except Exception:
+            pass
 
     def disconnect(self, websocket: WebSocket):
         if websocket in self.active_connections:
@@ -92,6 +95,7 @@ class ChatManager:
         if len(self.recent_messages) > 100:
             self.recent_messages.pop(0)
 
+        # Broadcast to all active connections immediately
         for connection in list(self.active_connections):
             try:
                 await connection.send_json({"type": "message", "message": message})
@@ -103,6 +107,10 @@ chat_manager = ChatManager()
 @api_router.get("/passengers/count")
 async def get_passengers_count():
     return {"count": passenger_manager.get_current_count()}
+
+@api_router.get("/chat/messages")
+async def get_chat_messages():
+    return {"messages": chat_manager.recent_messages}
 
 @api_router.websocket("/ws/passengers")
 async def websocket_passengers(websocket: WebSocket):
@@ -124,12 +132,18 @@ async def websocket_chat(websocket: WebSocket):
     try:
         while True:
             data = await websocket.receive_json()
+            if data.get("type") == "ping":
+                await websocket.send_json({"type": "pong"})
+                continue
+
             sender = (data.get("sender") or "").strip() or "Passenger"
             text = (data.get("text") or "").strip()
+            session_id = data.get("sessionId") or ""
             if text:
                 msg = {
                     "id": str(uuid.uuid4()),
                     "sender": sender[:30],  # Limit name length
+                    "sessionId": session_id,
                     "text": text[:500],     # Limit message length
                     "timestamp": datetime.now(timezone.utc).strftime("%H:%M")
                 }

@@ -2,6 +2,20 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, User, MessageSquare } from "lucide-react";
 
+// Unique session ID for each browser tab
+function getTabSessionId() {
+  try {
+    let sid = sessionStorage.getItem("karwaan_tab_session_id");
+    if (!sid) {
+      sid = "tab_" + Math.random().toString(36).substring(2, 9) + Date.now().toString(36);
+      sessionStorage.setItem("karwaan_tab_session_id", sid);
+    }
+    return sid;
+  } catch {
+    return "tab_default";
+  }
+}
+
 export default function LiveChatDrawer({ open, onClose }) {
   const [name, setName] = useState(() => localStorage.getItem("karwaan_passenger_name") || "");
   const [tempName, setTempName] = useState("");
@@ -9,8 +23,10 @@ export default function LiveChatDrawer({ open, onClose }) {
   const [inputMsg, setInputMsg] = useState("");
   const [isConnected, setIsConnected] = useState(false);
 
+  const sessionId = useRef(getTabSessionId()).current;
   const wsRef = useRef(null);
   const reconnectTimerRef = useRef(null);
+  const pingIntervalRef = useRef(null);
   const bottomRef = useRef(null);
   const unmountedRef = useRef(false);
 
@@ -38,17 +54,34 @@ export default function LiveChatDrawer({ open, onClose }) {
     }
   }, []);
 
-  // Connect / manage WebSocket lifecycle
-  useEffect(() => {
-    if (!open || !name) {
-      if (wsRef.current) {
-        wsRef.current.close();
-        wsRef.current = null;
+  // Fetch initial history via HTTP as a fallback
+  const fetchHttpHistory = useCallback(async () => {
+    try {
+      const protocol = window.location.protocol;
+      const host = window.location.hostname || "localhost";
+      const port = window.location.port === "3000" ? ":8000" : (window.location.port ? `:${window.location.port}` : "");
+      const res = await fetch(`${protocol}//${host}${port}/api/chat/messages`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.messages && data.messages.length > 0) {
+          setMessages((prev) => {
+            if (prev.length === 0) return data.messages;
+            // Merge without duplicates
+            const existingIds = new Set(prev.map((m) => m.id));
+            const newOnes = data.messages.filter((m) => !existingIds.has(m.id));
+            return [...newOnes, ...prev];
+          });
+        }
       }
-      return;
+    } catch (e) {
+      // ignore
     }
+  }, []);
 
+  // Connect & maintain WebSocket for real-time messages
+  useEffect(() => {
     unmountedRef.current = false;
+    fetchHttpHistory();
 
     const connect = () => {
       if (unmountedRef.current) return;
@@ -61,17 +94,26 @@ export default function LiveChatDrawer({ open, onClose }) {
         ws.onopen = () => {
           if (unmountedRef.current) return;
           setIsConnected(true);
+
+          // Start ping heartbeat every 15s
+          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
+          pingIntervalRef.current = setInterval(() => {
+            if (ws.readyState === WebSocket.OPEN) {
+              ws.send(JSON.stringify({ type: "ping" }));
+            }
+          }, 15000);
         };
 
         ws.onmessage = (event) => {
           if (unmountedRef.current) return;
           try {
             const data = JSON.parse(event.data);
+            if (data.type === "pong") return;
+
             if (data.type === "history") {
               setMessages(data.messages || []);
             } else if (data.type === "message" && data.message) {
               setMessages((prev) => {
-                // Prevent duplicate message ids
                 if (prev.some((m) => m.id === data.message.id)) return prev;
                 return [...prev, data.message];
               });
@@ -84,9 +126,10 @@ export default function LiveChatDrawer({ open, onClose }) {
         ws.onclose = () => {
           if (unmountedRef.current) return;
           setIsConnected(false);
-          // Try reconnecting after 3 seconds if drawer is still open
+          if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
+          // Auto reconnect after 2.5 seconds
           if (reconnectTimerRef.current) clearTimeout(reconnectTimerRef.current);
-          reconnectTimerRef.current = setTimeout(connect, 3000);
+          reconnectTimerRef.current = setTimeout(connect, 2500);
         };
 
         ws.onerror = () => {
@@ -104,18 +147,21 @@ export default function LiveChatDrawer({ open, onClose }) {
 
     return () => {
       unmountedRef.current = true;
+      if (pingIntervalRef.current) clearInterval(pingIntervalRef.current);
       if (reconnectTimerRef.current) clearTimeout(reconnectTimerRef.current);
       if (wsRef.current) {
         wsRef.current.close();
         wsRef.current = null;
       }
     };
-  }, [open, name, getWsUrl]);
+  }, [getWsUrl, fetchHttpHistory]);
 
-  // Scroll to bottom when new messages arrive
+  // Scroll to bottom when new messages arrive or drawer opens
   useEffect(() => {
     if (open) {
-      bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+      }, 50);
     }
   }, [messages, open]);
 
@@ -133,24 +179,25 @@ export default function LiveChatDrawer({ open, onClose }) {
     const trimmed = inputMsg.trim();
     if (!trimmed) return;
 
-    const newMsg = {
-      id: "local_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
-      sender: name,
+    const payload = {
+      sender: name || "Passenger",
+      sessionId: sessionId,
       text: trimmed,
-      timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false })
     };
 
     // If WebSocket is open, send to server
     if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-      wsRef.current.send(
-        JSON.stringify({
-          sender: name,
-          text: trimmed,
-        })
-      );
+      wsRef.current.send(JSON.stringify(payload));
     } else {
-      // Fallback: append locally if offline/reconnecting so message is visible
-      setMessages((prev) => [...prev, newMsg]);
+      // Local optimistic display if reconnecting
+      const localMsg = {
+        id: "local_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
+        sender: name || "Passenger",
+        sessionId: sessionId,
+        text: trimmed,
+        timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false }),
+      };
+      setMessages((prev) => [...prev, localMsg]);
     }
 
     setInputMsg("");
@@ -180,7 +227,7 @@ export default function LiveChatDrawer({ open, onClose }) {
           <motion.div
             className="fixed top-0 left-0 bottom-0 w-full sm:w-96 glass-panel z-[90] flex flex-col shadow-2xl border-r border-white/10"
             style={{
-              background: "rgba(18, 14, 10, 0.92)",
+              background: "rgba(18, 14, 10, 0.94)",
               backdropFilter: "blur(24px)",
             }}
             initial={{ x: "-100%" }}
@@ -209,7 +256,7 @@ export default function LiveChatDrawer({ open, onClose }) {
               </div>
               <button
                 onClick={onClose}
-                className="w-8 h-8 rounded-lg flex items-center justify-center text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                className="w-8 h-8 rounded-lg flex items-center justify-center text-white/60 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
                 title="Close chat"
               >
                 <X size={18} />
@@ -240,7 +287,7 @@ export default function LiveChatDrawer({ open, onClose }) {
                   <button
                     type="submit"
                     disabled={!tempName.trim()}
-                    className="w-full py-2.5 rounded-xl bg-[#e6b64c] hover:bg-[#f3c662] text-black font-tech font-semibold text-xs tracking-wider uppercase transition shadow-lg disabled:opacity-40 disabled:pointer-events-none"
+                    className="w-full py-2.5 rounded-xl bg-[#e6b64c] hover:bg-[#f3c662] text-black font-tech font-semibold text-xs tracking-wider uppercase transition shadow-lg disabled:opacity-40 disabled:pointer-events-none cursor-pointer"
                   >
                     Join Passenger Chat
                   </button>
@@ -249,13 +296,14 @@ export default function LiveChatDrawer({ open, onClose }) {
             ) : (
               // Active Chat view
               <>
-                {/* Passenger bar - static name display without edit option */}
+                {/* Passenger status bar */}
                 <div className="px-4 py-2 bg-black/30 border-b border-white/5 flex items-center justify-between text-xs font-body">
                   <span className="text-white/60">
                     Chatting as: <strong className="text-[#e6b64c] font-medium">{name}</strong>
                   </span>
-                  <span className="text-[10px] text-white/40 font-tech uppercase tracking-wide">
-                    {isConnected ? "Live" : "Syncing"}
+                  <span className="text-[10px] text-emerald-400 font-tech uppercase tracking-wide flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping inline-block" />
+                    {isConnected ? "Live Sync" : "Connecting..."}
                   </span>
                 </div>
 
@@ -271,12 +319,14 @@ export default function LiveChatDrawer({ open, onClose }) {
                     </div>
                   ) : (
                     messages.map((m) => {
-                      const isMe = m.sender === name;
+                      // Check if message belongs to this tab session or user name
+                      const isMe = (m.sessionId && m.sessionId === sessionId) || (!m.sessionId && m.sender === name);
+
                       return (
                         <div key={m.id || Math.random()} className={`flex flex-col ${isMe ? "items-end" : "items-start"}`}>
                           <div className="flex items-center gap-1.5 mb-1 px-1">
-                            <span className="text-[11px] font-tech tracking-wide text-white/50">
-                              {m.sender}
+                            <span className={`text-[11px] font-tech tracking-wide ${isMe ? "text-[#e6b64c]" : "text-white/60"}`}>
+                              {m.sender} {isMe ? "(You)" : ""}
                             </span>
                             <span className="text-[10px] text-white/30">{m.timestamp}</span>
                           </div>

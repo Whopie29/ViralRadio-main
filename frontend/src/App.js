@@ -12,9 +12,12 @@ import InfoReadout from "@/components/InfoReadout";
 import TimeReadout from "@/components/TimeReadout";
 import SettingsPanel from "@/components/SettingsPanel";
 import KarwaanTitle from "@/components/KarwaanTitle";
+import LiveChatDrawer from "@/components/LiveChatDrawer";
+import { MessageSquare, Users } from "lucide-react";
 import { TRACK_CATEGORIES, SAMPLE_TRACKS } from "@/lib/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useAmbientAudio } from "@/hooks/useAmbientAudio";
+import { useLivePassengers } from "@/hooks/useLivePassengers";
 
 const DEFAULTS = {
   location: "himachal",
@@ -50,6 +53,7 @@ export default function App() {
   const [currentTime, setCurrentTime] = useState(0);
   const [playlistOpen, setPlaylistOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const audioRef = useRef(null);
@@ -68,6 +72,7 @@ export default function App() {
   const isLoadingRef = useRef(false);
   const ambient = useAmbientAudio();
   const { hornHonk } = ambient;
+  const { passengerCount } = useLivePassengers(playing);
 
   const safeIndex = Math.min(index, Math.max(0, tracks.length - 1));
   const track = tracks[safeIndex] || tracks[0];
@@ -245,6 +250,34 @@ export default function App() {
         <>
           <KarwaanTitle />
 
+          {/* Top Left: Passenger Live Chat & Online Listeners Count */}
+          <div className="fixed top-3 left-3 sm:top-5 sm:left-5 z-[80] flex items-center gap-2">
+            <button
+              className={`chip px-3 py-2 ${chatOpen ? "active" : ""}`}
+              data-testid="live-chat-toggle"
+              onClick={() => setChatOpen(true)}
+              title="Passenger Live Chat"
+            >
+              <MessageSquare size={16} />
+              <span className="hidden sm:inline font-tech text-xs tracking-wide">Live Chat</span>
+            </button>
+
+            {/* Top Online Listeners Badge */}
+            <div
+              className="chip px-3 py-2 flex items-center gap-2 select-none"
+              title={`${passengerCount} passengers currently listening`}
+              data-testid="top-passenger-count"
+            >
+              <span className="relative flex h-2 w-2 shrink-0">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <Users size={15} className="text-[#e6b64c] shrink-0" />
+              <span className="font-tech text-xs font-semibold text-[#e6b64c]">{passengerCount}</span>
+              <span className="hidden sm:inline font-tech text-xs text-[#cdbf9f]">listening</span>
+            </div>
+          </div>
+
           <TopControls
             location={location} setLocation={setLocation}
             weather={weather} setWeather={setWeather}
@@ -307,6 +340,11 @@ export default function App() {
             muted={muted} onToggleMute={() => setMuted((m) => !m)}
             time={time} setTime={setTime}
             onReset={resetPrefs}
+          />
+
+          <LiveChatDrawer
+            open={chatOpen}
+            onClose={() => setChatOpen(false)}
           />
         </>
       )}

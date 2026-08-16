@@ -1,13 +1,10 @@
 import React from "react";
-import { MapPin, Users } from "lucide-react";
 import { LOCATIONS, WEATHERS } from "../lib/constants";
-import { useLivePassengers } from "../hooks/useLivePassengers";
 
-export default function InfoReadout({ location, weather, playing = true, className = "" }) {
+export default function InfoReadout({ location, weather, className = "" }) {
   const loc = LOCATIONS[location];
   const w = WEATHERS[weather];
   const temp = w.temps[location];
-  const { passengerCount } = useLivePassengers(playing);
 
   return (
     <div className={`select-none ${className}`} data-testid="info-readout">
@@ -24,20 +21,6 @@ export default function InfoReadout({ location, weather, playing = true, classNa
           <span>{loc.tagline}</span>
           <span className="hidden sm:inline text-[rgba(233,201,120,0.3)]">|</span>
           <span className="text-[#a99b78] font-mono text-[9.5px] sm:text-[10.5px]">{loc.coords}</span>
-        </div>
-        <div
-          className="flex items-center gap-2 pt-1.5 mt-0.5 border-t border-[rgba(233,201,120,0.14)] w-full text-[10.5px] sm:text-[11.5px] font-tech text-[#efe6d0]"
-          data-testid="passenger-count"
-        >
-          <span className="relative flex h-2 w-2 shrink-0">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-          </span>
-          <Users size={12} className="text-[#e6b64c] shrink-0" />
-          <span className="font-semibold text-[#e6b64c]">{passengerCount}</span>
-          <span className="text-[#cdbf9f]">
-            {passengerCount === 1 ? "passenger" : "passengers"} listening
-          </span>
         </div>
       </div>
     </div>

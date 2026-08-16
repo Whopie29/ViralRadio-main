@@ -71,6 +71,35 @@ class PassengerManager:
 
 passenger_manager = PassengerManager()
 
+# Real-time live passenger chat manager
+class ChatManager:
+    def __init__(self):
+        self.active_connections: list[WebSocket] = []
+        self.recent_messages: list[dict] = []  # Keep recent messages for instant sync
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+        # Send previous messages on join
+        await websocket.send_json({"type": "history", "messages": self.recent_messages})
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+
+    async def broadcast(self, message: dict):
+        self.recent_messages.append(message)
+        if len(self.recent_messages) > 100:
+            self.recent_messages.pop(0)
+
+        for connection in list(self.active_connections):
+            try:
+                await connection.send_json({"type": "message", "message": message})
+            except Exception:
+                pass
+
+chat_manager = ChatManager()
+
 @api_router.get("/passengers/count")
 async def get_passengers_count():
     return {"count": passenger_manager.get_current_count()}
@@ -88,6 +117,27 @@ async def websocket_passengers(websocket: WebSocket):
     except Exception:
         passenger_manager.disconnect(websocket)
         await passenger_manager.broadcast_count()
+
+@api_router.websocket("/ws/chat")
+async def websocket_chat(websocket: WebSocket):
+    await chat_manager.connect(websocket)
+    try:
+        while True:
+            data = await websocket.receive_json()
+            sender = (data.get("sender") or "").strip() or "Passenger"
+            text = (data.get("text") or "").strip()
+            if text:
+                msg = {
+                    "id": str(uuid.uuid4()),
+                    "sender": sender[:30],  # Limit name length
+                    "text": text[:500],     # Limit message length
+                    "timestamp": datetime.now(timezone.utc).strftime("%H:%M")
+                }
+                await chat_manager.broadcast(msg)
+    except WebSocketDisconnect:
+        chat_manager.disconnect(websocket)
+    except Exception:
+        chat_manager.disconnect(websocket)
 
 @api_router.post("/status", response_model=StatusCheck)
 async def create_status_check(input: StatusCheckCreate):

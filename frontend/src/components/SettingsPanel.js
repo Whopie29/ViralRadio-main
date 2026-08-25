@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Music, Wind, Bus, RotateCcw } from "lucide-react";
+import { X, Music, Wind, Bus, RotateCcw, ListPlus } from "lucide-react";
 import { TIMES } from "../lib/constants";
 
 function Slider({ icon: Icon, label, value, onChange, testid }) {
@@ -17,7 +17,7 @@ function Slider({ icon: Icon, label, value, onChange, testid }) {
 
 export default function SettingsPanel({
   open, onClose, musicVol, envVol, busVol, setMusicVol, setEnvVol, setBusVol,
-  muted, onToggleMute, time, setTime, onReset,
+  muted, onToggleMute, time, setTime, onReset, onOpenAdminSuggestions,
 }) {
   return (
     <AnimatePresence>
@@ -70,7 +70,21 @@ export default function SettingsPanel({
               ))}
             </div>
 
-            <button className="w-full flex items-center justify-center gap-2 mt-6 py-2 font-body text-xs text-[#a99b78] hover:text-[#e6b64c] transition-colors" data-testid="reset-prefs-btn" onClick={onReset}>
+            {/* Admin Song Suggestions Button */}
+            {onOpenAdminSuggestions && (
+              <button
+                className="chip w-full justify-center py-2.5 mt-5 font-tech text-xs tracking-wider border-[rgba(230,182,76,0.3)] text-[#e6b64c] hover:bg-[#e6b64c]/10 transition-colors"
+                onClick={() => {
+                  onClose();
+                  onOpenAdminSuggestions();
+                }}
+                data-testid="open-admin-suggestions-btn"
+              >
+                <ListPlus size={14} /> REVIEW SONG SUGGESTIONS (ADMIN)
+              </button>
+            )}
+
+            <button className="w-full flex items-center justify-center gap-2 mt-5 py-2 font-body text-xs text-[#a99b78] hover:text-[#e6b64c] transition-colors" data-testid="reset-prefs-btn" onClick={onReset}>
               <RotateCcw size={13} /> Reset preferences
             </button>
           </motion.div>
@@ -79,3 +93,4 @@ export default function SettingsPanel({
     </AnimatePresence>
   );
 }
+

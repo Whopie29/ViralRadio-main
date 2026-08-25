@@ -13,6 +13,8 @@ import TimeReadout from "@/components/TimeReadout";
 import SettingsPanel from "@/components/SettingsPanel";
 import KarwaanTitle from "@/components/KarwaanTitle";
 import LiveChatDrawer from "@/components/LiveChatDrawer";
+import SongSuggestionBox from "@/components/SongSuggestionBox";
+import AdminSuggestionsModal from "@/components/AdminSuggestionsModal";
 import { MessageSquare, Users } from "lucide-react";
 import { TRACK_CATEGORIES, SAMPLE_TRACKS } from "@/lib/constants";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
@@ -54,6 +56,7 @@ export default function App() {
   const [playlistOpen, setPlaylistOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
+  const [adminSuggestionsOpen, setAdminSuggestionsOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const audioRef = useRef(null);
@@ -289,15 +292,15 @@ export default function App() {
             onHorn={hornHonk}
           />
 
-          {/* Bottom Bar: Left (Location/Weather/Passengers), Center (Cylinder Player), Right (Time/Date) */}
-          <div className="fixed bottom-3 sm:bottom-6 left-0 right-0 px-3 sm:px-6 z-[80] pointer-events-none flex items-center justify-between gap-2 sm:gap-4">
+          {/* Bottom Bar: Left (Location/Weather/Passengers), Center (Cylinder Player + Suggestion Box), Right (Time/Date) */}
+          <div className="fixed bottom-3 sm:bottom-6 left-0 right-0 px-3 sm:px-6 z-[80] pointer-events-none flex items-center justify-between gap-3">
             {/* Left: Location & Weather & Live Passengers */}
-            <div className="pointer-events-auto flex-1 flex justify-start min-w-0">
+            <div className="pointer-events-auto flex-1 flex justify-start min-w-0 hidden md:flex">
               <InfoReadout location={location} weather={weather} playing={playing} />
             </div>
 
-            {/* Center: Horizontal Cylinder Player */}
-            <div className="pointer-events-auto shrink-0 flex justify-center translate-x-20 sm:translate-x-24">
+            {/* Center: Horizontal Cylinder Player + Suggestion Box to the right */}
+            <div className="pointer-events-auto shrink-0 flex items-center justify-center gap-2 sm:gap-3">
               <CassettePlayer
                 track={track}
                 playing={playing}
@@ -315,6 +318,9 @@ export default function App() {
                 onRepeat={cycleRepeat}
                 onOpenPlaylist={() => setPlaylistOpen(true)}
               />
+
+              {/* Song Suggestion Box positioned on the right of the player */}
+              <SongSuggestionBox />
             </div>
 
             {/* Right: Time & Date — hidden when playlist is open to avoid overlap */}
@@ -340,11 +346,17 @@ export default function App() {
             muted={muted} onToggleMute={() => setMuted((m) => !m)}
             time={time} setTime={setTime}
             onReset={resetPrefs}
+            onOpenAdminSuggestions={() => setAdminSuggestionsOpen(true)}
           />
 
           <LiveChatDrawer
             open={chatOpen}
             onClose={() => setChatOpen(false)}
+          />
+
+          <AdminSuggestionsModal
+            open={adminSuggestionsOpen}
+            onClose={() => setAdminSuggestionsOpen(false)}
           />
         </>
       )}

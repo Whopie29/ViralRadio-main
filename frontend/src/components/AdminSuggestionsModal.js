@@ -73,8 +73,7 @@ export default function AdminSuggestionsModal({ open, onClose }) {
 
   const handleLogin = (e) => {
     e?.preventDefault?.();
-    // Default admin passcode is admin123 (or viralradio / pahadi)
-    if (passcode.trim() === "admin123" || passcode.trim() === "admin" || passcode.trim() === "pahadi") {
+    if (passcode.trim() === "Gm@818091") {
       setIsAuthenticated(true);
       localStorage.setItem("karwaan_admin_auth", "true");
       setAuthError(false);
@@ -218,7 +217,7 @@ export default function AdminSuggestionsModal({ open, onClose }) {
                   Admin Passcode Required
                 </h4>
                 <p className="font-body text-xs text-[#a99b78] max-w-xs mb-4">
-                  Enter your admin passcode to review and manage song suggestions. (Default: <code className="text-[#e6b64c] font-tech">admin123</code>)
+                  Enter your admin passcode to review and manage song suggestions.
                 </p>
 
                 <form onSubmit={handleLogin} className="flex flex-col items-center gap-3 w-full max-w-xs">
@@ -235,7 +234,7 @@ export default function AdminSuggestionsModal({ open, onClose }) {
                   />
                   {authError && (
                     <span className="font-tech text-xs text-rose-400">
-                      Incorrect passcode. Try admin123
+                      Incorrect passcode.
                     </span>
                   )}
                   <button

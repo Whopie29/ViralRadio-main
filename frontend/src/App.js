@@ -293,14 +293,14 @@ export default function App() {
           />
 
           {/* Bottom Bar: Left (Location/Weather/Passengers), Center (Cylinder Player + Suggestion Box), Right (Time/Date) */}
-          <div className="fixed bottom-3 sm:bottom-6 left-0 right-0 px-3 sm:px-6 z-[80] pointer-events-none flex items-center justify-between gap-3">
+          <div className="fixed bottom-3 sm:bottom-6 left-0 right-0 px-4 sm:px-8 z-[80] pointer-events-none grid grid-cols-[1fr_auto_1fr] items-center gap-4">
             {/* Left: Location & Weather & Live Passengers */}
-            <div className="pointer-events-auto flex-1 flex justify-start min-w-0 hidden md:flex">
+            <div className="pointer-events-auto flex justify-start min-w-0 hidden md:flex">
               <InfoReadout location={location} weather={weather} playing={playing} />
             </div>
 
-            {/* Center: Horizontal Cylinder Player + Suggestion Box to the right */}
-            <div className="pointer-events-auto shrink-0 flex items-center justify-center gap-2 sm:gap-3">
+            {/* Center: Horizontal Cylinder Player + Suggestion Box — truly centered via grid */}
+            <div className="pointer-events-auto flex items-center justify-center gap-2 sm:gap-3">
               <CassettePlayer
                 track={track}
                 playing={playing}
@@ -324,7 +324,7 @@ export default function App() {
             </div>
 
             {/* Right: Time & Date — hidden when playlist is open to avoid overlap */}
-            <div className={`pointer-events-auto flex-1 flex justify-end min-w-0 hidden md:flex transition-opacity duration-200 ${playlistOpen ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+            <div className={`pointer-events-auto flex justify-end min-w-0 hidden md:flex transition-opacity duration-200 ${playlistOpen ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
               <TimeReadout time={time} />
             </div>
           </div>

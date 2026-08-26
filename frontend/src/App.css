@@ -297,6 +297,25 @@
 .fade-in { animation: fade-in 1.2s ease both; }
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
-@media (prefers-reduced-motion: reduce) {
-  .cam-sway, .cam-bounce, .pll-far, .pll-mid, .pll-near, .road-lines, .cloud-a, .cloud-b, .grain, .ornament-wrap, .bird { animation: none !important; }
+/* Hanging coffee cup — pendulum swing */
+.bmc-pendulum-wrap {
+  transform-origin: top center;
+  animation: pendulum-swing 3.6s ease-in-out infinite;
 }
+@keyframes pendulum-swing {
+  0%   { transform: rotate(-6deg); }
+  50%  { transform: rotate(6deg); }
+  100% { transform: rotate(-6deg); }
+}
+.bmc-cup-drop {
+  animation: cup-drop 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes cup-drop {
+  from { opacity: 0; transform: translateY(-40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cam-sway, .cam-bounce, .pll-far, .pll-mid, .pll-near, .road-lines, .cloud-a, .cloud-b, .grain, .ornament-wrap, .bird, .bmc-pendulum-wrap { animation: none !important; }
+}
+

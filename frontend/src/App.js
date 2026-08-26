@@ -253,6 +253,42 @@ export default function App() {
         <>
           <KarwaanTitle />
 
+          {/* ☕ Hanging Buy Me a Coffee cup — swings from top-right corner */}
+          <div
+            className="bmc-cup-drop fixed z-[79] hidden sm:flex flex-col items-center pointer-events-none"
+            style={{ top: 0, right: 28 }}
+          >
+            {/* Rope attachment pin */}
+            <div style={{ width: 4, height: 4, borderRadius: "50%", background: "#7a6040", marginBottom: 0 }} />
+            {/* Pendulum group — rotates from top */}
+            <div className="bmc-pendulum-wrap flex flex-col items-center">
+              {/* Rope */}
+              <div style={{ width: 2, height: 200, background: "linear-gradient(to bottom, #8a6a3a, #b8926a)", borderRadius: 2, opacity: 0.85 }} />
+              {/* Cup */}
+              <a
+                href="https://www.buymeacoffee.com/gauravmalih"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pointer-events-auto"
+                title="Support KarwaanRadio ☕"
+                data-testid="bmc-hanging-cup"
+                style={{ display: "flex", alignItems: "center", justifyContent: "center",
+                  width: 36, height: 36, borderRadius: "50%",
+                  background: "linear-gradient(135deg, #FFDD00 60%, #f0c800)",
+                  boxShadow: "0 4px 18px rgba(0,0,0,0.45), 0 1px 0 #fff2 inset",
+                  border: "2px solid rgba(0,0,0,0.18)",
+                  cursor: "pointer"
+                }}
+              >
+                <img
+                  src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+                  alt="Buy me a coffee"
+                  style={{ width: 18, height: 18 }}
+                />
+              </a>
+            </div>
+          </div>
+
           {/* Top Left: Passenger Live Chat & Online Listeners Count */}
           <div className="fixed top-3 left-3 sm:top-5 sm:left-5 z-[80] flex items-center gap-2">
             <button

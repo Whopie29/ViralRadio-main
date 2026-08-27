@@ -82,9 +82,9 @@ export const TIMES = {
 
 export const PLAYLIST_CATEGORIES = [
   { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: 225 },
-  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 161 },
+  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 162 },
   { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 23 },
-  { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 85 },
+  { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 86 },
   { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 98 },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 66 },
@@ -3568,6 +3568,15 @@ export const TRACK_CATEGORIES = {
       "duration": 248,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_161.mp3",
       "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_162",
+      "title": "Mann Mera",
+      "artist": "Gajendra Verma",
+      "album": "Table No. 21",
+      "duration": 198,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_162.mp3",
+      "category": "nostalgic"
     }
   ],
   "rajasthani": [
@@ -4543,6 +4552,15 @@ export const TRACK_CATEGORIES = {
       "album": "Матушка",
       "duration": 173,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_85.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_86",
+      "title": "Criminal",
+      "artist": "Britney Spears",
+      "album": "Femme Fatale (Deluxe Version)",
+      "duration": 225,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_086.mp3",
       "category": "english"
     }
   ],

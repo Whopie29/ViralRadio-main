@@ -3475,6 +3475,15 @@
       "duration": 248,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_161.mp3",
       "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_162",
+      "title": "Mann Mera",
+      "artist": "Gajendra Verma",
+      "album": "Table No. 21",
+      "duration": 198,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_162.mp3",
+      "category": "nostalgic"
     }
   ],
   "rajasthani": [
@@ -4450,6 +4459,15 @@
       "album": "Матушка",
       "duration": 173,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_85.mp3",
+      "category": "english"
+    },
+    {
+      "id": "eng_86",
+      "title": "Criminal",
+      "artist": "Britney Spears",
+      "album": "Femme Fatale (Deluxe Version)",
+      "duration": 225,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_086.mp3",
       "category": "english"
     }
   ],

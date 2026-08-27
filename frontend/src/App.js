@@ -198,15 +198,31 @@ export default function App() {
 
   // ---- controls ----
   const togglePlay = () => setPlaying((p) => !p);
-  const next = () => { handleEnd(); };
+  const next = () => {
+    const currentTracks = tracksRef.current;
+    const currentIdx = Math.min(index, Math.max(0, currentTracks.length - 1));
+    let nextIdx;
+    if (shuffle) {
+      nextIdx = currentTracks.length > 1 ? (currentIdx + 1 + Math.floor(Math.random() * (currentTracks.length - 1))) % currentTracks.length : 0;
+    } else {
+      nextIdx = (currentIdx + 1) % currentTracks.length;
+    }
+    setIndex(nextIdx);
+    setCurrentTime(0);
+  };
   const prev = () => {
     if (currentTime > 3) {
       setCurrentTime(0);
-      const a = audioRef.current; if (track?.url && a) a.currentTime = 0;
+      const a = audioRef.current;
+      if (track?.url && a) {
+        a.currentTime = 0;
+        if (!playing) a.pause();
+      }
       return;
     }
     const idx = (safeIndex - 1 + tracks.length) % tracks.length;
-    setIndex(idx); setCurrentTime(0); setPlaying(true);
+    setIndex(idx);
+    setCurrentTime(0);
   };
   const seek = (t) => {
     setCurrentTime(t);

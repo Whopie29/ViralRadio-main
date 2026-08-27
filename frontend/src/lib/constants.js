@@ -83,7 +83,7 @@ export const TIMES = {
 export const PLAYLIST_CATEGORIES = [
   { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: 225 },
   { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 161 },
-  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 22 },
+  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 23 },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 85 },
   { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 98 },
@@ -3767,6 +3767,15 @@ export const TRACK_CATEGORIES = {
       "album": "Udi Udi",
       "duration": 161,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_22.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_23",
+      "title": "Hari-Hari Kamdi Se",
+      "artist": "Anandilal Bhawel",
+      "album": "Unknown Album",
+      "duration": 507,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_023.mp3",
       "category": "rajasthani"
     }
   ],

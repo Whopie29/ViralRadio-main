@@ -99,7 +99,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Door Gagan Ki Chhaon Mein",
       "duration": 278,
-      "url": "/audio/90s_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_1.mp3",
       "category": "90s"
     },
     {
@@ -108,7 +108,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle",
       "album": "Waqt",
       "duration": 448,
-      "url": "/audio/90s_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_2.mp3",
       "category": "90s"
     },
     {
@@ -117,7 +117,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle",
       "album": "Howrah Bridge",
       "duration": 252,
-      "url": "/audio/90s_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_3.mp3",
       "category": "90s"
     },
     {
@@ -126,7 +126,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Laxmikant–Pyarelal",
       "album": "Loafer",
       "duration": 374,
-      "url": "/audio/90s_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_4.mp3",
       "category": "90s"
     },
     {
@@ -135,7 +135,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Masterworks Lata Mangeshkar",
       "duration": 251,
-      "url": "/audio/90s_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_5.mp3",
       "category": "90s"
     },
     {
@@ -144,7 +144,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Manna Dey",
       "album": "Chori Chori",
       "duration": 265,
-      "url": "/audio/90s_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_6.mp3",
       "category": "90s"
     },
     {
@@ -153,7 +153,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik, Himesh Reshammiya, Sameer Anjaan",
       "album": "Aitraaz",
       "duration": 341,
-      "url": "/audio/90s_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_7.mp3",
       "category": "90s"
     },
     {
@@ -162,7 +162,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle",
       "album": "Kismet",
       "duration": 352,
-      "url": "/audio/90s_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_8.mp3",
       "category": "90s"
     },
     {
@@ -171,7 +171,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Lata Mangeshkar, R. D. Burman",
       "album": "Ghar",
       "duration": 249,
-      "url": "/audio/90s_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_9.mp3",
       "category": "90s"
     },
     {
@@ -180,7 +180,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Anpadh",
       "duration": 234,
-      "url": "/audio/90s_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_10.mp3",
       "category": "90s"
     },
     {
@@ -189,7 +189,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Altaf Raja",
       "album": "Tum To Thehre Pardesi",
       "duration": 777,
-      "url": "/audio/90s_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_11.mp3",
       "category": "90s"
     },
     {
@@ -198,7 +198,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Raja Hindustani",
       "duration": 362,
-      "url": "/audio/90s_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_12.mp3",
       "category": "90s"
     },
     {
@@ -207,7 +207,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Aashiqui",
       "duration": 345,
-      "url": "/audio/90s_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_13.mp3",
       "category": "90s"
     },
     {
@@ -216,7 +216,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Mohammed Rafi",
       "album": "Hum Dono",
       "duration": 255,
-      "url": "/audio/90s_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_14.mp3",
       "category": "90s"
     },
     {
@@ -225,7 +225,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam",
       "album": "Bewafa Sanam",
       "duration": 311,
-      "url": "/audio/90s_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_15.mp3",
       "category": "90s"
     },
     {
@@ -234,7 +234,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Mahalakshmi Iyer",
       "album": "Dil Se",
       "duration": 349,
-      "url": "/audio/90s_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_16.mp3",
       "category": "90s"
     },
     {
@@ -243,7 +243,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, Udit Narayan",
       "album": "Qayamat Se Qayamat Tak",
       "duration": 355,
-      "url": "/audio/90s_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_17.mp3",
       "category": "90s"
     },
     {
@@ -252,7 +252,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Alka Yagnik, Udit Narayan",
       "album": "Lakshya",
       "duration": 292,
-      "url": "/audio/90s_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_18.mp3",
       "category": "90s"
     },
     {
@@ -261,7 +261,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Roop Kumar Rathod, Anu Malik, Udit Narayan",
       "album": "Zeher",
       "duration": 361,
-      "url": "/audio/90s_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_19.mp3",
       "category": "90s"
     },
     {
@@ -270,7 +270,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Kishore Kumar Songs",
       "duration": 262,
-      "url": "/audio/90s_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_20.mp3",
       "category": "90s"
     },
     {
@@ -279,7 +279,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Abhijeet, Sadhana Sargam",
       "album": "Qayamat",
       "duration": 277,
-      "url": "/audio/90s_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_21.mp3",
       "category": "90s"
     },
     {
@@ -288,7 +288,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Dil Apna Aur Preet Parai",
       "duration": 315,
-      "url": "/audio/90s_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_22.mp3",
       "category": "90s"
     },
     {
@@ -297,7 +297,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Aditya Narayan",
       "album": "Akele Hum Akele Tum",
       "duration": 288,
-      "url": "/audio/90s_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_23.mp3",
       "category": "90s"
     },
     {
@@ -306,7 +306,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Major Saab",
       "duration": 347,
-      "url": "/audio/90s_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_24.mp3",
       "category": "90s"
     },
     {
@@ -315,7 +315,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Bollywood Best Trio - Kumar Sanu, Nadeem - Shravan",
       "duration": 437,
-      "url": "/audio/90s_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_25.mp3",
       "category": "90s"
     },
     {
@@ -324,7 +324,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Saaya",
       "duration": 388,
-      "url": "/audio/90s_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_26.mp3",
       "category": "90s"
     },
     {
@@ -333,7 +333,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Razia Sultan",
       "duration": 339,
-      "url": "/audio/90s_027.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_27.mp3",
       "category": "90s"
     },
     {
@@ -342,7 +342,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amit Kumar, R. D. Burman",
       "album": "Balika Badhu",
       "duration": 312,
-      "url": "/audio/90s_028.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_28.mp3",
       "category": "90s"
     },
     {
@@ -351,7 +351,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, R. D. Burman",
       "album": "Anamika",
       "duration": 241,
-      "url": "/audio/90s_029.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_29.mp3",
       "category": "90s"
     },
     {
@@ -360,7 +360,7 @@ export const TRACK_CATEGORIES = {
       "artist": "S. P. Balasubrahmanyam",
       "album": "Saajan",
       "duration": 185,
-      "url": "/audio/90s_030.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_30.mp3",
       "category": "90s"
     },
     {
@@ -369,7 +369,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Darmiyaan: Mohd. Rafi and Lata Mangeshkar",
       "duration": 260,
-      "url": "/audio/90s_031.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_31.mp3",
       "category": "90s"
     },
     {
@@ -378,7 +378,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Hemant Kumar",
       "album": "Baarishein, Chai Aur Hemant Kumar",
       "duration": 189,
-      "url": "/audio/90s_032.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_32.mp3",
       "category": "90s"
     },
     {
@@ -387,7 +387,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
       "album": "Dil To Pagal Hai",
       "duration": 254,
-      "url": "/audio/90s_033.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_33.mp3",
       "category": "90s"
     },
     {
@@ -396,7 +396,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Kavita Krishnamurthy",
       "album": "Yaara Dildara (Original Mostion Picture Soundtrack)",
       "duration": 390,
-      "url": "/audio/90s_034.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_34.mp3",
       "category": "90s"
     },
     {
@@ -405,7 +405,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Dosti",
       "duration": 294,
-      "url": "/audio/90s_035.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_35.mp3",
       "category": "90s"
     },
     {
@@ -414,7 +414,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Kavita Krishnamurthy",
       "album": "Nayak",
       "duration": 398,
-      "url": "/audio/90s_036.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_36.mp3",
       "category": "90s"
     },
     {
@@ -423,7 +423,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Romantic Hits by Kishore Kumar",
       "duration": 317,
-      "url": "/audio/90s_037.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_37.mp3",
       "category": "90s"
     },
     {
@@ -432,7 +432,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Hum Dil De Chuke Sanam",
       "duration": 344,
-      "url": "/audio/90s_038.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_38.mp3",
       "category": "90s"
     },
     {
@@ -441,7 +441,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Chaudhvin Ka Chand",
       "duration": 223,
-      "url": "/audio/90s_039.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_39.mp3",
       "category": "90s"
     },
     {
@@ -450,7 +450,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Kumar Sanu",
       "album": "Suron Ki Mallika - Asha Bhosle",
       "duration": 358,
-      "url": "/audio/90s_040.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_40.mp3",
       "category": "90s"
     },
     {
@@ -459,7 +459,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Kishore Kumar Songs",
       "duration": 252,
-      "url": "/audio/90s_041.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_41.mp3",
       "category": "90s"
     },
     {
@@ -468,7 +468,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Hum Aapke Dil Mein Rahte Hain",
       "duration": 399,
-      "url": "/audio/90s_042.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_42.mp3",
       "category": "90s"
     },
     {
@@ -477,7 +477,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vinod Rathod",
       "album": "Baazigar",
       "duration": 419,
-      "url": "/audio/90s_043.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_43.mp3",
       "category": "90s"
     },
     {
@@ -486,7 +486,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Sujata Goswamy",
       "album": "Phool Aur Angaar",
       "duration": 279,
-      "url": "/audio/90s_044.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_44.mp3",
       "category": "90s"
     },
     {
@@ -495,7 +495,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Mission Kashmir",
       "duration": 296,
-      "url": "/audio/90s_045.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_45.mp3",
       "category": "90s"
     },
     {
@@ -504,7 +504,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Main Khiladi Tu Anari",
       "duration": 468,
-      "url": "/audio/90s_046.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_46.mp3",
       "category": "90s"
     },
     {
@@ -513,7 +513,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Mohammed Rafi",
       "album": "Yaadon Ki Baaraat",
       "duration": 287,
-      "url": "/audio/90s_047.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_47.mp3",
       "category": "90s"
     },
     {
@@ -522,7 +522,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, S. P. Balasubrahmanyam",
       "album": "My Best Collection - Alka Yagnik",
       "duration": 529,
-      "url": "/audio/90s_048.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_48.mp3",
       "category": "90s"
     },
     {
@@ -531,7 +531,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Chori Chori Chupke Chupke",
       "duration": 373,
-      "url": "/audio/90s_049.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_49.mp3",
       "category": "90s"
     },
     {
@@ -540,7 +540,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, Kumar Sanu",
       "album": "Phool Aur Kaante",
       "duration": 328,
-      "url": "/audio/90s_050.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_50.mp3",
       "category": "90s"
     },
     {
@@ -549,7 +549,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Rang",
       "duration": 313,
-      "url": "/audio/90s_051.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_51.mp3",
       "category": "90s"
     },
     {
@@ -558,7 +558,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle",
       "album": "Umrao Jaan",
       "duration": 370,
-      "url": "/audio/90s_052.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_52.mp3",
       "category": "90s"
     },
     {
@@ -567,7 +567,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Kumar Sanu",
       "album": "Daag The Fire",
       "duration": 376,
-      "url": "/audio/90s_053.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_53.mp3",
       "category": "90s"
     },
     {
@@ -576,7 +576,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Aashiqui",
       "duration": 298,
-      "url": "/audio/90s_054.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_54.mp3",
       "category": "90s"
     },
     {
@@ -585,7 +585,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, S. D. Burman",
       "album": "Tere Ghar Ke Samne",
       "duration": 199,
-      "url": "/audio/90s_055.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_55.mp3",
       "category": "90s"
     },
     {
@@ -594,7 +594,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Udit Narayan, Alka Yagnik",
       "album": "Dil Kya Kare",
       "duration": 267,
-      "url": "/audio/90s_056.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_56.mp3",
       "category": "90s"
     },
     {
@@ -603,7 +603,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Dhadkan",
       "duration": 426,
-      "url": "/audio/90s_057.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_57.mp3",
       "category": "90s"
     },
     {
@@ -612,7 +612,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh, Lata Mangeshkar",
       "album": "Madhumati",
       "duration": 207,
-      "url": "/audio/90s_058.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_58.mp3",
       "category": "90s"
     },
     {
@@ -621,7 +621,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
       "album": "Dil To Pagal Hai",
       "duration": 335,
-      "url": "/audio/90s_059.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_59.mp3",
       "category": "90s"
     },
     {
@@ -630,7 +630,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Anette, R. D. Burman",
       "album": "Romantic Hits by Kishore Kumar",
       "duration": 287,
-      "url": "/audio/90s_060.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_60.mp3",
       "category": "90s"
     },
     {
@@ -639,7 +639,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Mohd Rafi Ghazals And Geet",
       "duration": 210,
-      "url": "/audio/90s_061.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_61.mp3",
       "category": "90s"
     },
     {
@@ -648,7 +648,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, R. D. Burman",
       "album": "The Great Gambler",
       "duration": 279,
-      "url": "/audio/90s_062.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_62.mp3",
       "category": "90s"
     },
     {
@@ -657,7 +657,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sunita Rao",
       "album": "Gupt",
       "duration": 393,
-      "url": "/audio/90s_063.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_63.mp3",
       "category": "90s"
     },
     {
@@ -666,7 +666,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Junglee",
       "duration": 206,
-      "url": "/audio/90s_064.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_64.mp3",
       "category": "90s"
     },
     {
@@ -675,7 +675,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Dilwale",
       "duration": 266,
-      "url": "/audio/90s_065.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_65.mp3",
       "category": "90s"
     },
     {
@@ -684,7 +684,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Double Dose - Kishore Kumar and Rajesh Khanna",
       "duration": 266,
-      "url": "/audio/90s_066.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_66.mp3",
       "category": "90s"
     },
     {
@@ -693,7 +693,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Chalti Ka Naam Gaadi",
       "duration": 236,
-      "url": "/audio/90s_067.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_67.mp3",
       "category": "90s"
     },
     {
@@ -702,7 +702,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, R. D. Burman",
       "album": "1942 A Love Story",
       "duration": 275,
-      "url": "/audio/90s_068.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_68.mp3",
       "category": "90s"
     },
     {
@@ -711,7 +711,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Dheere Dheere Se - The Era Of Kumar Sanu",
       "duration": 372,
-      "url": "/audio/90s_069.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_69.mp3",
       "category": "90s"
     },
     {
@@ -720,7 +720,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Papa Kehte Hain",
       "duration": 442,
-      "url": "/audio/90s_070.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_70.mp3",
       "category": "90s"
     },
     {
@@ -729,7 +729,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Koyla",
       "duration": 372,
-      "url": "/audio/90s_071.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_71.mp3",
       "category": "90s"
     },
     {
@@ -738,7 +738,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, R. D. Burman",
       "album": "The Train",
       "duration": 198,
-      "url": "/audio/90s_072.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_72.mp3",
       "category": "90s"
     },
     {
@@ -747,7 +747,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Hemant Kumar",
       "album": "Baarishein, Chai Aur Hemant Kumar",
       "duration": 261,
-      "url": "/audio/90s_073.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_73.mp3",
       "category": "90s"
     },
     {
@@ -756,7 +756,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, S. D. Burman",
       "album": "Nau Do Gyarah",
       "duration": 291,
-      "url": "/audio/90s_074.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_74.mp3",
       "category": "90s"
     },
     {
@@ -765,7 +765,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Dil Ek Mandir",
       "duration": 286,
-      "url": "/audio/90s_075.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_75.mp3",
       "category": "90s"
     },
     {
@@ -774,7 +774,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jagjit Singh",
       "album": "Prem Geet",
       "duration": 294,
-      "url": "/audio/90s_076.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_76.mp3",
       "category": "90s"
     },
     {
@@ -783,7 +783,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Kumar Sanu, Nadeem Shravan, Syed Rahi",
       "album": "Jaan Tere Naam",
       "duration": 415,
-      "url": "/audio/90s_077.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_77.mp3",
       "category": "90s"
     },
     {
@@ -792,7 +792,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Haan Maine Bhi Pyaar Kiya",
       "duration": 426,
-      "url": "/audio/90s_078.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_78.mp3",
       "category": "90s"
     },
     {
@@ -801,7 +801,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Udit Narayan",
       "album": "Dil",
       "duration": 414,
-      "url": "/audio/90s_079.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_79.mp3",
       "category": "90s"
     },
     {
@@ -810,7 +810,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Haan Maine Bhi Pyaar Kiya",
       "duration": 434,
-      "url": "/audio/90s_080.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_80.mp3",
       "category": "90s"
     },
     {
@@ -819,7 +819,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sadhana Sargam",
       "album": "Dil",
       "duration": 373,
-      "url": "/audio/90s_081.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_81.mp3",
       "category": "90s"
     },
     {
@@ -828,7 +828,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Asha Bhosle",
       "album": "Sharaabi",
       "duration": 529,
-      "url": "/audio/90s_082.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_82.mp3",
       "category": "90s"
     },
     {
@@ -837,7 +837,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Udit Narayan",
       "album": "Jab Pyaar Kisise Hota Hai",
       "duration": 289,
-      "url": "/audio/90s_083.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_83.mp3",
       "category": "90s"
     },
     {
@@ -846,7 +846,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Imtihan",
       "duration": 443,
-      "url": "/audio/90s_084.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_84.mp3",
       "category": "90s"
     },
     {
@@ -855,7 +855,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Mohammed Rafi",
       "album": "Kashmir Ki Kali",
       "duration": 290,
-      "url": "/audio/90s_085.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_85.mp3",
       "category": "90s"
     },
     {
@@ -864,7 +864,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Vibha Sharma",
       "album": "Ishq",
       "duration": 454,
-      "url": "/audio/90s_086.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_86.mp3",
       "category": "90s"
     },
     {
@@ -873,7 +873,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Talat Mahmood, Lata Mangeshkar, Salil Chowdhury",
       "album": "Chhaya",
       "duration": 235,
-      "url": "/audio/90s_087.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_87.mp3",
       "category": "90s"
     },
     {
@@ -882,7 +882,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Darr",
       "duration": 279,
-      "url": "/audio/90s_088.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_88.mp3",
       "category": "90s"
     },
     {
@@ -891,7 +891,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Shreya Ghoshal",
       "album": "Zeher",
       "duration": 396,
-      "url": "/audio/90s_089.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_89.mp3",
       "category": "90s"
     },
     {
@@ -900,7 +900,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Dil Chahta Hai",
       "duration": 289,
-      "url": "/audio/90s_090.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_90.mp3",
       "category": "90s"
     },
     {
@@ -909,7 +909,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Bheegi Palken",
       "duration": 242,
-      "url": "/audio/90s_091.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_91.mp3",
       "category": "90s"
     },
     {
@@ -918,7 +918,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Mukesh, Laxmikant–Pyarelal",
       "album": "Dharti Kahe Pukar Ke",
       "duration": 326,
-      "url": "/audio/90s_092.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_92.mp3",
       "category": "90s"
     },
     {
@@ -927,7 +927,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik, Ajay Devgan",
       "album": "Bollywood Music - Kumar Sanu At His Best, Vol. 2",
       "duration": 458,
-      "url": "/audio/90s_093.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_93.mp3",
       "category": "90s"
     },
     {
@@ -936,7 +936,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pankaj Udhas",
       "album": "Saajan",
       "duration": 209,
-      "url": "/audio/90s_094.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_94.mp3",
       "category": "90s"
     },
     {
@@ -945,7 +945,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jagjit Singh",
       "album": "Arth",
       "duration": 302,
-      "url": "/audio/90s_095.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_95.mp3",
       "category": "90s"
     },
     {
@@ -954,7 +954,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
       "album": "Raaz",
       "duration": 339,
-      "url": "/audio/90s_096.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_96.mp3",
       "category": "90s"
     },
     {
@@ -963,7 +963,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Taj Mahal",
       "duration": 195,
-      "url": "/audio/90s_097.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_97.mp3",
       "category": "90s"
     },
     {
@@ -972,7 +972,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Mohra",
       "duration": 305,
-      "url": "/audio/90s_098.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_98.mp3",
       "category": "90s"
     },
     {
@@ -981,7 +981,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh, Lata Mangeshkar",
       "album": "#HumForLataDidi",
       "duration": 298,
-      "url": "/audio/90s_099.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_99.mp3",
       "category": "90s"
     },
     {
@@ -990,7 +990,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh, Salil Chowdhury",
       "album": "Anand",
       "duration": 337,
-      "url": "/audio/90s_100.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_100.mp3",
       "category": "90s"
     },
     {
@@ -999,7 +999,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, Kumar Sanu",
       "album": "Rang",
       "duration": 424,
-      "url": "/audio/90s_101.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_101.mp3",
       "category": "90s"
     },
     {
@@ -1008,7 +1008,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Kaho Naa Pyaar Hai",
       "duration": 67,
-      "url": "/audio/90s_102.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_102.mp3",
       "category": "90s"
     },
     {
@@ -1017,7 +1017,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Kasme Vaade",
       "duration": 285,
-      "url": "/audio/90s_103.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_103.mp3",
       "category": "90s"
     },
     {
@@ -1026,7 +1026,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Padosan",
       "duration": 221,
-      "url": "/audio/90s_104.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_104.mp3",
       "category": "90s"
     },
     {
@@ -1035,7 +1035,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Hema Sardesai",
       "album": "Mann",
       "duration": 282,
-      "url": "/audio/90s_105.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_105.mp3",
       "category": "90s"
     },
     {
@@ -1044,7 +1044,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Sharmilee",
       "duration": 242,
-      "url": "/audio/90s_106.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_106.mp3",
       "category": "90s"
     },
     {
@@ -1053,7 +1053,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Kala Bazar",
       "duration": 280,
-      "url": "/audio/90s_107.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_107.mp3",
       "category": "90s"
     },
     {
@@ -1062,7 +1062,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Abhijeet, Udit Narayan, Kavita Krishnamurthy",
       "album": "Khiladi",
       "duration": 393,
-      "url": "/audio/90s_108.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_108.mp3",
       "category": "90s"
     },
     {
@@ -1071,7 +1071,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, S. D. Burman",
       "album": "Teen Devian",
       "duration": 333,
-      "url": "/audio/90s_109.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_109.mp3",
       "category": "90s"
     },
     {
@@ -1080,7 +1080,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh",
       "album": "Anari",
       "duration": 267,
-      "url": "/audio/90s_110.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_110.mp3",
       "category": "90s"
     },
     {
@@ -1089,7 +1089,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Mukesh, Kalyanji-Anandji",
       "album": "Mere Humsafar",
       "duration": 344,
-      "url": "/audio/90s_111.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_111.mp3",
       "category": "90s"
     },
     {
@@ -1098,7 +1098,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Bollywood Best Trio - Kumar Sanu, Nadeem - Shravan",
       "duration": 354,
-      "url": "/audio/90s_112.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_112.mp3",
       "category": "90s"
     },
     {
@@ -1107,7 +1107,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, Udit Narayan",
       "album": "Raja Hindustani",
       "duration": 382,
-      "url": "/audio/90s_113.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_113.mp3",
       "category": "90s"
     },
     {
@@ -1116,7 +1116,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Udit Narayan",
       "album": "Beta",
       "duration": 336,
-      "url": "/audio/90s_114.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_114.mp3",
       "category": "90s"
     },
     {
@@ -1125,7 +1125,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Udit Narayan, Alka Yagnik",
       "album": "Kuch Kuch Hota Hai",
       "duration": 297,
-      "url": "/audio/90s_115.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_115.mp3",
       "category": "90s"
     },
     {
@@ -1134,7 +1134,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Sushma Shrestha",
       "album": "Bollywood Songs: From 28 Movies (1963-1978), Vol. 2",
       "duration": 265,
-      "url": "/audio/90s_116.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_116.mp3",
       "category": "90s"
     },
     {
@@ -1143,7 +1143,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Udit Narayan, Mehboob",
       "album": "Rangeela",
       "duration": 343,
-      "url": "/audio/90s_117.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_117.mp3",
       "category": "90s"
     },
     {
@@ -1152,7 +1152,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Anuradha Paudwal",
       "album": "Lal Dupatta Malmal Ka",
       "duration": 421,
-      "url": "/audio/90s_118.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_118.mp3",
       "category": "90s"
     },
     {
@@ -1161,7 +1161,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Tere Naam",
       "duration": 334,
-      "url": "/audio/90s_119.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_119.mp3",
       "category": "90s"
     },
     {
@@ -1170,7 +1170,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Lata Surili Phuljhadi",
       "duration": 257,
-      "url": "/audio/90s_120.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_120.mp3",
       "category": "90s"
     },
     {
@@ -1179,7 +1179,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Kanyadaan",
       "duration": 273,
-      "url": "/audio/90s_121.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_121.mp3",
       "category": "90s"
     },
     {
@@ -1188,7 +1188,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Barsaat",
       "duration": 346,
-      "url": "/audio/90s_122.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_122.mp3",
       "category": "90s"
     },
     {
@@ -1197,7 +1197,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Kumar Sanu",
       "album": "Aashiqui",
       "duration": 316,
-      "url": "/audio/90s_123.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_123.mp3",
       "category": "90s"
     },
     {
@@ -1206,7 +1206,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh",
       "album": "Bachchan Wala Love",
       "duration": 204,
-      "url": "/audio/90s_124.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_124.mp3",
       "category": "90s"
     },
     {
@@ -1215,7 +1215,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Laxmikant–Pyarelal",
       "album": "Loafer",
       "duration": 286,
-      "url": "/audio/90s_125.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_125.mp3",
       "category": "90s"
     },
     {
@@ -1224,7 +1224,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Madan Mohan, Udit Narayan, Javed Akhtar",
       "album": "Veer - Zaara",
       "duration": 294,
-      "url": "/audio/90s_126.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_126.mp3",
       "category": "90s"
     },
     {
@@ -1233,7 +1233,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Hum Dono",
       "duration": 230,
-      "url": "/audio/90s_127.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_127.mp3",
       "category": "90s"
     },
     {
@@ -1242,7 +1242,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Kumar Sanu",
       "album": "Phool Aur Kaante",
       "duration": 422,
-      "url": "/audio/90s_128.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_128.mp3",
       "category": "90s"
     },
     {
@@ -1251,7 +1251,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh",
       "album": "Mukesh Ki Barfi",
       "duration": 186,
-      "url": "/audio/90s_129.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_129.mp3",
       "category": "90s"
     },
     {
@@ -1260,7 +1260,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Anokhi Raat",
       "duration": 195,
-      "url": "/audio/90s_130.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_130.mp3",
       "category": "90s"
     },
     {
@@ -1269,7 +1269,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Udit Narayan",
       "album": "Dilwale Dulhania Le Jayenge",
       "duration": 286,
-      "url": "/audio/90s_131.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_131.mp3",
       "category": "90s"
     },
     {
@@ -1278,7 +1278,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Mann",
       "duration": 275,
-      "url": "/audio/90s_132.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_132.mp3",
       "category": "90s"
     },
     {
@@ -1287,7 +1287,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Lag Ja Gale - Best of Lata Mangeshkar and Madan Mohan",
       "duration": 363,
-      "url": "/audio/90s_133.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_133.mp3",
       "category": "90s"
     },
     {
@@ -1296,7 +1296,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sayeed Quadri",
       "album": "Jism",
       "duration": 277,
-      "url": "/audio/90s_134.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_134.mp3",
       "category": "90s"
     },
     {
@@ -1305,7 +1305,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Duplicate",
       "duration": 419,
-      "url": "/audio/90s_135.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_135.mp3",
       "category": "90s"
     },
     {
@@ -1314,7 +1314,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Krazy Kishore",
       "duration": 228,
-      "url": "/audio/90s_136.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_136.mp3",
       "category": "90s"
     },
     {
@@ -1323,7 +1323,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sadhana Sargam, Udit Narayan",
       "album": "Gupt",
       "duration": 350,
-      "url": "/audio/90s_137.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_137.mp3",
       "category": "90s"
     },
     {
@@ -1332,7 +1332,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Anamika",
       "duration": 246,
-      "url": "/audio/90s_138.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_138.mp3",
       "category": "90s"
     },
     {
@@ -1341,7 +1341,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Aur Pyar Ho Gaya",
       "duration": 459,
-      "url": "/audio/90s_139.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_139.mp3",
       "category": "90s"
     },
     {
@@ -1350,7 +1350,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Alka Yagnik, Udit Narayan, Sukhwinder Singh, Srinivas",
       "album": "Lagaan",
       "duration": 407,
-      "url": "/audio/90s_140.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_140.mp3",
       "category": "90s"
     },
     {
@@ -1359,7 +1359,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Swayamvar",
       "duration": 256,
-      "url": "/audio/90s_141.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_141.mp3",
       "category": "90s"
     },
     {
@@ -1368,7 +1368,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Hum Hain Rahi Pyar Ke",
       "duration": 311,
-      "url": "/audio/90s_142.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_142.mp3",
       "category": "90s"
     },
     {
@@ -1377,7 +1377,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pankaj Udhas, Sadhana Sargam",
       "album": "Mohra (With Jhankar Beats)",
       "duration": 322,
-      "url": "/audio/90s_143.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_143.mp3",
       "category": "90s"
     },
     {
@@ -1386,7 +1386,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Hemant Kumar",
       "album": "Baat Ek Raat Ki",
       "duration": 201,
-      "url": "/audio/90s_144.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_144.mp3",
       "category": "90s"
     },
     {
@@ -1395,7 +1395,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Sadhana Sargam",
       "album": "Barsaat",
       "duration": 364,
-      "url": "/audio/90s_145.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_145.mp3",
       "category": "90s"
     },
     {
@@ -1404,7 +1404,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Mera Saaya",
       "duration": 213,
-      "url": "/audio/90s_146.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_146.mp3",
       "category": "90s"
     },
     {
@@ -1413,7 +1413,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Mann",
       "duration": 316,
-      "url": "/audio/90s_147.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_147.mp3",
       "category": "90s"
     },
     {
@@ -1422,7 +1422,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Laxmikant–Pyarelal",
       "album": "Hero",
       "duration": 380,
-      "url": "/audio/90s_148.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_148.mp3",
       "category": "90s"
     },
     {
@@ -1431,7 +1431,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Mere Jeevan Saathi",
       "duration": 273,
-      "url": "/audio/90s_149.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_149.mp3",
       "category": "90s"
     },
     {
@@ -1440,7 +1440,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Kalyanji-Anandji",
       "album": "Muqaddar Ka Sikandar",
       "duration": 269,
-      "url": "/audio/90s_150.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_150.mp3",
       "category": "90s"
     },
     {
@@ -1449,7 +1449,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anand Raj Anand",
       "album": "Hadh Kar Di Aapne",
       "duration": 353,
-      "url": "/audio/90s_151.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_151.mp3",
       "category": "90s"
     },
     {
@@ -1458,7 +1458,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Bollywood Music - Kumar Sanu At His Best, Vol. 1",
       "duration": 372,
-      "url": "/audio/90s_152.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_152.mp3",
       "category": "90s"
     },
     {
@@ -1467,7 +1467,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "The Golden Years, Vol. 1",
       "duration": 328,
-      "url": "/audio/90s_153.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_153.mp3",
       "category": "90s"
     },
     {
@@ -1476,7 +1476,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Qayamat Se Qayamat Tak",
       "duration": 353,
-      "url": "/audio/90s_154.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_154.mp3",
       "category": "90s"
     },
     {
@@ -1485,7 +1485,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sadhana Sargam",
       "album": "Jo Jeeta Wohi Sikandar",
       "duration": 291,
-      "url": "/audio/90s_155.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_155.mp3",
       "category": "90s"
     },
     {
@@ -1494,7 +1494,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Dheere Dheere Se - The Era Of Kumar Sanu",
       "duration": 458,
-      "url": "/audio/90s_156.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_156.mp3",
       "category": "90s"
     },
     {
@@ -1503,7 +1503,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Udit Narayan",
       "album": "Phir Bhi Dil Hai Hindustani",
       "duration": 240,
-      "url": "/audio/90s_157.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_157.mp3",
       "category": "90s"
     },
     {
@@ -1512,7 +1512,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Prem Pujari",
       "duration": 306,
-      "url": "/audio/90s_158.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_158.mp3",
       "category": "90s"
     },
     {
@@ -1521,7 +1521,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Anari",
       "duration": 408,
-      "url": "/audio/90s_159.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_159.mp3",
       "category": "90s"
     },
     {
@@ -1530,7 +1530,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Phool Aur Kaante",
       "duration": 296,
-      "url": "/audio/90s_160.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_160.mp3",
       "category": "90s"
     },
     {
@@ -1539,7 +1539,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Kati Patang",
       "duration": 284,
-      "url": "/audio/90s_161.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_161.mp3",
       "category": "90s"
     },
     {
@@ -1548,7 +1548,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manna Dey, Lata Mangeshkar",
       "album": "Shree 420",
       "duration": 260,
-      "url": "/audio/90s_162.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_162.mp3",
       "category": "90s"
     },
     {
@@ -1557,7 +1557,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Kaho Naa Pyar Hai",
       "duration": 356,
-      "url": "/audio/90s_163.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_163.mp3",
       "category": "90s"
     },
     {
@@ -1566,7 +1566,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Vijaypath",
       "duration": 519,
-      "url": "/audio/90s_164.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_164.mp3",
       "category": "90s"
     },
     {
@@ -1575,7 +1575,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Refugee",
       "duration": 396,
-      "url": "/audio/90s_165.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_165.mp3",
       "category": "90s"
     },
     {
@@ -1584,7 +1584,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Asha Bhosle, Udit Narayan, Vaishali Samant, A.R. Rahman",
       "album": "Lagaan",
       "duration": 334,
-      "url": "/audio/90s_166.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_166.mp3",
       "category": "90s"
     },
     {
@@ -1593,7 +1593,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik, Sonu Nigam",
       "album": "Ram Jaane",
       "duration": 455,
-      "url": "/audio/90s_167.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_167.mp3",
       "category": "90s"
     },
     {
@@ -1602,7 +1602,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Lata Mangeshkar",
       "album": "In Love with Kishore Kumar",
       "duration": 216,
-      "url": "/audio/90s_168.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_168.mp3",
       "category": "90s"
     },
     {
@@ -1611,7 +1611,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Dilwale Dulhania Le Jayenge",
       "duration": 312,
-      "url": "/audio/90s_169.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_169.mp3",
       "category": "90s"
     },
     {
@@ -1620,7 +1620,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Romantic Hits by Kishore Kumar",
       "duration": 303,
-      "url": "/audio/90s_170.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_170.mp3",
       "category": "90s"
     },
     {
@@ -1629,7 +1629,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Kishore Kumar, R. D. Burman",
       "album": "Saagar",
       "duration": 257,
-      "url": "/audio/90s_171.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_171.mp3",
       "category": "90s"
     },
     {
@@ -1638,7 +1638,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Dilwale",
       "duration": 339,
-      "url": "/audio/90s_172.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_172.mp3",
       "category": "90s"
     },
     {
@@ -1647,7 +1647,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Sapna Awasthi, Bali Brahmbhatt, Kartik Awasthi",
       "album": "Hum Tumhare Hain Sanam",
       "duration": 475,
-      "url": "/audio/90s_173.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_173.mp3",
       "category": "90s"
     },
     {
@@ -1656,7 +1656,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Kalyanji-Anandji",
       "album": "Ghar Ghar Ki Kahani",
       "duration": 206,
-      "url": "/audio/90s_174.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_174.mp3",
       "category": "90s"
     },
     {
@@ -1665,7 +1665,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Vipin Sachdeva",
       "album": "Sanam Bewafa",
       "duration": 370,
-      "url": "/audio/90s_175.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_175.mp3",
       "category": "90s"
     },
     {
@@ -1674,7 +1674,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Saaya",
       "duration": 428,
-      "url": "/audio/90s_176.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_176.mp3",
       "category": "90s"
     },
     {
@@ -1683,7 +1683,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sapna Avasthi",
       "album": "Jis Desh Mein Ganga Rehta Hai",
       "duration": 301,
-      "url": "/audio/90s_177.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_177.mp3",
       "category": "90s"
     },
     {
@@ -1692,7 +1692,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Bollywood Best Trio - Kumar Sanu, Nadeem - Shravan",
       "duration": 362,
-      "url": "/audio/90s_178.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_178.mp3",
       "category": "90s"
     },
     {
@@ -1701,7 +1701,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mukesh",
       "album": "Madhumati",
       "duration": 229,
-      "url": "/audio/90s_179.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_179.mp3",
       "category": "90s"
     },
     {
@@ -1710,7 +1710,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Kavita Krishnamurthy, Swarnalatha",
       "album": "Pukar",
       "duration": 396,
-      "url": "/audio/90s_180.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_180.mp3",
       "category": "90s"
     },
     {
@@ -1719,7 +1719,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Barkha",
       "duration": 201,
-      "url": "/audio/90s_181.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_181.mp3",
       "category": "90s"
     },
     {
@@ -1728,7 +1728,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Sushma Shrestha, R. D. Burman",
       "album": "Aa Gale Lag Jaa",
       "duration": 254,
-      "url": "/audio/90s_182.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_182.mp3",
       "category": "90s"
     },
     {
@@ -1737,7 +1737,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manhar Udhas, Anuradha Paudwal, Laxmikant–Pyarelal",
       "album": "Ram Lakhan",
       "duration": 356,
-      "url": "/audio/90s_183.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_183.mp3",
       "category": "90s"
     },
     {
@@ -1746,7 +1746,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Phir Teri Kahani Yaad Aayee",
       "duration": 368,
-      "url": "/audio/90s_184.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_184.mp3",
       "category": "90s"
     },
     {
@@ -1755,7 +1755,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Deewana",
       "duration": 291,
-      "url": "/audio/90s_185.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_185.mp3",
       "category": "90s"
     },
     {
@@ -1764,7 +1764,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "90's Bollywood Sad Songs (With Jhankar Beats)",
       "duration": 281,
-      "url": "/audio/90s_186.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_186.mp3",
       "category": "90s"
     },
     {
@@ -1773,7 +1773,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Kishore Kumar",
       "album": "In Love with Kishore Kumar",
       "duration": 294,
-      "url": "/audio/90s_187.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_187.mp3",
       "category": "90s"
     },
     {
@@ -1782,7 +1782,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Guide",
       "duration": 261,
-      "url": "/audio/90s_188.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_188.mp3",
       "category": "90s"
     },
     {
@@ -1791,7 +1791,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Tere Naam",
       "duration": 391,
-      "url": "/audio/90s_189.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_189.mp3",
       "category": "90s"
     },
     {
@@ -1800,7 +1800,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Mohammed Rafi, S. D. Burman",
       "album": "Abhimaan",
       "duration": 272,
-      "url": "/audio/90s_190.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_190.mp3",
       "category": "90s"
     },
     {
@@ -1809,7 +1809,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Hawas",
       "duration": 283,
-      "url": "/audio/90s_191.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_191.mp3",
       "category": "90s"
     },
     {
@@ -1818,7 +1818,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Sadhana Sargam",
       "album": "Deewana",
       "duration": 379,
-      "url": "/audio/90s_192.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_192.mp3",
       "category": "90s"
     },
     {
@@ -1827,7 +1827,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik",
       "album": "My Best Collection - Alka Yagnik",
       "duration": 389,
-      "url": "/audio/90s_193.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_193.mp3",
       "category": "90s"
     },
     {
@@ -1836,7 +1836,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Udit Narayan",
       "album": "Darr",
       "duration": 366,
-      "url": "/audio/90s_194.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_194.mp3",
       "category": "90s"
     },
     {
@@ -1845,7 +1845,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal, Kumar Sanu",
       "album": "Aashiqui",
       "duration": 283,
-      "url": "/audio/90s_195.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_195.mp3",
       "category": "90s"
     },
     {
@@ -1854,7 +1854,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anuradha Paudwal",
       "album": "Anuradha Paudwal Songs, Vol.1",
       "duration": 405,
-      "url": "/audio/90s_196.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_196.mp3",
       "category": "90s"
     },
     {
@@ -1863,7 +1863,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Woh Jab Yaad Aaye - Lata and Mohd. Rafi",
       "duration": 199,
-      "url": "/audio/90s_197.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_197.mp3",
       "category": "90s"
     },
     {
@@ -1872,7 +1872,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Sunidhi Chauhan",
       "album": "Jaanwar",
       "duration": 293,
-      "url": "/audio/90s_198.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_198.mp3",
       "category": "90s"
     },
     {
@@ -1881,7 +1881,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Dhadkan",
       "duration": 314,
-      "url": "/audio/90s_199.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_199.mp3",
       "category": "90s"
     },
     {
@@ -1890,7 +1890,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jagjit Singh",
       "album": "Kaifi Azmi Ki Kalam Se",
       "duration": 321,
-      "url": "/audio/90s_200.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_200.mp3",
       "category": "90s"
     },
     {
@@ -1899,7 +1899,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi",
       "album": "Hanste Zakhm",
       "duration": 486,
-      "url": "/audio/90s_201.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_201.mp3",
       "category": "90s"
     },
     {
@@ -1908,7 +1908,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tauseef Akhtar",
       "album": "Tum Se Achcha Kaun Hain",
       "duration": 304,
-      "url": "/audio/90s_202.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_202.mp3",
       "category": "90s"
     },
     {
@@ -1917,7 +1917,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Altaf Raja",
       "album": "Tum To Thehre Pardesi",
       "duration": 874,
-      "url": "/audio/90s_203.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_203.mp3",
       "category": "90s"
     },
     {
@@ -1926,7 +1926,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu",
       "album": "Sadak",
       "duration": 339,
-      "url": "/audio/90s_204.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_204.mp3",
       "category": "90s"
     },
     {
@@ -1935,7 +1935,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kumar Sanu, Alka Yagnik",
       "album": "Khuddar",
       "duration": 342,
-      "url": "/audio/90s_205.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_205.mp3",
       "category": "90s"
     },
     {
@@ -1944,7 +1944,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Alka Yagnik",
       "album": "Tere Naam",
       "duration": 279,
-      "url": "/audio/90s_206.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_206.mp3",
       "category": "90s"
     },
     {
@@ -1953,7 +1953,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alka Yagnik, Kumar Sanu",
       "album": "Phool Aur Kaante",
       "duration": 300,
-      "url": "/audio/90s_207.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_207.mp3",
       "category": "90s"
     },
     {
@@ -1962,7 +1962,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Asha Bhosle",
       "album": "Naya Daur",
       "duration": 295,
-      "url": "/audio/90s_208.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_208.mp3",
       "category": "90s"
     },
     {
@@ -1971,7 +1971,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Jhuk Gaya Aasman",
       "duration": 245,
-      "url": "/audio/90s_209.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_209.mp3",
       "category": "90s"
     },
     {
@@ -1980,7 +1980,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Mohammed Rafi",
       "album": "Shagird",
       "duration": 353,
-      "url": "/audio/90s_210.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_210.mp3",
       "category": "90s"
     },
     {
@@ -1989,7 +1989,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sadhana Sargam",
       "album": "Hum Hain Rahi Pyar Ke",
       "duration": 298,
-      "url": "/audio/90s_211.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_211.mp3",
       "category": "90s"
     },
     {
@@ -1998,7 +1998,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Hemant Kumar",
       "album": "Patita",
       "duration": 254,
-      "url": "/audio/90s_212.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_212.mp3",
       "category": "90s"
     },
     {
@@ -2007,7 +2007,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Udit Narayan, K. S. Chithra, Mehboob",
       "album": "Rangeela",
       "duration": 354,
-      "url": "/audio/90s_213.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_213.mp3",
       "category": "90s"
     },
     {
@@ -2016,7 +2016,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar",
       "album": "Kati Patang",
       "duration": 247,
-      "url": "/audio/90s_214.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_214.mp3",
       "category": "90s"
     },
     {
@@ -2025,7 +2025,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar, Amitabh Bachchan, Javed Akhtar",
       "album": "Silsila",
       "duration": 474,
-      "url": "/audio/90s_215.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_215.mp3",
       "category": "90s"
     },
     {
@@ -2034,7 +2034,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Udit Narayan, Alka Yagnik",
       "album": "Kuch Kuch Hota Hai",
       "duration": 397,
-      "url": "/audio/90s_216.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_216.mp3",
       "category": "90s"
     },
     {
@@ -2043,7 +2043,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manna Dey, Lata Mangeshkar",
       "album": "Chori Chori",
       "duration": 269,
-      "url": "/audio/90s_217.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_217.mp3",
       "category": "90s"
     },
     {
@@ -2052,7 +2052,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Hemant Kumar, S. D. Burman",
       "album": "Jaal",
       "duration": 296,
-      "url": "/audio/90s_218.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_218.mp3",
       "category": "90s"
     },
     {
@@ -2061,7 +2061,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Asha Bhosle",
       "album": "Dilli Ka Thug",
       "duration": 201,
-      "url": "/audio/90s_219.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_219.mp3",
       "category": "90s"
     },
     {
@@ -2070,7 +2070,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lata Mangeshkar",
       "album": "Julie",
       "duration": 336,
-      "url": "/audio/90s_220.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_220.mp3",
       "category": "90s"
     },
     {
@@ -2079,7 +2079,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, R. D. Burman",
       "album": "Kati Patang",
       "duration": 276,
-      "url": "/audio/90s_221.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_221.mp3",
       "category": "90s"
     },
     {
@@ -2088,7 +2088,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Master Vignesh, Baby Miss Pooja, Kids",
       "album": "Swades",
       "duration": 432,
-      "url": "/audio/90s_222.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_222.mp3",
       "category": "90s"
     },
     {
@@ -2097,7 +2097,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Hariharan, Kailash Kher",
       "album": "Swades",
       "duration": 447,
-      "url": "/audio/90s_223.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_223.mp3",
       "category": "90s"
     },
     {
@@ -2106,7 +2106,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohammed Rafi, Lata Mangeshkar",
       "album": "Sachaa Jhutha",
       "duration": 257,
-      "url": "/audio/90s_224.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_224.mp3",
       "category": "90s"
     },
     {
@@ -2115,7 +2115,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manna Dey, Salil Chowdhury",
       "album": "Anand",
       "duration": 209,
-      "url": "/audio/90s_225.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/old 90s/90s_225.mp3",
       "category": "90s"
     }
   ],
@@ -2126,7 +2126,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jal, Mithoon, Atif Aslam",
       "album": "Kalyug",
       "duration": 333,
-      "url": "/audio/nostalgic_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_1.mp3",
       "category": "nostalgic"
     },
     {
@@ -2135,7 +2135,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Master Saleem, Suzi Q, Irshad Kamil",
       "album": "Love Aaj Kal",
       "duration": 290,
-      "url": "/audio/nostalgic_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_2.mp3",
       "category": "nostalgic"
     },
     {
@@ -2144,7 +2144,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amit Trivedi, Arijit Singh",
       "album": "Padman",
       "duration": 312,
-      "url": "/audio/nostalgic_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_3.mp3",
       "category": "nostalgic"
     },
     {
@@ -2153,7 +2153,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Swanand Kirkire, Sonu Nigam, Shaan",
       "album": "3 Idiots",
       "duration": 276,
-      "url": "/audio/nostalgic_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_4.mp3",
       "category": "nostalgic"
     },
     {
@@ -2162,7 +2162,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Shaan, Ustad Sultan Khan, Irshad Kamil",
       "album": "Jab We Met",
       "duration": 325,
-      "url": "/audio/nostalgic_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_5.mp3",
       "category": "nostalgic"
     },
     {
@@ -2171,7 +2171,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mika Singh, Sunidhi Chauhan, Sajid Khan",
       "album": "Housefull",
       "duration": 307,
-      "url": "/audio/nostalgic_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_6.mp3",
       "category": "nostalgic"
     },
     {
@@ -2180,7 +2180,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Rahat Fateh Ali Khan",
       "album": "Anjaana Anjaani",
       "duration": 319,
-      "url": "/audio/nostalgic_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_7.mp3",
       "category": "nostalgic"
     },
     {
@@ -2189,7 +2189,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Himesh Reshammiya, Sunidhi Chauhan",
       "album": "36 China Town",
       "duration": 293,
-      "url": "/audio/nostalgic_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_8.mp3",
       "category": "nostalgic"
     },
     {
@@ -2198,7 +2198,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, KK, Shreya Ghoshal, Vishal Dadlani, Javed Akhtar",
       "album": "Ta Ra Rum Pum",
       "duration": 301,
-      "url": "/audio/nostalgic_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_9.mp3",
       "category": "nostalgic"
     },
     {
@@ -2207,7 +2207,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ajay-Atul, Sonu Nigam",
       "album": "Agneepath",
       "duration": 364,
-      "url": "/audio/nostalgic_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_10.mp3",
       "category": "nostalgic"
     },
     {
@@ -2216,7 +2216,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam",
       "album": "Garam Masala",
       "duration": 287,
-      "url": "/audio/nostalgic_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_11.mp3",
       "category": "nostalgic"
     },
     {
@@ -2225,7 +2225,7 @@ export const TRACK_CATEGORIES = {
       "artist": "KK",
       "album": "Teri Yaadon Mein - K.K.",
       "duration": 241,
-      "url": "/audio/nostalgic_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_12.mp3",
       "category": "nostalgic"
     },
     {
@@ -2234,7 +2234,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Antara Mitra",
       "album": "Golmaal 3",
       "duration": 279,
-      "url": "/audio/nostalgic_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_13.mp3",
       "category": "nostalgic"
     },
     {
@@ -2243,7 +2243,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, KK, Sameer Anjaan",
       "album": "Bhool Bhulaiyaa",
       "duration": 270,
-      "url": "/audio/nostalgic_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_14.mp3",
       "category": "nostalgic"
     },
     {
@@ -2252,7 +2252,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Sonu Nigam, Shilpa Rao",
       "album": "Desi Boyz",
       "duration": 230,
-      "url": "/audio/nostalgic_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_15.mp3",
       "category": "nostalgic"
     },
     {
@@ -2261,7 +2261,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Shaan, Anushka Manchanda",
       "album": "Golmaal 3",
       "duration": 265,
-      "url": "/audio/nostalgic_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_16.mp3",
       "category": "nostalgic"
     },
     {
@@ -2270,7 +2270,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Salim Merchant",
       "album": "Paathshaala",
       "duration": 280,
-      "url": "/audio/nostalgic_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_17.mp3",
       "category": "nostalgic"
     },
     {
@@ -2279,7 +2279,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sohail Sen, Sukhwinder Singh, Neelesh Misra",
       "album": "Ek Tha Tiger",
       "duration": 273,
-      "url": "/audio/nostalgic_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_18.mp3",
       "category": "nostalgic"
     },
     {
@@ -2288,7 +2288,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Shreya Ghoshal, Uday Mazumdar",
       "album": "Guru",
       "duration": 329,
-      "url": "/audio/nostalgic_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_19.mp3",
       "category": "nostalgic"
     },
     {
@@ -2297,7 +2297,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mika Singh, Neeraj Shridhar, Ashish Pandit, Hard Kaur, Mayur Puri",
       "album": "Singh Is Kinng",
       "duration": 280,
-      "url": "/audio/nostalgic_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_20.mp3",
       "category": "nostalgic"
     },
     {
@@ -2306,7 +2306,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shantanu Moitra, Shaan",
       "album": "3 Idiots",
       "duration": 302,
-      "url": "/audio/nostalgic_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_21.mp3",
       "category": "nostalgic"
     },
     {
@@ -2315,7 +2315,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar",
       "album": "Bhagam Bhag",
       "duration": 276,
-      "url": "/audio/nostalgic_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_22.mp3",
       "category": "nostalgic"
     },
     {
@@ -2324,7 +2324,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mohit Chauhan, Antara Mitra",
       "album": "Raajneeti",
       "duration": 278,
-      "url": "/audio/nostalgic_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_23.mp3",
       "category": "nostalgic"
     },
     {
@@ -2333,7 +2333,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Sameer Anjaan",
       "album": "Bhool Bhulaiyaa",
       "duration": 325,
-      "url": "/audio/nostalgic_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_24.mp3",
       "category": "nostalgic"
     },
     {
@@ -2342,7 +2342,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Arijit Singh, A.M. Turaz, Sanjay Leela Bhansali",
       "album": "Padmaavat",
       "duration": 192,
-      "url": "/audio/nostalgic_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_25.mp3",
       "category": "nostalgic"
     },
     {
@@ -2351,7 +2351,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Rahat Fateh Ali Khan, Mahalakshmi Iyer, Gulzar",
       "album": "Jhoom Barabar Jhoom",
       "duration": 306,
-      "url": "/audio/nostalgic_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_26.mp3",
       "category": "nostalgic"
     },
     {
@@ -2360,7 +2360,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Meet Bros Anjjan, Yo Yo Honey Singh",
       "album": "Yo Yo Honey Singh Is Back",
       "duration": 288,
-      "url": "/audio/nostalgic_027.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_27.mp3",
       "category": "nostalgic"
     },
     {
@@ -2369,7 +2369,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Papon, Irshad Kamil",
       "album": "Sultan",
       "duration": 357,
-      "url": "/audio/nostalgic_028.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_28.mp3",
       "category": "nostalgic"
     },
     {
@@ -2378,7 +2378,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Robert Uhlmarash",
       "album": "Bluff Master",
       "duration": 186,
-      "url": "/audio/nostalgic_029.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_29.mp3",
       "category": "nostalgic"
     },
     {
@@ -2387,7 +2387,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Abhijeet, Jatin-Lalit",
       "album": "Yes Boss",
       "duration": 289,
-      "url": "/audio/nostalgic_030.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_30.mp3",
       "category": "nostalgic"
     },
     {
@@ -2396,7 +2396,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Palak Muchhal, Arijit Singh",
       "album": "Best Of Palak Muchhal",
       "duration": 304,
-      "url": "/audio/nostalgic_031.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_31.mp3",
       "category": "nostalgic"
     },
     {
@@ -2405,7 +2405,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sukhwinder Singh, Sapna Awasthi",
       "album": "Dil Se",
       "duration": 406,
-      "url": "/audio/nostalgic_032.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_32.mp3",
       "category": "nostalgic"
     },
     {
@@ -2414,7 +2414,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Akon, Hamsika Iyer, Vishal Dadlani, Niranjan Iyengar",
       "album": "Ra-One",
       "duration": 227,
-      "url": "/audio/nostalgic_033.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_33.mp3",
       "category": "nostalgic"
     },
     {
@@ -2423,7 +2423,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Shaan, Kailash Kher, Prasoon Joshi",
       "album": "Fanaa",
       "duration": 275,
-      "url": "/audio/nostalgic_034.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_34.mp3",
       "category": "nostalgic"
     },
     {
@@ -2432,7 +2432,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Sunidhi Chauhan, Piyush Mishra, Anvita Dutt Guptan",
       "album": "Tashan",
       "duration": 285,
-      "url": "/audio/nostalgic_035.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_35.mp3",
       "category": "nostalgic"
     },
     {
@@ -2441,7 +2441,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kishore Kumar, Asha Bhosle, S. D. Burman",
       "album": "Paying Guest",
       "duration": 250,
-      "url": "/audio/nostalgic_036.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_36.mp3",
       "category": "nostalgic"
     },
     {
@@ -2450,7 +2450,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Arnab Chakraborty, Pallavi Kelkar, S.D.Burmanuj Mathews",
       "album": "G-16 - Genext- Hot Remixes",
       "duration": 216,
-      "url": "/audio/nostalgic_037.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_37.mp3",
       "category": "nostalgic"
     },
     {
@@ -2459,7 +2459,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sohail Sen, Benny Dayal, Aditi Singh Sharma, Irshad Kamil",
       "album": "Mere Brother Ki Dulhan",
       "duration": 260,
-      "url": "/audio/nostalgic_038.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_38.mp3",
       "category": "nostalgic"
     },
     {
@@ -2468,7 +2468,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Sunidhi Chauhan",
       "album": "Love Aaj Kal",
       "duration": 257,
-      "url": "/audio/nostalgic_039.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_39.mp3",
       "category": "nostalgic"
     },
     {
@@ -2477,7 +2477,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Shreya Ghoshal",
       "album": "Krrish",
       "duration": 388,
-      "url": "/audio/nostalgic_040.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_40.mp3",
       "category": "nostalgic"
     },
     {
@@ -2486,7 +2486,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Akon, Vishal Dadlani, Shruti Pathak, Kumaar",
       "album": "Ra-One",
       "duration": 306,
-      "url": "/audio/nostalgic_041.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_41.mp3",
       "category": "nostalgic"
     },
     {
@@ -2495,7 +2495,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sukhwinder Singh, Marianne, Nisha, Caralisa Monteiro, Vishal-Shekhar, Javed Akhtar",
       "album": "Om Shanti Om",
       "duration": 268,
-      "url": "/audio/nostalgic_042.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_42.mp3",
       "category": "nostalgic"
     },
     {
@@ -2504,7 +2504,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan",
       "album": "Pyaar Kiya To Darna Kya",
       "duration": 328,
-      "url": "/audio/nostalgic_043.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_43.mp3",
       "category": "nostalgic"
     },
     {
@@ -2513,7 +2513,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sanjay Leela Bhansali, Shreya Ghoshal, Ganesh Chandanshive, Mujtaba Aziz Naza, Shadab Faridi, Altamash Faridi, Farhan Sabri, Siddharth - Garima",
       "album": "Bajirao Mastani",
       "duration": 339,
-      "url": "/audio/nostalgic_044.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_44.mp3",
       "category": "nostalgic"
     },
     {
@@ -2522,7 +2522,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Adnan Sami, Shaan",
       "album": "Dhamaal",
       "duration": 313,
-      "url": "/audio/nostalgic_045.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_45.mp3",
       "category": "nostalgic"
     },
     {
@@ -2531,7 +2531,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Udit Narayan, Sunidhi Chauhan, Nihira Joshi, Gulzar",
       "album": "Bunty Aur Babli",
       "duration": 392,
-      "url": "/audio/nostalgic_046.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_46.mp3",
       "category": "nostalgic"
     },
     {
@@ -2540,7 +2540,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Sunidhi Chauhan, Sameer Anjaan",
       "album": "Dhoom",
       "duration": 374,
-      "url": "/audio/nostalgic_047.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_47.mp3",
       "category": "nostalgic"
     },
     {
@@ -2549,7 +2549,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shaan, Neeraj, Shaznine",
       "album": "Maine Pyaar Kyun Kiya",
       "duration": 321,
-      "url": "/audio/nostalgic_048.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_48.mp3",
       "category": "nostalgic"
     },
     {
@@ -2558,7 +2558,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Shreya Ghoshal",
       "album": "Khakee",
       "duration": 229,
-      "url": "/audio/nostalgic_049.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_49.mp3",
       "category": "nostalgic"
     },
     {
@@ -2567,7 +2567,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Sukhwinder Singh, Piyush Mishra",
       "album": "Tashan",
       "duration": 351,
-      "url": "/audio/nostalgic_050.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_50.mp3",
       "category": "nostalgic"
     },
     {
@@ -2576,7 +2576,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kunal Ganjawala",
       "album": "Krrish",
       "duration": 354,
-      "url": "/audio/nostalgic_051.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_51.mp3",
       "category": "nostalgic"
     },
     {
@@ -2585,7 +2585,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Abhijeet, Sowmya Raoh, Sameer Anjaan",
       "album": "Dhoom",
       "duration": 271,
-      "url": "/audio/nostalgic_052.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_52.mp3",
       "category": "nostalgic"
     },
     {
@@ -2594,7 +2594,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shafqat Amanat Ali, Kumaar",
       "album": "Ra-One",
       "duration": 249,
-      "url": "/audio/nostalgic_053.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_53.mp3",
       "category": "nostalgic"
     },
     {
@@ -2603,7 +2603,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shaan, Shreya Ghoshal",
       "album": "Housefull 2",
       "duration": 322,
-      "url": "/audio/nostalgic_054.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_54.mp3",
       "category": "nostalgic"
     },
     {
@@ -2612,7 +2612,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shaan, KK",
       "album": "Dus",
       "duration": 207,
-      "url": "/audio/nostalgic_055.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_55.mp3",
       "category": "nostalgic"
     },
     {
@@ -2621,7 +2621,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lucky Ali",
       "album": "Kaho Naa Pyar Hai",
       "duration": 397,
-      "url": "/audio/nostalgic_056.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_56.mp3",
       "category": "nostalgic"
     },
     {
@@ -2630,7 +2630,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Udit Narayan, Mahalakshmi Iyer, Kausar Munir",
       "album": "Tashan",
       "duration": 355,
-      "url": "/audio/nostalgic_057.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_57.mp3",
       "category": "nostalgic"
     },
     {
@@ -2639,7 +2639,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sanam",
       "album": "Universally SANAM",
       "duration": 197,
-      "url": "/audio/nostalgic_058.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_58.mp3",
       "category": "nostalgic"
     },
     {
@@ -2648,7 +2648,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sachin-Jigar, Jigar Saraiya, Priya Saraiya, Jaideep Sahni",
       "album": "Shuddh Desi Romance",
       "duration": 230,
-      "url": "/audio/nostalgic_059.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_59.mp3",
       "category": "nostalgic"
     },
     {
@@ -2657,7 +2657,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
       "album": "Ghajini",
       "duration": 327,
-      "url": "/audio/nostalgic_060.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_60.mp3",
       "category": "nostalgic"
     },
     {
@@ -2666,7 +2666,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal, Kumaar",
       "album": "Kick",
       "duration": 375,
-      "url": "/audio/nostalgic_061.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_61.mp3",
       "category": "nostalgic"
     },
     {
@@ -2675,7 +2675,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Salim–Sulaiman, Sukhwinder Singh, Jaideep Sahni",
       "album": "Rab Ne Bana Di Jodi",
       "duration": 263,
-      "url": "/audio/nostalgic_062.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_62.mp3",
       "category": "nostalgic"
     },
     {
@@ -2684,7 +2684,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shaan, Sunidhi Chauhan, Javed Akhtar",
       "album": "Ta Ra Rum Pum",
       "duration": 318,
-      "url": "/audio/nostalgic_063.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_63.mp3",
       "category": "nostalgic"
     },
     {
@@ -2693,7 +2693,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Neeraj Shridhar, Raman, Pervez Qadir, Loy, Shankar-Ehsaan-Loy, Sameer Anjaan",
       "album": "Heyy Babyy",
       "duration": 274,
-      "url": "/audio/nostalgic_064.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_64.mp3",
       "category": "nostalgic"
     },
     {
@@ -2702,7 +2702,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Himesh Reshammiya, Vineet Singh, Aaman Trikha",
       "album": "Khiladi 786",
       "duration": 254,
-      "url": "/audio/nostalgic_065.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_65.mp3",
       "category": "nostalgic"
     },
     {
@@ -2711,7 +2711,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Taz Stereo Nation, Rajesh Roshan",
       "album": "Koi Mil Gaya",
       "duration": 346,
-      "url": "/audio/nostalgic_066.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_66.mp3",
       "category": "nostalgic"
     },
     {
@@ -2720,7 +2720,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Monty Sharma, Shaan",
       "album": "Saawariya",
       "duration": 284,
-      "url": "/audio/nostalgic_067.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_67.mp3",
       "category": "nostalgic"
     },
     {
@@ -2729,7 +2729,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Sunidhi Chauhan",
       "album": "Mujhse Shaadi Karogi",
       "duration": 321,
-      "url": "/audio/nostalgic_068.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_68.mp3",
       "category": "nostalgic"
     },
     {
@@ -2738,7 +2738,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sachin-Jigar, Atif Aslam, Shreya Ghoshal",
       "album": "Ramaiya Vastavaiya",
       "duration": 235,
-      "url": "/audio/nostalgic_069.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_69.mp3",
       "category": "nostalgic"
     },
     {
@@ -2747,7 +2747,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Harshdeep Kaur",
       "album": "Desi Boyz",
       "duration": 233,
-      "url": "/audio/nostalgic_070.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_70.mp3",
       "category": "nostalgic"
     },
     {
@@ -2756,7 +2756,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, KK, Sukhwinder Singh, Mahalakshmi Iyer, Shankar Mahadevan, Gulzar",
       "album": "Jhoom Barabar Jhoom",
       "duration": 425,
-      "url": "/audio/nostalgic_071.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_71.mp3",
       "category": "nostalgic"
     },
     {
@@ -2765,7 +2765,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Siddharth Basrur, Mauli Dave",
       "album": "Players",
       "duration": 250,
-      "url": "/audio/nostalgic_072.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_72.mp3",
       "category": "nostalgic"
     },
     {
@@ -2774,7 +2774,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Rahat Fateh Ali Khan, Rohail Hyatt, Faisal Rafi",
       "album": "Kalyug",
       "duration": 319,
-      "url": "/audio/nostalgic_073.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_73.mp3",
       "category": "nostalgic"
     },
     {
@@ -2783,7 +2783,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jeet Gannguli, Mustafa Zahid, Sayeed Quadri",
       "album": "Blood Money",
       "duration": 306,
-      "url": "/audio/nostalgic_074.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_74.mp3",
       "category": "nostalgic"
     },
     {
@@ -2792,7 +2792,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Rashid Ali",
       "album": "Jaane Tu... Ya Jaane Na",
       "duration": 218,
-      "url": "/audio/nostalgic_075.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_75.mp3",
       "category": "nostalgic"
     },
     {
@@ -2801,7 +2801,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amir Jamal",
       "album": "Murder",
       "duration": 311,
-      "url": "/audio/nostalgic_076.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_76.mp3",
       "category": "nostalgic"
     },
     {
@@ -2810,7 +2810,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal Mishra, Manoj Muntashir",
       "album": "Kabir Singh",
       "duration": 234,
-      "url": "/audio/nostalgic_077.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_77.mp3",
       "category": "nostalgic"
     },
     {
@@ -2819,7 +2819,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Alisha Chinai, Shankar Mahadevan, Gulzar",
       "album": "YRF Top 10 - Nightout Sounds",
       "duration": 482,
-      "url": "/audio/nostalgic_078.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_78.mp3",
       "category": "nostalgic"
     },
     {
@@ -2828,7 +2828,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Sonu Nigam",
       "album": "Kal Ho Naa Ho",
       "duration": 321,
-      "url": "/audio/nostalgic_079.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_79.mp3",
       "category": "nostalgic"
     },
     {
@@ -2837,7 +2837,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Sunidhi Chauhan, Arijit Singh, Neeti Mohan, Amitabh Bhattacharya",
       "album": "Chennai Express",
       "duration": 307,
-      "url": "/audio/nostalgic_080.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_80.mp3",
       "category": "nostalgic"
     },
     {
@@ -2846,7 +2846,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shivam Pathak, Shail Hada, A.M. Turaz, Sanjay Leela Bhansali",
       "album": "Padmaavat",
       "duration": 258,
-      "url": "/audio/nostalgic_081.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_81.mp3",
       "category": "nostalgic"
     },
     {
@@ -2855,7 +2855,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
       "album": "Bachna Ae Haseeno",
       "duration": 333,
-      "url": "/audio/nostalgic_082.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_82.mp3",
       "category": "nostalgic"
     },
     {
@@ -2864,7 +2864,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
       "album": "Billu",
       "duration": 280,
-      "url": "/audio/nostalgic_083.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_83.mp3",
       "category": "nostalgic"
     },
     {
@@ -2873,7 +2873,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Adnan Sami",
       "album": "Garam Masala",
       "duration": 223,
-      "url": "/audio/nostalgic_084.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_84.mp3",
       "category": "nostalgic"
     },
     {
@@ -2882,7 +2882,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anand Raj Anand, Shweta Pandit",
       "album": "Welcome",
       "duration": 301,
-      "url": "/audio/nostalgic_085.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_85.mp3",
       "category": "nostalgic"
     },
     {
@@ -2891,7 +2891,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Blaaze, Shaan",
       "album": "Rakht",
       "duration": 207,
-      "url": "/audio/nostalgic_086.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_86.mp3",
       "category": "nostalgic"
     },
     {
@@ -2900,7 +2900,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, KK, Neelesh Misra",
       "album": "Woh Lamhe",
       "duration": 266,
-      "url": "/audio/nostalgic_087.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_87.mp3",
       "category": "nostalgic"
     },
     {
@@ -2909,7 +2909,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sohail Sen, KK, Palak Muchhal, Anvita Dutt",
       "album": "Ek Tha Tiger",
       "duration": 254,
-      "url": "/audio/nostalgic_088.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_88.mp3",
       "category": "nostalgic"
     },
     {
@@ -2918,7 +2918,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik",
       "album": "Kuch Kuch Hota Hai",
       "duration": 381,
-      "url": "/audio/nostalgic_089.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_89.mp3",
       "category": "nostalgic"
     },
     {
@@ -2927,7 +2927,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jatin-Lalit, Alka Yagnik, Shaan, Prasoon Joshi",
       "album": "Hum Tum",
       "duration": 377,
-      "url": "/audio/nostalgic_090.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_90.mp3",
       "category": "nostalgic"
     },
     {
@@ -2936,7 +2936,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mahalakshmi Iyer, Hard Kaur, Jassi",
       "album": "Patiala House",
       "duration": 304,
-      "url": "/audio/nostalgic_091.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_91.mp3",
       "category": "nostalgic"
     },
     {
@@ -2945,7 +2945,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Shaan",
       "album": "Desi Boyz",
       "duration": 253,
-      "url": "/audio/nostalgic_092.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_92.mp3",
       "category": "nostalgic"
     },
     {
@@ -2954,7 +2954,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mika Singh",
       "album": "Khiladi 786",
       "duration": 268,
-      "url": "/audio/nostalgic_093.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_93.mp3",
       "category": "nostalgic"
     },
     {
@@ -2963,7 +2963,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Tulsi Kumar, Ashish Pandit",
       "album": "Billu",
       "duration": 286,
-      "url": "/audio/nostalgic_094.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_94.mp3",
       "category": "nostalgic"
     },
     {
@@ -2972,7 +2972,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Sunidhi Chauhan, Hard Kaur, Raja Hasan, Anvita Dutt Guptan",
       "album": "Bachna Ae Haseeno",
       "duration": 253,
-      "url": "/audio/nostalgic_095.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_95.mp3",
       "category": "nostalgic"
     },
     {
@@ -2981,7 +2981,7 @@ export const TRACK_CATEGORIES = {
       "artist": "A.R. Rahman, Lata Mangeshkar",
       "album": "MasterWorks - Lata Mangeshkar",
       "duration": 396,
-      "url": "/audio/nostalgic_096.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_96.mp3",
       "category": "nostalgic"
     },
     {
@@ -2990,7 +2990,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar Mahadevan, Shankar-Ehsaan-Loy, Prasoon Joshi",
       "album": "Taare Zameen Par",
       "duration": 310,
-      "url": "/audio/nostalgic_097.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_97.mp3",
       "category": "nostalgic"
     },
     {
@@ -2999,7 +2999,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Shreya Ghoshal, Vishal-Shekhar, Javed Akhtar",
       "album": "Om Shanti Om",
       "duration": 308,
-      "url": "/audio/nostalgic_098.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_98.mp3",
       "category": "nostalgic"
     },
     {
@@ -3008,7 +3008,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Abhijeet, Alka Yagnik",
       "album": "Yes Boss",
       "duration": 305,
-      "url": "/audio/nostalgic_099.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_99.mp3",
       "category": "nostalgic"
     },
     {
@@ -3017,7 +3017,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, KK, Bob",
       "album": "Desi Boyz",
       "duration": 244,
-      "url": "/audio/nostalgic_100.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_100.mp3",
       "category": "nostalgic"
     },
     {
@@ -3026,7 +3026,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal Dadlani, Prashant Ingole",
       "album": "Bajirao Mastani",
       "duration": 244,
-      "url": "/audio/nostalgic_101.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_101.mp3",
       "category": "nostalgic"
     },
     {
@@ -3035,7 +3035,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohit Chauhan, A.R. Rahman, Prasoon Joshi",
       "album": "Delhi-6",
       "duration": 288,
-      "url": "/audio/nostalgic_102.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_102.mp3",
       "category": "nostalgic"
     },
     {
@@ -3044,7 +3044,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Saleem Shahzada, Rehan Khan, Shankar Mahadevan, Sajid Khan, Shankar-Ehsaan-Loy, Sameer Anjaan",
       "album": "Heyy Babyy",
       "duration": 345,
-      "url": "/audio/nostalgic_103.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_103.mp3",
       "category": "nostalgic"
     },
     {
@@ -3053,7 +3053,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Nikhil D'Souza",
       "album": "Crook",
       "duration": 289,
-      "url": "/audio/nostalgic_104.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_104.mp3",
       "category": "nostalgic"
     },
     {
@@ -3062,7 +3062,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shaan",
       "album": "Unknown Album",
       "duration": 289,
-      "url": "/audio/nostalgic_105.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_105.mp3",
       "category": "nostalgic"
     },
     {
@@ -3071,7 +3071,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Himesh Reshammiya",
       "album": "Phir Hera Pheri",
       "duration": 279,
-      "url": "/audio/nostalgic_106.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_106.mp3",
       "category": "nostalgic"
     },
     {
@@ -3080,7 +3080,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shaan, Gayatri Iyer, Jaideep Sahni",
       "album": "Salaam Namaste",
       "duration": 452,
-      "url": "/audio/nostalgic_107.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_107.mp3",
       "category": "nostalgic"
     },
     {
@@ -3089,7 +3089,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Anushka Manchanda",
       "album": "Cash",
       "duration": 221,
-      "url": "/audio/nostalgic_108.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_108.mp3",
       "category": "nostalgic"
     },
     {
@@ -3098,7 +3098,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ash King, Sachin-Jigar",
       "album": "Stree",
       "duration": 206,
-      "url": "/audio/nostalgic_109.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_109.mp3",
       "category": "nostalgic"
     },
     {
@@ -3107,7 +3107,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Himesh Reshammiya",
       "album": "Phir Hera Pheri",
       "duration": 323,
-      "url": "/audio/nostalgic_110.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_110.mp3",
       "category": "nostalgic"
     },
     {
@@ -3116,7 +3116,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kamaal Khan",
       "album": "Pyaar Kiya To Darna Kya",
       "duration": 343,
-      "url": "/audio/nostalgic_111.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_111.mp3",
       "category": "nostalgic"
     },
     {
@@ -3125,7 +3125,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Shreya Ghoshal, Javed Bashir, Yusuf Mohammed, Vajid Ali",
       "album": "O Rangrez",
       "duration": 384,
-      "url": "/audio/nostalgic_112.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_112.mp3",
       "category": "nostalgic"
     },
     {
@@ -3134,7 +3134,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mika Singh, Irshad Kamil",
       "album": "Dhol",
       "duration": 251,
-      "url": "/audio/nostalgic_113.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_113.mp3",
       "category": "nostalgic"
     },
     {
@@ -3143,7 +3143,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tarun Sagar, Alyssa Mendonsa, Loy Mendonsa",
       "album": "Housefull",
       "duration": 235,
-      "url": "/audio/nostalgic_114.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_114.mp3",
       "category": "nostalgic"
     },
     {
@@ -3152,7 +3152,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Vishal Dadlani, Hamsika Iyer, Amitabh Bhattacharya",
       "album": "Chennai Express",
       "duration": 228,
-      "url": "/audio/nostalgic_115.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_115.mp3",
       "category": "nostalgic"
     },
     {
@@ -3161,7 +3161,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manak-E, Selina, R.D.B.",
       "album": "De Dana Dan",
       "duration": 234,
-      "url": "/audio/nostalgic_116.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_116.mp3",
       "category": "nostalgic"
     },
     {
@@ -3170,7 +3170,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ritu Pathak, Neeraj Shridhar, Alyssa Mendonsa",
       "album": "Housefull",
       "duration": 198,
-      "url": "/audio/nostalgic_117.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_117.mp3",
       "category": "nostalgic"
     },
     {
@@ -3179,7 +3179,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Neeraj Shridhar",
       "album": "Housefull 2",
       "duration": 253,
-      "url": "/audio/nostalgic_118.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_118.mp3",
       "category": "nostalgic"
     },
     {
@@ -3188,7 +3188,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Sahil Kaushal",
       "album": "Boss",
       "duration": 282,
-      "url": "/audio/nostalgic_119.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_119.mp3",
       "category": "nostalgic"
     },
     {
@@ -3197,7 +3197,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mohit Chauhan, Irshad Kamil",
       "album": "Once Upon A Time In Mumbaai",
       "duration": 285,
-      "url": "/audio/nostalgic_120.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_120.mp3",
       "category": "nostalgic"
     },
     {
@@ -3206,7 +3206,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Atif Aslam, Pritam",
       "album": "Race",
       "duration": 312,
-      "url": "/audio/nostalgic_121.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_121.mp3",
       "category": "nostalgic"
     },
     {
@@ -3215,7 +3215,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam",
       "album": "Unknown Album",
       "duration": 140,
-      "url": "/audio/nostalgic_122.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_122.mp3",
       "category": "nostalgic"
     },
     {
@@ -3224,7 +3224,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Suzanne D'Mello",
       "album": "Ajab Prem Ki Ghazab Kahani",
       "duration": 251,
-      "url": "/audio/nostalgic_123.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_123.mp3",
       "category": "nostalgic"
     },
     {
@@ -3233,7 +3233,7 @@ export const TRACK_CATEGORIES = {
       "artist": "S. P. Balasubrahmanyam, S.P. Pallavi, Udit Narayan",
       "album": "Humse Hai Muqabala",
       "duration": 290,
-      "url": "/audio/nostalgic_124.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_124.mp3",
       "category": "nostalgic"
     },
     {
@@ -3242,7 +3242,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mika Singh, Amitabh Bhattacharya, Nakash Aziz, Javed Jaffrey",
       "album": "Agent Vinod",
       "duration": 247,
-      "url": "/audio/nostalgic_125.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_125.mp3",
       "category": "nostalgic"
     },
     {
@@ -3251,7 +3251,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Shreya Ghoshal",
       "album": "Krrish",
       "duration": 388,
-      "url": "/audio/nostalgic_126.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_126.mp3",
       "category": "nostalgic"
     },
     {
@@ -3260,7 +3260,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Javed Ali, Sunidhi Chauhan, Vishal Dadlani, Kumaar",
       "album": "Golmaal Fun Unlimited",
       "duration": 306,
-      "url": "/audio/nostalgic_127.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_127.mp3",
       "category": "nostalgic"
     },
     {
@@ -3269,7 +3269,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Wajid, Sunidhi Chauhan, Suzanne D'Mello",
       "album": "Housefull 2",
       "duration": 246,
-      "url": "/audio/nostalgic_128.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_128.mp3",
       "category": "nostalgic"
     },
     {
@@ -3278,7 +3278,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sohail Sen, Mohit Chauhan, Tarannum Malik Jain, Kausar Munir",
       "album": "Ek Tha Tiger",
       "duration": 251,
-      "url": "/audio/nostalgic_129.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_129.mp3",
       "category": "nostalgic"
     },
     {
@@ -3287,7 +3287,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Miss Pooja, Neha Kakkar, Nakash Aziz",
       "album": "Cocktail",
       "duration": 241,
-      "url": "/audio/nostalgic_130.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_130.mp3",
       "category": "nostalgic"
     },
     {
@@ -3296,7 +3296,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amit Trivedi, Shruti Pathak, Divya Kumar",
       "album": "Celebrate Kai Po Che",
       "duration": 234,
-      "url": "/audio/nostalgic_131.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_131.mp3",
       "category": "nostalgic"
     },
     {
@@ -3305,7 +3305,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Remo Fernandes, Suzanne",
       "album": "Bhagam Bhag",
       "duration": 297,
-      "url": "/audio/nostalgic_132.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_132.mp3",
       "category": "nostalgic"
     },
     {
@@ -3314,7 +3314,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shankar Mahadevan, Anvita Dutt Guptan",
       "album": "Bachna Ae Haseeno",
       "duration": 227,
-      "url": "/audio/nostalgic_133.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_133.mp3",
       "category": "nostalgic"
     },
     {
@@ -3323,7 +3323,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amaal Mallik, Arijit Singh, Tulsi Kumar",
       "album": "Airlift",
       "duration": 281,
-      "url": "/audio/nostalgic_134.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_134.mp3",
       "category": "nostalgic"
     },
     {
@@ -3332,7 +3332,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Wajid, Labh Janjua, Sneha Pant, Sajid-Wajid, Shabbir Ahmed",
       "album": "Partner",
       "duration": 258,
-      "url": "/audio/nostalgic_135.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_135.mp3",
       "category": "nostalgic"
     },
     {
@@ -3341,7 +3341,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mika Singh, Shefali Alvares",
       "album": "Pritam's Musical Journey",
       "duration": 288,
-      "url": "/audio/nostalgic_136.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_136.mp3",
       "category": "nostalgic"
     },
     {
@@ -3350,7 +3350,7 @@ export const TRACK_CATEGORIES = {
       "artist": "KK",
       "album": "Rehnaa Hai Terre Dil Mein",
       "duration": 328,
-      "url": "/audio/nostalgic_137.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_137.mp3",
       "category": "nostalgic"
     },
     {
@@ -3359,7 +3359,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shreya Ghoshal, Javed Akhtar",
       "album": "Ta Ra Rum Pum",
       "duration": 329,
-      "url": "/audio/nostalgic_138.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_138.mp3",
       "category": "nostalgic"
     },
     {
@@ -3368,7 +3368,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Shaan, Mahalakshmi Iyer, Sneha Suresh, Shravan Suresh, Javed Akhtar",
       "album": "Ta Ra Rum Pum",
       "duration": 234,
-      "url": "/audio/nostalgic_139.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_139.mp3",
       "category": "nostalgic"
     },
     {
@@ -3377,7 +3377,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Atif Aslam, Alisha Chinai",
       "album": "Ajab Prem Ki Ghazab Kahani",
       "duration": 299,
-      "url": "/audio/nostalgic_140.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_140.mp3",
       "category": "nostalgic"
     },
     {
@@ -3386,7 +3386,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Amitabh Bhattacharya, Anusha Mani",
       "album": "Chennai Express",
       "duration": 253,
-      "url": "/audio/nostalgic_141.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_141.mp3",
       "category": "nostalgic"
     },
     {
@@ -3395,7 +3395,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Atif Aslam, Shreya Ghoshal, Sachin Gupta, Sameer Anjaan",
       "album": "Best of Romance: Atif Aslam",
       "duration": 279,
-      "url": "/audio/nostalgic_142.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_142.mp3",
       "category": "nostalgic"
     },
     {
@@ -3404,7 +3404,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Atif Aslam, Manoj Muntashir",
       "album": "Rustom",
       "duration": 286,
-      "url": "/audio/nostalgic_143.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_143.mp3",
       "category": "nostalgic"
     },
     {
@@ -3413,7 +3413,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Rahat Fateh Ali Khan, Shreya Ghoshal, Mayur Puri",
       "album": "Singh Is Kinng",
       "duration": 339,
-      "url": "/audio/nostalgic_144.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_144.mp3",
       "category": "nostalgic"
     },
     {
@@ -3422,7 +3422,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Neeraj Shridhar, Anweshaa, Aakariti, Earl Edgar, Indie",
       "album": "Golmaal Returns",
       "duration": 267,
-      "url": "/audio/nostalgic_145.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_145.mp3",
       "category": "nostalgic"
     },
     {
@@ -3431,7 +3431,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shankar-Ehsaan-Loy, Neeraj Shridhar, Alisha Chinai, Gulzar",
       "album": "Jhoom Barabar Jhoom",
       "duration": 279,
-      "url": "/audio/nostalgic_146.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_146.mp3",
       "category": "nostalgic"
     },
     {
@@ -3440,7 +3440,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishal-Shekhar, Chinmayi, Gopi Sundar, Amitabh Bhattacharya, Charulatha Mani, Madhumitha Mani",
       "album": "Chennai Express",
       "duration": 350,
-      "url": "/audio/nostalgic_147.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_147.mp3",
       "category": "nostalgic"
     },
     {
@@ -3449,7 +3449,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Javed Ali, Irshan Ashraf, Shadab, Sayeed Quadri",
       "album": "Tum Mile",
       "duration": 302,
-      "url": "/audio/nostalgic_148.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_148.mp3",
       "category": "nostalgic"
     },
     {
@@ -3458,7 +3458,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ankit Tiwari",
       "album": "Mr. X",
       "duration": 295,
-      "url": "/audio/nostalgic_149.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_149.mp3",
       "category": "nostalgic"
     },
     {
@@ -3467,7 +3467,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Wajid, Amrita Kak",
       "album": "God Tussi Great Ho",
       "duration": 250,
-      "url": "/audio/nostalgic_150.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_150.mp3",
       "category": "nostalgic"
     },
     {
@@ -3476,7 +3476,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sachin-Jigar, Raghav Chaitanya, Varun Jain, Indraneel",
       "album": "Tum Se (From \"Teri Baaton Mein Aisa Uljha Jiya\")",
       "duration": 264,
-      "url": "/audio/nostalgic_151.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_151.mp3",
       "category": "nostalgic"
     },
     {
@@ -3485,7 +3485,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Mohit Chauhan, Irshad Kamil",
       "album": "Jab We Met",
       "duration": 321,
-      "url": "/audio/nostalgic_152.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_152.mp3",
       "category": "nostalgic"
     },
     {
@@ -3494,7 +3494,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Sabri Brothers",
       "album": "Love Anthems - Sonu Nigam",
       "duration": 359,
-      "url": "/audio/nostalgic_153.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_153.mp3",
       "category": "nostalgic"
     },
     {
@@ -3503,7 +3503,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anand Raj Anand, Kalpana Patowary, Chorus",
       "album": "Welcome",
       "duration": 279,
-      "url": "/audio/nostalgic_154.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_154.mp3",
       "category": "nostalgic"
     },
     {
@@ -3512,7 +3512,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shaan, Shweta Pandit, Suzi Q, Earl Edgar, Sajid-Wajid, Shabbir Ahmed",
       "album": "Partner",
       "duration": 277,
-      "url": "/audio/nostalgic_155.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_155.mp3",
       "category": "nostalgic"
     },
     {
@@ -3521,7 +3521,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Nindy Kaur",
       "album": "Yamla Pagla Deewana",
       "duration": 272,
-      "url": "/audio/nostalgic_156.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_156.mp3",
       "category": "nostalgic"
     },
     {
@@ -3530,7 +3530,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Udit Narayan, Hariharan, Kailash Kher",
       "album": "Swades",
       "duration": 447,
-      "url": "/audio/nostalgic_157.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_157.mp3",
       "category": "nostalgic"
     },
     {
@@ -3539,7 +3539,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, KK, Sayeed Quadri",
       "album": "Jannat",
       "duration": 303,
-      "url": "/audio/nostalgic_158.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_158.mp3",
       "category": "nostalgic"
     },
     {
@@ -3548,7 +3548,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Jubin Nautiyal, Neelesh Misra",
       "album": "Bajrangi Bhaijaan",
       "duration": 258,
-      "url": "/audio/nostalgic_159.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_159.mp3",
       "category": "nostalgic"
     },
     {
@@ -3557,7 +3557,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sonu Nigam, Shreya Ghoshal",
       "album": "Best Of Shreya Ghoshal",
       "duration": 246,
-      "url": "/audio/nostalgic_160.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_160.mp3",
       "category": "nostalgic"
     },
     {
@@ -3566,7 +3566,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pritam, Daler Mehndi, Richa Sharma",
       "album": "Action Replayy",
       "duration": 248,
-      "url": "/audio/nostalgic_161.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_161.mp3",
       "category": "nostalgic"
     }
   ],
@@ -3577,7 +3577,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Balam Chhoto So (Rajasthani Dance Songs)",
       "duration": 417,
-      "url": "/audio/rajasthani_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_1.mp3",
       "category": "rajasthani"
     },
     {
@@ -3586,7 +3586,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mame Khan, Shankar Mahadevan, Loy Mendonsa, Shankar-Ehsaan-Loy, Javed Akhtar",
       "album": "Luck By Chance",
       "duration": 308,
-      "url": "/audio/rajasthani_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_2.mp3",
       "category": "rajasthani"
     },
     {
@@ -3595,7 +3595,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gazi Khan Barna",
       "album": "Parched",
       "duration": 246,
-      "url": "/audio/rajasthani_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_3.mp3",
       "category": "rajasthani"
     },
     {
@@ -3604,7 +3604,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kapil Jangir, Komal Amrawat",
       "album": "Kapil's - EP",
       "duration": 162,
-      "url": "/audio/rajasthani_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_4.mp3",
       "category": "rajasthani"
     },
     {
@@ -3613,7 +3613,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kheta Khan, Kailash Jangid",
       "album": "Boli Pyari Lage",
       "duration": 295,
-      "url": "/audio/rajasthani_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_5.mp3",
       "category": "rajasthani"
     },
     {
@@ -3622,7 +3622,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mame Khan, Amit Trivedi, Shellee",
       "album": "Coke Studio S2",
       "duration": 420,
-      "url": "/audio/rajasthani_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_6.mp3",
       "category": "rajasthani"
     },
     {
@@ -3631,7 +3631,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Ghoomar, Vol. 3",
       "duration": 401,
-      "url": "/audio/rajasthani_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_7.mp3",
       "category": "rajasthani"
     },
     {
@@ -3640,7 +3640,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anchal Bhatt, SP Jodha, Shyamli Thakur",
       "album": "Ghani Khamma 2",
       "duration": 294,
-      "url": "/audio/rajasthani_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_8.mp3",
       "category": "rajasthani"
     },
     {
@@ -3649,7 +3649,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anchal Bhatt",
       "album": "Ghani Khamma",
       "duration": 290,
-      "url": "/audio/rajasthani_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_9.mp3",
       "category": "rajasthani"
     },
     {
@@ -3658,7 +3658,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shreya Ghoshal, Swaroop Khan, A.M. Turaz, Sanjay Leela Bhansali",
       "album": "Ghoomar (From \"Padmaavat\")",
       "duration": 282,
-      "url": "/audio/rajasthani_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_10.mp3",
       "category": "rajasthani"
     },
     {
@@ -3667,7 +3667,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Ghoomar, Vol. 3",
       "duration": 384,
-      "url": "/audio/rajasthani_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_11.mp3",
       "category": "rajasthani"
     },
     {
@@ -3676,7 +3676,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raahein Gharana, Anwar Khan, Husain Khan, Aslam Khan",
       "album": "Jalalo Bilalo",
       "duration": 318,
-      "url": "/audio/rajasthani_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_12.mp3",
       "category": "rajasthani"
     },
     {
@@ -3685,7 +3685,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kapil Jangir, Aakanksha Sharma",
       "album": "Kajaliyo",
       "duration": 204,
-      "url": "/audio/rajasthani_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_13.mp3",
       "category": "rajasthani"
     },
     {
@@ -3694,7 +3694,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Chudi Chamke (Rajasthani Folk Songs)",
       "duration": 413,
-      "url": "/audio/rajasthani_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_14.mp3",
       "category": "rajasthani"
     },
     {
@@ -3703,7 +3703,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Salim–Sulaiman",
       "album": "Dor",
       "duration": 273,
-      "url": "/audio/rajasthani_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_15.mp3",
       "category": "rajasthani"
     },
     {
@@ -3712,7 +3712,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mame Khan",
       "album": "Laal Peeli Ankhiyan",
       "duration": 287,
-      "url": "/audio/rajasthani_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_16.mp3",
       "category": "rajasthani"
     },
     {
@@ -3721,7 +3721,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Kheta Khan",
       "album": "Unknown Album",
       "duration": 312,
-      "url": "/audio/rajasthani_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_17.mp3",
       "category": "rajasthani"
     },
     {
@@ -3730,7 +3730,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Ghoomar, Vol. 2",
       "duration": 442,
-      "url": "/audio/rajasthani_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_18.mp3",
       "category": "rajasthani"
     },
     {
@@ -3739,7 +3739,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mame Khan",
       "album": "Padharo Mhare Desh Ghoomar",
       "duration": 154,
-      "url": "/audio/rajasthani_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_19.mp3",
       "category": "rajasthani"
     },
     {
@@ -3748,7 +3748,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Rekha Rao, Parmeshwar Premi",
       "album": "Gori Nakhra Wali",
       "duration": 360,
-      "url": "/audio/rajasthani_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_20.mp3",
       "category": "rajasthani"
     },
     {
@@ -3757,7 +3757,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Seema Mishra",
       "album": "Ghoomar, Vol. 2",
       "duration": 414,
-      "url": "/audio/rajasthani_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_21.mp3",
       "category": "rajasthani"
     },
     {
@@ -3766,7 +3766,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Aneesh, Sarkar, Hruday",
       "album": "Udi Udi",
       "duration": 161,
-      "url": "/audio/rajasthani_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_22.mp3",
       "category": "rajasthani"
     }
   ],
@@ -3777,7 +3777,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 267,
-      "url": "/audio/eng_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_1.mp3",
       "category": "english"
     },
     {
@@ -3786,7 +3786,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Charlie Puth",
       "album": "Voicenotes",
       "duration": 208,
-      "url": "/audio/eng_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_2.mp3",
       "category": "english"
     },
     {
@@ -3795,7 +3795,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Anne Gudrun",
       "album": "Avalon",
       "duration": 136,
-      "url": "/audio/eng_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_3.mp3",
       "category": "english"
     },
     {
@@ -3804,7 +3804,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Justin Bieber, Ludacris",
       "album": "Baby",
       "duration": 214,
-      "url": "/audio/eng_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_4.mp3",
       "category": "english"
     },
     {
@@ -3813,7 +3813,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, NEFFEX",
       "album": "Back One Day (Outro Song)",
       "duration": 231,
-      "url": "/audio/eng_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_5.mp3",
       "category": "english"
     },
     {
@@ -3822,7 +3822,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, bludnymph",
       "album": "Neon Nights",
       "duration": 167,
-      "url": "/audio/eng_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_6.mp3",
       "category": "english"
     },
     {
@@ -3831,7 +3831,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imagine Dragons",
       "album": "Evolve",
       "duration": 204,
-      "url": "/audio/eng_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_7.mp3",
       "category": "english"
     },
     {
@@ -3840,7 +3840,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd",
       "album": "After Hours",
       "duration": 200,
-      "url": "/audio/eng_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_8.mp3",
       "category": "english"
     },
     {
@@ -3849,7 +3849,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 239,
-      "url": "/audio/eng_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_9.mp3",
       "category": "english"
     },
     {
@@ -3858,7 +3858,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Arash, Helena",
       "album": "Broken Angel (feat. Helena)",
       "duration": 193,
-      "url": "/audio/eng_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_10.mp3",
       "category": "english"
     },
     {
@@ -3867,7 +3867,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sia",
       "album": "This Is Acting (Deluxe Version)",
       "duration": 211,
-      "url": "/audio/eng_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_11.mp3",
       "category": "english"
     },
     {
@@ -3876,7 +3876,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Modern Talking",
       "album": "Let's Talk About Love",
       "duration": 226,
-      "url": "/audio/eng_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_12.mp3",
       "category": "english"
     },
     {
@@ -3885,7 +3885,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, Anjulie",
       "album": "Unity - 10th Anniversary Compilation",
       "duration": 192,
-      "url": "/audio/eng_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_13.mp3",
       "category": "english"
     },
     {
@@ -3894,7 +3894,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Daddy Yankee, Snow",
       "album": "Con Calma",
       "duration": 193,
-      "url": "/audio/eng_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_14.mp3",
       "category": "english"
     },
     {
@@ -3903,7 +3903,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Bob Dominator",
       "album": "Conquer Yourself",
       "duration": 158,
-      "url": "/audio/eng_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_15.mp3",
       "category": "english"
     },
     {
@@ -3912,7 +3912,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ruth B.",
       "album": "Safe Haven",
       "duration": 233,
-      "url": "/audio/eng_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_16.mp3",
       "category": "english"
     },
     {
@@ -3921,7 +3921,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imagine Dragons",
       "album": "Night Visions",
       "duration": 177,
-      "url": "/audio/eng_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_17.mp3",
       "category": "english"
     },
     {
@@ -3930,7 +3930,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Luis Fonsi, Daddy Yankee, Justin Bieber",
       "album": "VIDA",
       "duration": 230,
-      "url": "/audio/eng_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_18.mp3",
       "category": "english"
     },
     {
@@ -3939,7 +3939,7 @@ export const TRACK_CATEGORIES = {
       "artist": "RAGS AND RICHES",
       "album": "Devil In Disguise",
       "duration": 136,
-      "url": "/audio/eng_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_19.mp3",
       "category": "english"
     },
     {
@@ -3948,7 +3948,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Sophia Somajo",
       "album": "Different World",
       "duration": 240,
-      "url": "/audio/eng_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_20.mp3",
       "category": "english"
     },
     {
@@ -3957,7 +3957,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd",
       "album": "Starboy",
       "duration": 260,
-      "url": "/audio/eng_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_21.mp3",
       "category": "english"
     },
     {
@@ -3966,7 +3966,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lady Gaga, Bruno Mars",
       "album": "Die With A Smile",
       "duration": 251,
-      "url": "/audio/eng_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_22.mp3",
       "category": "english"
     },
     {
@@ -3975,7 +3975,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, K-391, Sofia Carson, CORSAK",
       "album": "Different World",
       "duration": 202,
-      "url": "/audio/eng_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_23.mp3",
       "category": "english"
     },
     {
@@ -3984,7 +3984,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tame Impala",
       "album": "Dracula",
       "duration": 205,
-      "url": "/audio/eng_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_24.mp3",
       "category": "english"
     },
     {
@@ -3993,7 +3993,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fat Papi, prodshushy",
       "album": "FREAKED OUT",
       "duration": 158,
-      "url": "/audio/eng_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_25.mp3",
       "category": "english"
     },
     {
@@ -4002,7 +4002,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alexander Rybak",
       "album": "Fairytale",
       "duration": 182,
-      "url": "/audio/eng_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_26.mp3",
       "category": "english"
     },
     {
@@ -4011,7 +4011,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, Anjulie",
       "album": "Fly Away",
       "duration": 194,
-      "url": "/audio/eng_027.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_27.mp3",
       "category": "english"
     },
     {
@@ -4020,7 +4020,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 111,
-      "url": "/audio/eng_028.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_28.mp3",
       "category": "english"
     },
     {
@@ -4029,7 +4029,7 @@ export const TRACK_CATEGORIES = {
       "artist": "NEFFEX",
       "album": "Free Me",
       "duration": 137,
-      "url": "/audio/eng_029.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_29.mp3",
       "category": "english"
     },
     {
@@ -4038,7 +4038,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Coolio, L.V.",
       "album": "Gangsta's Paradise",
       "duration": 240,
-      "url": "/audio/eng_030.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_30.mp3",
       "category": "english"
     },
     {
@@ -4047,7 +4047,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, EVERGLOW",
       "album": "Ghost Light",
       "duration": 191,
-      "url": "/audio/eng_031.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_31.mp3",
       "category": "english"
     },
     {
@@ -4056,7 +4056,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, Laura Brehm",
       "album": "Give Myself To You",
       "duration": 170,
-      "url": "/audio/eng_032.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_32.mp3",
       "category": "english"
     },
     {
@@ -4065,7 +4065,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Katy Perry",
       "album": "Smile",
       "duration": 185,
-      "url": "/audio/eng_033.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_33.mp3",
       "category": "english"
     },
     {
@@ -4074,7 +4074,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alok, Alan Walker, KIDDO",
       "album": "Headlights (feat. KIDDO)",
       "duration": 158,
-      "url": "/audio/eng_034.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_34.mp3",
       "category": "english"
     },
     {
@@ -4083,7 +4083,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Glass Animals",
       "album": "Dreamland",
       "duration": 238,
-      "url": "/audio/eng_035.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_35.mp3",
       "category": "english"
     },
     {
@@ -4092,7 +4092,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 220,
-      "url": "/audio/eng_036.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_36.mp3",
       "category": "english"
     },
     {
@@ -4101,7 +4101,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Sasha Alex Sloan",
       "album": "Hero",
       "duration": 175,
-      "url": "/audio/eng_037.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_37.mp3",
       "category": "english"
     },
     {
@@ -4110,7 +4110,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Cole Mercer",
       "album": "Unknown Album",
       "duration": 167,
-      "url": "/audio/eng_038.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_38.mp3",
       "category": "english"
     },
     {
@@ -4119,7 +4119,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Julie Bergan",
       "album": "Different World",
       "duration": 161,
-      "url": "/audio/eng_039.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_39.mp3",
       "category": "english"
     },
     {
@@ -4128,7 +4128,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tommee Profitt, Fleurie, Jung Youth",
       "album": "In The End",
       "duration": 234,
-      "url": "/audio/eng_040.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_40.mp3",
       "category": "english"
     },
     {
@@ -4137,7 +4137,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Snow",
       "album": "12 Inches Of Snow",
       "duration": 268,
-      "url": "/audio/eng_041.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_41.mp3",
       "category": "english"
     },
     {
@@ -4146,7 +4146,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 228,
-      "url": "/audio/eng_042.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_42.mp3",
       "category": "english"
     },
     {
@@ -4155,7 +4155,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Zleepyfred",
       "album": "Last Leaves of Autumn",
       "duration": 154,
-      "url": "/audio/eng_043.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_43.mp3",
       "category": "english"
     },
     {
@@ -4164,7 +4164,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alec Benjamin",
       "album": "Narrated For You",
       "duration": 169,
-      "url": "/audio/eng_044.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_44.mp3",
       "category": "english"
     },
     {
@@ -4173,7 +4173,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, K-391, Emelie Hollow",
       "album": "Different World",
       "duration": 195,
-      "url": "/audio/eng_045.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_45.mp3",
       "category": "english"
     },
     {
@@ -4182,7 +4182,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, A$AP Rocky, Kameron",
       "album": "Live Fast (PUBGM)",
       "duration": 225,
-      "url": "/audio/eng_046.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_46.mp3",
       "category": "english"
     },
     {
@@ -4191,7 +4191,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Steve Aoki, ISÁK, Omar Noir",
       "album": "Different World",
       "duration": 216,
-      "url": "/audio/eng_047.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_47.mp3",
       "category": "english"
     },
     {
@@ -4200,7 +4200,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tame Impala",
       "album": "Loser",
       "duration": 223,
-      "url": "/audio/eng_048.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_48.mp3",
       "category": "english"
     },
     {
@@ -4209,7 +4209,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Sorana",
       "album": "Different World",
       "duration": 222,
-      "url": "/audio/eng_049.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_49.mp3",
       "category": "english"
     },
     {
@@ -4218,7 +4218,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Eminem",
       "album": "Encore (Deluxe Version)",
       "duration": 250,
-      "url": "/audio/eng_050.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_50.mp3",
       "category": "english"
     },
     {
@@ -4227,7 +4227,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, Emyrson Flora",
       "album": "Monster",
       "duration": 158,
-      "url": "/audio/eng_051.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_51.mp3",
       "category": "english"
     },
     {
@@ -4236,7 +4236,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 213,
-      "url": "/audio/eng_052.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_52.mp3",
       "category": "english"
     },
     {
@@ -4245,7 +4245,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat, RIELL",
       "album": "Myself & I",
       "duration": 203,
-      "url": "/audio/eng_053.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_53.mp3",
       "category": "english"
     },
     {
@@ -4254,7 +4254,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Zayle Manroe",
       "album": "Unknown Album",
       "duration": 191,
-      "url": "/audio/eng_054.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_54.mp3",
       "category": "english"
     },
     {
@@ -4263,7 +4263,7 @@ export const TRACK_CATEGORIES = {
       "artist": "One Direction",
       "album": "FOUR (Deluxe)",
       "duration": 226,
-      "url": "/audio/eng_055.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_55.mp3",
       "category": "english"
     },
     {
@@ -4272,7 +4272,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lil Nas X",
       "album": "7",
       "duration": 113,
-      "url": "/audio/eng_056.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_56.mp3",
       "category": "english"
     },
     {
@@ -4281,7 +4281,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jennifer Lopez, Pitbull",
       "album": "Love?",
       "duration": 284,
-      "url": "/audio/eng_057.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_57.mp3",
       "category": "english"
     },
     {
@@ -4290,7 +4290,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Barenaked Ladies",
       "album": "Stunt (20th Anniversary Edition)",
       "duration": 169,
-      "url": "/audio/eng_058.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_58.mp3",
       "category": "english"
     },
     {
@@ -4299,7 +4299,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, K-391, Boy In Space",
       "album": "World Of Walker",
       "duration": 183,
-      "url": "/audio/eng_059.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_59.mp3",
       "category": "english"
     },
     {
@@ -4308,7 +4308,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd",
       "album": "Starboy",
       "duration": 249,
-      "url": "/audio/eng_060.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_60.mp3",
       "category": "english"
     },
     {
@@ -4317,7 +4317,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd, Playboi Carti, Madonna",
       "album": "Popular (Music from the HBO Original Series)",
       "duration": 215,
-      "url": "/audio/eng_061.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_61.mp3",
       "category": "english"
     },
     {
@@ -4326,7 +4326,7 @@ export const TRACK_CATEGORIES = {
       "artist": "OneRepublic",
       "album": "Rescue Me",
       "duration": 159,
-      "url": "/audio/eng_062.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_62.mp3",
       "category": "english"
     },
     {
@@ -4335,7 +4335,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jay Sean",
       "album": "My Own Way",
       "duration": 190,
-      "url": "/audio/eng_063.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_63.mp3",
       "category": "english"
     },
     {
@@ -4344,7 +4344,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat",
       "album": "Rise Up",
       "duration": 169,
-      "url": "/audio/eng_064.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_64.mp3",
       "category": "english"
     },
     {
@@ -4353,7 +4353,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Serena",
       "album": "Safari",
       "duration": 189,
-      "url": "/audio/eng_065.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_65.mp3",
       "category": "english"
     },
     {
@@ -4362,7 +4362,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd",
       "album": "After Hours",
       "duration": 215,
-      "url": "/audio/eng_066.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_66.mp3",
       "category": "english"
     },
     {
@@ -4371,7 +4371,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shawn Mendes, Camila Cabello",
       "album": "Señorita",
       "duration": 191,
-      "url": "/audio/eng_067.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_67.mp3",
       "category": "english"
     },
     {
@@ -4380,7 +4380,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Adele",
       "album": "Skyfall",
       "duration": 286,
-      "url": "/audio/eng_068.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_68.mp3",
       "category": "english"
     },
     {
@@ -4389,7 +4389,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker, ISÁK",
       "album": "Sorry (feat. ISÁK)",
       "duration": 165,
-      "url": "/audio/eng_069.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_69.mp3",
       "category": "english"
     },
     {
@@ -4398,7 +4398,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Eminem, Dido",
       "album": "The Marshall Mathers LP",
       "duration": 404,
-      "url": "/audio/eng_070.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_70.mp3",
       "category": "english"
     },
     {
@@ -4407,7 +4407,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd, Daft Punk",
       "album": "Starboy",
       "duration": 230,
-      "url": "/audio/eng_071.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_71.mp3",
       "category": "english"
     },
     {
@@ -4416,7 +4416,7 @@ export const TRACK_CATEGORIES = {
       "artist": "DHARIA",
       "album": "Sugar & Brownies",
       "duration": 197,
-      "url": "/audio/eng_072.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_72.mp3",
       "category": "english"
     },
     {
@@ -4425,7 +4425,7 @@ export const TRACK_CATEGORIES = {
       "artist": "The Weeknd, Anitta",
       "album": "Hurry Up Tomorrow",
       "duration": 301,
-      "url": "/audio/eng_073.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_73.mp3",
       "category": "english"
     },
     {
@@ -4434,7 +4434,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 278,
-      "url": "/audio/eng_074.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_74.mp3",
       "category": "english"
     },
     {
@@ -4443,7 +4443,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 192,
-      "url": "/audio/eng_075.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_75.mp3",
       "category": "english"
     },
     {
@@ -4452,7 +4452,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alan Walker",
       "album": "The Drum",
       "duration": 189,
-      "url": "/audio/eng_076.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_76.mp3",
       "category": "english"
     },
     {
@@ -4461,7 +4461,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Shana Veyra",
       "album": "Unknown Album",
       "duration": 249,
-      "url": "/audio/eng_077.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_77.mp3",
       "category": "english"
     },
     {
@@ -4470,7 +4470,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imagine Dragons",
       "album": "Evolve",
       "duration": 187,
-      "url": "/audio/eng_078.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_78.mp3",
       "category": "english"
     },
     {
@@ -4479,7 +4479,7 @@ export const TRACK_CATEGORIES = {
       "artist": "TheFatRat",
       "album": "Unity",
       "duration": 249,
-      "url": "/audio/eng_079.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_79.mp3",
       "category": "english"
     },
     {
@@ -4488,7 +4488,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sia",
       "album": "This Is Acting",
       "duration": 217,
-      "url": "/audio/eng_080.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_80.mp3",
       "category": "english"
     },
     {
@@ -4497,7 +4497,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ragal Ironbull",
       "album": "VALHALLA CALLING",
       "duration": 195,
-      "url": "/audio/eng_081.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_81.mp3",
       "category": "english"
     },
     {
@@ -4506,7 +4506,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Eminem",
       "album": "Venom (Music From The Motion Picture)",
       "duration": 269,
-      "url": "/audio/eng_082.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_82.mp3",
       "category": "english"
     },
     {
@@ -4515,7 +4515,7 @@ export const TRACK_CATEGORIES = {
       "artist": "KALEO",
       "album": "A/B",
       "duration": 213,
-      "url": "/audio/eng_083.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_83.mp3",
       "category": "english"
     },
     {
@@ -4524,7 +4524,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dust & Harmony",
       "album": "Unknown Album",
       "duration": 234,
-      "url": "/audio/eng_084.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_84.mp3",
       "category": "english"
     },
     {
@@ -4533,7 +4533,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Татьяна Куртукова",
       "album": "Матушка",
       "duration": 173,
-      "url": "/audio/eng_085.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/English/eng_85.mp3",
       "category": "english"
     }
   ],
@@ -4545,7 +4545,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Bilal Saeed",
       "album": "Twelve By Bilal Saeed",
       "duration": 204,
-      "url": "/audio/punjabi_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_1.mp3",
       "category": "punjabi"
     },
     {
@@ -4554,7 +4554,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sharry Mann, Raviraj",
       "album": "3 Peg",
       "duration": 204,
-      "url": "/audio/punjabi_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_2.mp3",
       "category": "punjabi"
     },
     {
@@ -4563,7 +4563,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh",
       "album": "Top Hits-Baisakhi Special",
       "duration": 178,
-      "url": "/audio/punjabi_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_3.mp3",
       "category": "punjabi"
     },
     {
@@ -4572,7 +4572,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Baani Sandhu, Gur Sidhu, Jassi Lokha",
       "album": "8 Parche",
       "duration": 210,
-      "url": "/audio/punjabi_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_4.mp3",
       "category": "punjabi"
     },
     {
@@ -4581,7 +4581,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imran Khan",
       "album": "Unforgettable",
       "duration": 232,
-      "url": "/audio/punjabi_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_5.mp3",
       "category": "punjabi"
     },
     {
@@ -4590,7 +4590,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Bilal Saeed",
       "album": "Twelve By Bilal Saeed",
       "duration": 247,
-      "url": "/audio/punjabi_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_6.mp3",
       "category": "punjabi"
     },
     {
@@ -4599,7 +4599,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raftaar, Sukh-E Muzical Doctorz, Jaani",
       "album": "All Black",
       "duration": 218,
-      "url": "/audio/punjabi_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_7.mp3",
       "category": "punjabi"
     },
     {
@@ -4608,7 +4608,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imran Khan",
       "album": "Unforgettable",
       "duration": 232,
-      "url": "/audio/punjabi_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_8.mp3",
       "category": "punjabi"
     },
     {
@@ -4617,7 +4617,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Gippy Grewal",
       "album": "International Villager",
       "duration": 217,
-      "url": "/audio/punjabi_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_9.mp3",
       "category": "punjabi"
     },
     {
@@ -4626,7 +4626,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh, DJ Flow",
       "album": "Badnam (original Version)",
       "duration": 203,
-      "url": "/audio/punjabi_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_10.mp3",
       "category": "punjabi"
     },
     {
@@ -4635,7 +4635,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guru Randhawa, Rajat Nagpal, Haji Springer",
       "album": "Ban Ja Rani (From \"Tumhari Sulu\")",
       "duration": 225,
-      "url": "/audio/punjabi_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_11.mp3",
       "category": "punjabi"
     },
     {
@@ -4644,7 +4644,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jassie Gill, Jatinder Shah",
       "album": "Replay",
       "duration": 180,
-      "url": "/audio/punjabi_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_12.mp3",
       "category": "punjabi"
     },
     {
@@ -4653,7 +4653,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imran Khan",
       "album": "Unforgettable",
       "duration": 224,
-      "url": "/audio/punjabi_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_13.mp3",
       "category": "punjabi"
     },
     {
@@ -4662,7 +4662,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guri",
       "album": "Billian Billian",
       "duration": 177,
-      "url": "/audio/punjabi_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_14.mp3",
       "category": "punjabi"
     },
     {
@@ -4671,7 +4671,7 @@ export const TRACK_CATEGORIES = {
       "artist": "J Star",
       "album": "Billo",
       "duration": 260,
-      "url": "/audio/punjabi_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_15.mp3",
       "category": "punjabi"
     },
     {
@@ -4680,7 +4680,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Alfaaz",
       "album": "Super Hits Of Yo Yo Honey Singh",
       "duration": 251,
-      "url": "/audio/punjabi_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_16.mp3",
       "category": "punjabi"
     },
     {
@@ -4689,7 +4689,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Blue Eyes",
       "duration": 220,
-      "url": "/audio/punjabi_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_17.mp3",
       "category": "punjabi"
     },
     {
@@ -4698,7 +4698,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Boss",
       "duration": 162,
-      "url": "/audio/punjabi_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_18.mp3",
       "category": "punjabi"
     },
     {
@@ -4707,7 +4707,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Leo Grewal, Yo Yo Honey Singh",
       "album": "Breakup Party",
       "duration": 282,
-      "url": "/audio/punjabi_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_19.mp3",
       "category": "punjabi"
     },
     {
@@ -4716,7 +4716,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Spoken Word",
       "duration": 246,
-      "url": "/audio/punjabi_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_20.mp3",
       "category": "punjabi"
     },
     {
@@ -4725,7 +4725,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "International Villager",
       "duration": 186,
-      "url": "/audio/punjabi_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_21.mp3",
       "category": "punjabi"
     },
     {
@@ -4734,7 +4734,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "No Competition",
       "duration": 151,
-      "url": "/audio/punjabi_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_22.mp3",
       "category": "punjabi"
     },
     {
@@ -4743,7 +4743,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Zorawar",
       "duration": 216,
-      "url": "/audio/punjabi_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_23.mp3",
       "category": "punjabi"
     },
     {
@@ -4752,7 +4752,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Yo Yo Honey Singh Is Back",
       "duration": 225,
-      "url": "/audio/punjabi_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_24.mp3",
       "category": "punjabi"
     },
     {
@@ -4761,7 +4761,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sandeep Brar, Kulwinder Billa, Abbi Fatehgarhia",
       "album": "Chaar Din",
       "duration": 316,
-      "url": "/audio/punjabi_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_25.mp3",
       "category": "punjabi"
     },
     {
@@ -4770,7 +4770,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Desi Kalakaar",
       "duration": 153,
-      "url": "/audio/punjabi_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_26.mp3",
       "category": "punjabi"
     },
     {
@@ -4779,7 +4779,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raja Baath, Yo Yo Honey Singh",
       "album": "The Crown",
       "duration": 183,
-      "url": "/audio/punjabi_027.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_27.mp3",
       "category": "punjabi"
     },
     {
@@ -4788,7 +4788,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh",
       "album": "Mankirt Aulakh - Best Hits",
       "duration": 228,
-      "url": "/audio/punjabi_028.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_28.mp3",
       "category": "punjabi"
     },
     {
@@ -4797,7 +4797,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Millind Gaba",
       "album": "Daaru Party - Single",
       "duration": 208,
-      "url": "/audio/punjabi_029.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_29.mp3",
       "category": "punjabi"
     },
     {
@@ -4806,7 +4806,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Desi Kalakaar",
       "duration": 187,
-      "url": "/audio/punjabi_030.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_30.mp3",
       "category": "punjabi"
     },
     {
@@ -4815,7 +4815,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Param Singh, Kamal Kahlon, Pratik Studio",
       "album": "Daru Badnaam",
       "duration": 185,
-      "url": "/audio/punjabi_031.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_31.mp3",
       "category": "punjabi"
     },
     {
@@ -4824,7 +4824,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Desi Kalakaar",
       "duration": 253,
-      "url": "/audio/punjabi_032.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_32.mp3",
       "category": "punjabi"
     },
     {
@@ -4833,7 +4833,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Dheere Dheere",
       "duration": 212,
-      "url": "/audio/punjabi_033.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_33.mp3",
       "category": "punjabi"
     },
     {
@@ -4842,7 +4842,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jazzy B, Apache Indian",
       "album": "Romeo",
       "duration": 188,
-      "url": "/audio/punjabi_034.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_34.mp3",
       "category": "punjabi"
     },
     {
@@ -4851,7 +4851,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh",
       "album": "In Love With Diljit Dosanjh",
       "duration": 212,
-      "url": "/audio/punjabi_035.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_35.mp3",
       "category": "punjabi"
     },
     {
@@ -4860,7 +4860,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sidhu Moose Wala, Byg Byrd",
       "album": "Dollar (From \"Dakuaan Da Munda\")",
       "duration": 157,
-      "url": "/audio/punjabi_036.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_36.mp3",
       "category": "punjabi"
     },
     {
@@ -4869,7 +4869,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Tanya, Guri",
       "album": "Dooriyan (Female Version)",
       "duration": 225,
-      "url": "/audio/punjabi_037.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_37.mp3",
       "category": "punjabi"
     },
     {
@@ -4878,7 +4878,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Deep Money",
       "album": "International Villager",
       "duration": 194,
-      "url": "/audio/punjabi_038.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_38.mp3",
       "category": "punjabi"
     },
     {
@@ -4887,7 +4887,7 @@ export const TRACK_CATEGORIES = {
       "artist": "AP Dhillon, Gurinder Gill, Intense",
       "album": "Excuses",
       "duration": 176,
-      "url": "/audio/punjabi_039.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_39.mp3",
       "category": "punjabi"
     },
     {
@@ -4896,7 +4896,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guru Randhawa, Yashvi Desai, Gurjit Gill, Black Virus",
       "album": "FINE SHYT",
       "duration": 138,
-      "url": "/audio/punjabi_040.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_40.mp3",
       "category": "punjabi"
     },
     {
@@ -4905,7 +4905,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh, DJ Flow",
       "album": "Gangland",
       "duration": 168,
-      "url": "/audio/punjabi_041.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_41.mp3",
       "category": "punjabi"
     },
     {
@@ -4914,7 +4914,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Ashok Mastie, Channi Rakhala, Bonafide, Koncept",
       "album": "Glassy",
       "duration": 222,
-      "url": "/audio/punjabi_042.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_42.mp3",
       "category": "punjabi"
     },
     {
@@ -4923,7 +4923,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh, Yo Yo Honey Singh",
       "album": "International Villager",
       "duration": 197,
-      "url": "/audio/punjabi_043.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_43.mp3",
       "category": "punjabi"
     },
     {
@@ -4932,7 +4932,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ikka",
       "album": "Half Window Down",
       "duration": 215,
-      "url": "/audio/punjabi_044.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_44.mp3",
       "category": "punjabi"
     },
     {
@@ -4941,7 +4941,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Alfaaz, Yo Yo Honey Singh",
       "album": "Boy Next Door",
       "duration": 203,
-      "url": "/audio/punjabi_045.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_45.mp3",
       "category": "punjabi"
     },
     {
@@ -4950,7 +4950,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jaz Dhami, Yo Yo Honey Singh",
       "album": "High Heels",
       "duration": 297,
-      "url": "/audio/punjabi_046.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_46.mp3",
       "category": "punjabi"
     },
     {
@@ -4959,7 +4959,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sharry Mann",
       "album": "Hostel",
       "duration": 323,
-      "url": "/audio/punjabi_047.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_47.mp3",
       "category": "punjabi"
     },
     {
@@ -4968,7 +4968,7 @@ export const TRACK_CATEGORIES = {
       "artist": "J Star",
       "album": "Hulara",
       "duration": 214,
-      "url": "/audio/punjabi_048.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_48.mp3",
       "category": "punjabi"
     },
     {
@@ -4977,7 +4977,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Suraj Jagan",
       "album": "Unknown Album",
       "duration": 221,
-      "url": "/audio/punjabi_049.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_49.mp3",
       "category": "punjabi"
     },
     {
@@ -4986,7 +4986,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sukh-E Muzical Doctorz",
       "album": "Insane",
       "duration": 155,
-      "url": "/audio/punjabi_050.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_50.mp3",
       "category": "punjabi"
     },
     {
@@ -4995,7 +4995,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guru Randhawa, Dhvani Bhanushali",
       "album": "Ishare Tere",
       "duration": 189,
-      "url": "/audio/punjabi_051.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_51.mp3",
       "category": "punjabi"
     },
     {
@@ -5004,7 +5004,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sukh-E Muzical Doctorz",
       "album": "Jaguar",
       "duration": 167,
-      "url": "/audio/punjabi_052.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_52.mp3",
       "category": "punjabi"
     },
     {
@@ -5013,7 +5013,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh, Goldboy",
       "album": "Jatt Da Blood",
       "duration": 170,
-      "url": "/audio/punjabi_053.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_53.mp3",
       "category": "punjabi"
     },
     {
@@ -5022,7 +5022,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amar Mohile",
       "album": "Shakal Pe Mat Ja",
       "duration": 74,
-      "url": "/audio/punjabi_054.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_54.mp3",
       "category": "punjabi"
     },
     {
@@ -5031,7 +5031,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dr Zeus, Master Rakesh, Shortie, Deepti",
       "album": "Unda Da Influence",
       "duration": 210,
-      "url": "/audio/punjabi_055.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_55.mp3",
       "category": "punjabi"
     },
     {
@@ -5040,7 +5040,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Akhil",
       "album": "Khaab",
       "duration": 201,
-      "url": "/audio/punjabi_056.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_56.mp3",
       "category": "punjabi"
     },
     {
@@ -5049,7 +5049,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Bilal Saeed",
       "album": "Twelve By Bilal Saeed",
       "duration": 177,
-      "url": "/audio/punjabi_057.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_57.mp3",
       "category": "punjabi"
     },
     {
@@ -5058,7 +5058,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh",
       "album": "Khayal",
       "duration": 221,
-      "url": "/audio/punjabi_058.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_58.mp3",
       "category": "punjabi"
     },
     {
@@ -5067,7 +5067,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gupz Sehra",
       "album": "Label Black",
       "duration": 175,
-      "url": "/audio/punjabi_059.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_59.mp3",
       "category": "punjabi"
     },
     {
@@ -5076,7 +5076,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jassie Gill",
       "album": "Replay",
       "duration": 192,
-      "url": "/audio/punjabi_060.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_60.mp3",
       "category": "punjabi"
     },
     {
@@ -5085,7 +5085,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh, Jatinder Shah",
       "album": "Laembadgini",
       "duration": 186,
-      "url": "/audio/punjabi_061.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_61.mp3",
       "category": "punjabi"
     },
     {
@@ -5094,7 +5094,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh, Yo Yo Honey Singh",
       "album": "The Lion Of Punjab",
       "duration": 211,
-      "url": "/audio/punjabi_062.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_62.mp3",
       "category": "punjabi"
     },
     {
@@ -5103,7 +5103,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Parmish Verma",
       "album": "Le Chakk Main Aa Gya",
       "duration": 248,
-      "url": "/audio/punjabi_063.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_63.mp3",
       "category": "punjabi"
     },
     {
@@ -5112,7 +5112,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Lehanga",
       "duration": 210,
-      "url": "/audio/punjabi_064.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_64.mp3",
       "category": "punjabi"
     },
     {
@@ -5121,7 +5121,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Desi Kalakaar",
       "duration": 224,
-      "url": "/audio/punjabi_065.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_65.mp3",
       "category": "punjabi"
     },
     {
@@ -5130,7 +5130,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sasha, Manj Musik",
       "album": "Singh Is Bliing",
       "duration": 200,
-      "url": "/audio/punjabi_066.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_66.mp3",
       "category": "punjabi"
     },
     {
@@ -5139,7 +5139,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mika Singh, Yo Yo Honey Singh",
       "album": "Mika Singh Is King",
       "duration": 270,
-      "url": "/audio/punjabi_067.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_67.mp3",
       "category": "punjabi"
     },
     {
@@ -5148,7 +5148,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohit Chauhan",
       "album": "Unknown Album",
       "duration": 298,
-      "url": "/audio/punjabi_068.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_68.mp3",
       "category": "punjabi"
     },
     {
@@ -5157,7 +5157,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Salim Merchant",
       "album": "Unknown Album",
       "duration": 160,
-      "url": "/audio/punjabi_069.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_69.mp3",
       "category": "punjabi"
     },
     {
@@ -5166,7 +5166,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guri, Sukh-E Muzical Doctorz",
       "album": "Mill Lo Na",
       "duration": 169,
-      "url": "/audio/punjabi_070.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_70.mp3",
       "category": "punjabi"
     },
     {
@@ -5175,7 +5175,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Pav Dharia",
       "album": "Na Ja",
       "duration": 208,
-      "url": "/audio/punjabi_071.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_71.mp3",
       "category": "punjabi"
     },
     {
@@ -5184,7 +5184,7 @@ export const TRACK_CATEGORIES = {
       "artist": "DIVINE, Jass Manak",
       "album": "No Competition",
       "duration": 205,
-      "url": "/audio/punjabi_072.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_72.mp3",
       "category": "punjabi"
     },
     {
@@ -5193,7 +5193,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "One Bottle Down",
       "duration": 196,
-      "url": "/audio/punjabi_073.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_73.mp3",
       "category": "punjabi"
     },
     {
@@ -5202,7 +5202,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh",
       "album": "Desi Kalakaar",
       "duration": 283,
-      "url": "/audio/punjabi_074.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_74.mp3",
       "category": "punjabi"
     },
     {
@@ -5211,7 +5211,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imran Khan",
       "album": "Unforgettable",
       "duration": 230,
-      "url": "/audio/punjabi_075.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_75.mp3",
       "category": "punjabi"
     },
     {
@@ -5220,7 +5220,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh",
       "album": "Patiala Peg",
       "duration": 188,
-      "url": "/audio/punjabi_076.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_76.mp3",
       "category": "punjabi"
     },
     {
@@ -5229,7 +5229,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guru Randhawa, Bohemia",
       "album": "High Rated Gabru - Guru Randhawa",
       "duration": 208,
-      "url": "/audio/punjabi_077.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_77.mp3",
       "category": "punjabi"
     },
     {
@@ -5238,7 +5238,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Prada",
       "duration": 182,
-      "url": "/audio/punjabi_078.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_78.mp3",
       "category": "punjabi"
     },
     {
@@ -5247,7 +5247,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Badshah, Diljit Dosanjh, Aastha Gill",
       "album": "Namaste England",
       "duration": 178,
-      "url": "/audio/punjabi_079.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_79.mp3",
       "category": "punjabi"
     },
     {
@@ -5256,7 +5256,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diljit Dosanjh",
       "album": "Chaar Ikke",
       "duration": 198,
-      "url": "/audio/punjabi_080.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_80.mp3",
       "category": "punjabi"
     },
     {
@@ -5265,7 +5265,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Yo Yo Honey Singh, Jasmine Sandlas",
       "album": "Zorawar",
       "duration": 295,
-      "url": "/audio/punjabi_081.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_81.mp3",
       "category": "punjabi"
     },
     {
@@ -5274,7 +5274,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Maninder Buttar, Babbu, MixSingh",
       "album": "Sakhiyaan",
       "duration": 179,
-      "url": "/audio/punjabi_082.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_82.mp3",
       "category": "punjabi"
     },
     {
@@ -5283,7 +5283,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sandeep Brar, Kulwinder Billa",
       "album": "Same Time Same Jagah (Chaar Din)",
       "duration": 316,
-      "url": "/audio/punjabi_083.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_83.mp3",
       "category": "punjabi"
     },
     {
@@ -5292,7 +5292,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Imran Khan",
       "album": "Satisfya",
       "duration": 180,
-      "url": "/audio/punjabi_084.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_84.mp3",
       "category": "punjabi"
     },
     {
@@ -5301,7 +5301,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Amar Mohile",
       "album": "Unknown Album",
       "duration": 114,
-      "url": "/audio/punjabi_085.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_85.mp3",
       "category": "punjabi"
     },
     {
@@ -5310,7 +5310,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gagan Sindhu, Alamgeer",
       "album": "Shakal Pe Mat Ja",
       "duration": 176,
-      "url": "/audio/punjabi_086.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_86.mp3",
       "category": "punjabi"
     },
     {
@@ -5319,7 +5319,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak, Jagpal Sandhu",
       "album": "Shoot Da Order (From \"Shooter\")",
       "duration": 217,
-      "url": "/audio/punjabi_087.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_87.mp3",
       "category": "punjabi"
     },
     {
@@ -5328,7 +5328,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sidhu Moose Wala",
       "album": "So High",
       "duration": 233,
-      "url": "/audio/punjabi_088.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_88.mp3",
       "category": "punjabi"
     },
     {
@@ -5337,7 +5337,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Suit Punjabi",
       "duration": 201,
-      "url": "/audio/punjabi_089.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_89.mp3",
       "category": "punjabi"
     },
     {
@@ -5346,7 +5346,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Guru Randhawa, Arjun",
       "album": "Hits Of Guru Randhawa",
       "duration": 190,
-      "url": "/audio/punjabi_090.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_90.mp3",
       "category": "punjabi"
     },
     {
@@ -5355,7 +5355,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Tera Mera Viah",
       "duration": 197,
-      "url": "/audio/punjabi_091.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_91.mp3",
       "category": "punjabi"
     },
     {
@@ -5364,7 +5364,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jazzy B, Yo Yo Honey Singh",
       "album": "This Party Getting Hot",
       "duration": 211,
-      "url": "/audio/punjabi_092.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_92.mp3",
       "category": "punjabi"
     },
     {
@@ -5373,7 +5373,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mankirt Aulakh, Nimrat Khaira, Shree Brar",
       "album": "Vail",
       "duration": 201,
-      "url": "/audio/punjabi_093.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_93.mp3",
       "category": "punjabi"
     },
     {
@@ -5382,7 +5382,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jass Manak",
       "album": "Age 19",
       "duration": 162,
-      "url": "/audio/punjabi_094.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_94.mp3",
       "category": "punjabi"
     },
     {
@@ -5391,7 +5391,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Navv Inder, Badshah",
       "album": "Wakhra Swag & Other Hits",
       "duration": 190,
-      "url": "/audio/punjabi_095.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_95.mp3",
       "category": "punjabi"
     },
     {
@@ -5400,7 +5400,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dr Zeus, Snoop Dogg, Zora Randhawa, Nargis Fakhri",
       "album": "Woofer (feat. Snoop Dogg, Zora Randhawa & Nargis Fakhri)",
       "duration": 172,
-      "url": "/audio/punjabi_096.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_96.mp3",
       "category": "punjabi"
     },
     {
@@ -5409,7 +5409,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sharry Mann",
       "album": "Yaar Anmulle",
       "duration": 276,
-      "url": "/audio/punjabi_097.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_97.mp3",
       "category": "punjabi"
     },
     {
@@ -5418,7 +5418,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Preet Harpal, Jatinder Shah",
       "album": "Yaar Berozgaar",
       "duration": 229,
-      "url": "/audio/punjabi_098.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Punjabi/punjabi_98.mp3",
       "category": "punjabi"
     }
   ],
@@ -5429,7 +5429,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Renuka Panwar, MJ",
       "album": "52 Gaj Ka Daman",
       "duration": 163,
-      "url": "/audio/haryanvi_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_1.mp3",
       "category": "haryanvi"
     },
     {
@@ -5438,7 +5438,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 140,
-      "url": "/audio/haryanvi_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_2.mp3",
       "category": "haryanvi"
     },
     {
@@ -5447,7 +5447,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 201,
-      "url": "/audio/haryanvi_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_3.mp3",
       "category": "haryanvi"
     },
     {
@@ -5456,7 +5456,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishu Puthi, Sapna Choudhary",
       "album": "Baba Ji",
       "duration": 198,
-      "url": "/audio/haryanvi_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_4.mp3",
       "category": "haryanvi"
     },
     {
@@ -5465,7 +5465,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gajender Phogat, Anu Kadyan",
       "album": "Bahu Kale Ki",
       "duration": 228,
-      "url": "/audio/haryanvi_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_5.mp3",
       "category": "haryanvi"
     },
     {
@@ -5474,7 +5474,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Banjaare",
       "album": "Bairan",
       "duration": 150,
-      "url": "/audio/haryanvi_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_6.mp3",
       "category": "haryanvi"
     },
     {
@@ -5483,7 +5483,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ashu Twinkle",
       "album": "Unknown Album",
       "duration": 265,
-      "url": "/audio/haryanvi_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_7.mp3",
       "category": "haryanvi"
     },
     {
@@ -5492,7 +5492,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Banjaare, Roni",
       "album": "Barsaat",
       "duration": 185,
-      "url": "/audio/haryanvi_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_8.mp3",
       "category": "haryanvi"
     },
     {
@@ -5501,7 +5501,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mohit Ladhotiya",
       "album": "Bau Ji",
       "duration": 179,
-      "url": "/audio/haryanvi_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_9.mp3",
       "category": "haryanvi"
     },
     {
@@ -5510,7 +5510,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sumit Goswami, Vicky Kajla",
       "album": "Bawli Tared",
       "duration": 228,
-      "url": "/audio/haryanvi_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_10.mp3",
       "category": "haryanvi"
     },
     {
@@ -5519,7 +5519,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Bhaan Ka Rola",
       "duration": 197,
-      "url": "/audio/haryanvi_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_11.mp3",
       "category": "haryanvi"
     },
     {
@@ -5528,7 +5528,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vikram Sarkar, THOUGHT",
       "album": "Champ",
       "duration": 167,
-      "url": "/audio/haryanvi_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_12.mp3",
       "category": "haryanvi"
     },
     {
@@ -5537,7 +5537,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma",
       "album": "Chand",
       "duration": 188,
-      "url": "/audio/haryanvi_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_13.mp3",
       "category": "haryanvi"
     },
     {
@@ -5546,7 +5546,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raj Mawer",
       "album": "Chetak",
       "duration": 253,
-      "url": "/audio/haryanvi_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_14.mp3",
       "category": "haryanvi"
     },
     {
@@ -5555,7 +5555,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vinu Gaur",
       "album": "Chhori Jail Karawegi Re",
       "duration": 257,
-      "url": "/audio/haryanvi_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_15.mp3",
       "category": "haryanvi"
     },
     {
@@ -5564,7 +5564,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Choudhar Jaat Ki",
       "duration": 242,
-      "url": "/audio/haryanvi_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_16.mp3",
       "category": "haryanvi"
     },
     {
@@ -5573,7 +5573,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Upasna Gahlot, Pranjal Dahiya",
       "album": "Churma (feat. Pranjal Dahiya)",
       "duration": 145,
-      "url": "/audio/haryanvi_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_17.mp3",
       "category": "haryanvi"
     },
     {
@@ -5582,7 +5582,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sukh Deswal",
       "album": "Unknown Album",
       "duration": 174,
-      "url": "/audio/haryanvi_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_18.mp3",
       "category": "haryanvi"
     },
     {
@@ -5591,7 +5591,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Bintu Pabra",
       "album": "Dabya Ni Karde",
       "duration": 219,
-      "url": "/audio/haryanvi_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_19.mp3",
       "category": "haryanvi"
     },
     {
@@ -5600,7 +5600,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi, KD DESIROCK, MD DesiRockstar",
       "album": "Desi Desi Na Bolya Kar",
       "duration": 216,
-      "url": "/audio/haryanvi_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_20.mp3",
       "category": "haryanvi"
     },
     {
@@ -5609,7 +5609,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 260,
-      "url": "/audio/haryanvi_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_21.mp3",
       "category": "haryanvi"
     },
     {
@@ -5618,7 +5618,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Khasa Aala Chahar",
       "album": "Father Saab",
       "duration": 317,
-      "url": "/audio/haryanvi_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_22.mp3",
       "category": "haryanvi"
     },
     {
@@ -5627,7 +5627,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sumit Goswami",
       "album": "Feelings",
       "duration": 224,
-      "url": "/audio/haryanvi_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_23.mp3",
       "category": "haryanvi"
     },
     {
@@ -5636,7 +5636,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vishvajeet Choudhary, Sapna Choudhary",
       "album": "Gajban",
       "duration": 221,
-      "url": "/audio/haryanvi_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_24.mp3",
       "category": "haryanvi"
     },
     {
@@ -5645,7 +5645,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Haryane Ka Jaat",
       "duration": 167,
-      "url": "/audio/haryanvi_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_25.mp3",
       "category": "haryanvi"
     },
     {
@@ -5654,7 +5654,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Bintu Pabra, Shine",
       "album": "His Grace",
       "duration": 217,
-      "url": "/audio/haryanvi_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_26.mp3",
       "category": "haryanvi"
     },
     {
@@ -5663,7 +5663,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mika Singh",
       "album": "Something Something",
       "duration": 225,
-      "url": "/audio/haryanvi_027.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_27.mp3",
       "category": "haryanvi"
     },
     {
@@ -5672,7 +5672,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sintaa, Riyaazi",
       "album": "Jadugarni",
       "duration": 145,
-      "url": "/audio/haryanvi_028.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_28.mp3",
       "category": "haryanvi"
     },
     {
@@ -5681,7 +5681,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dhanda Nyoliwala, Yogi Aulakh",
       "album": "Jat Clan",
       "duration": 206,
-      "url": "/audio/haryanvi_029.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_29.mp3",
       "category": "haryanvi"
     },
     {
@@ -5690,7 +5690,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Jat Supremacy",
       "duration": 158,
-      "url": "/audio/haryanvi_030.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_30.mp3",
       "category": "haryanvi"
     },
     {
@@ -5699,7 +5699,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 222,
-      "url": "/audio/haryanvi_031.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_31.mp3",
       "category": "haryanvi"
     },
     {
@@ -5708,7 +5708,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Shine, Mahi Dhaka",
       "album": "Jodi (feat. Mahi Dhaka)",
       "duration": 154,
-      "url": "/audio/haryanvi_032.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_32.mp3",
       "category": "haryanvi"
     },
     {
@@ -5717,7 +5717,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Renuka Panwar, Surender Romio, Aamin Barodi",
       "album": "Kabootar 2",
       "duration": 146,
-      "url": "/audio/haryanvi_033.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_33.mp3",
       "category": "haryanvi"
     },
     {
@@ -5726,7 +5726,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma, Sheenam",
       "album": "Khote Chad Lalkarun",
       "duration": 296,
-      "url": "/audio/haryanvi_034.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_34.mp3",
       "category": "haryanvi"
     },
     {
@@ -5735,7 +5735,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dhanda Nyoliwala",
       "album": "DNW Vol. 1",
       "duration": 175,
-      "url": "/audio/haryanvi_035.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_35.mp3",
       "category": "haryanvi"
     },
     {
@@ -5744,7 +5744,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Harjeet Diwana, Pranjal Dahiya, Aman Jaji",
       "album": "Laada ka Lada",
       "duration": 141,
-      "url": "/audio/haryanvi_036.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_36.mp3",
       "category": "haryanvi"
     },
     {
@@ -5753,7 +5753,7 @@ export const TRACK_CATEGORIES = {
       "artist": "MC SQUARE, Hiten",
       "album": "Laado",
       "duration": 148,
-      "url": "/audio/haryanvi_037.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_37.mp3",
       "category": "haryanvi"
     },
     {
@@ -5762,7 +5762,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma, Swara Verma",
       "album": "Lofar",
       "duration": 129,
-      "url": "/audio/haryanvi_038.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_38.mp3",
       "category": "haryanvi"
     },
     {
@@ -5771,7 +5771,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raj Mawar, Manisha Sharma, Aman Jaji, Sapna Choudhary",
       "album": "Matak Chalungi",
       "duration": 176,
-      "url": "/audio/haryanvi_039.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_39.mp3",
       "category": "haryanvi"
     },
     {
@@ -5780,7 +5780,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Krishan Chouhan, Seenam Khatolic",
       "album": "Mera Dol Kue Me Latke Se - Single",
       "duration": 326,
-      "url": "/audio/haryanvi_040.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_40.mp3",
       "category": "haryanvi"
     },
     {
@@ -5789,7 +5789,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Unknown Album",
       "duration": 192,
-      "url": "/audio/haryanvi_041.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_41.mp3",
       "category": "haryanvi"
     },
     {
@@ -5798,7 +5798,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma, Sapna Choudhary",
       "album": "Mithi Bole Bangro",
       "duration": 174,
-      "url": "/audio/haryanvi_042.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_42.mp3",
       "category": "haryanvi"
     },
     {
@@ -5807,7 +5807,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Unknown Album",
       "duration": 152,
-      "url": "/audio/haryanvi_043.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_43.mp3",
       "category": "haryanvi"
     },
     {
@@ -5816,7 +5816,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Babbu Maan",
       "album": "Pyass",
       "duration": 337,
-      "url": "/audio/haryanvi_044.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_44.mp3",
       "category": "haryanvi"
     },
     {
@@ -5825,7 +5825,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diler Kharkiya",
       "album": "Moto",
       "duration": 181,
-      "url": "/audio/haryanvi_045.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_45.mp3",
       "category": "haryanvi"
     },
     {
@@ -5834,7 +5834,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 172,
-      "url": "/audio/haryanvi_046.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_46.mp3",
       "category": "haryanvi"
     },
     {
@@ -5843,7 +5843,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ruchika Jangid",
       "album": "Nandi Ke Beera",
       "duration": 161,
-      "url": "/audio/haryanvi_047.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_47.mp3",
       "category": "haryanvi"
     },
     {
@@ -5852,7 +5852,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dhanda Nyoliwala",
       "album": "Not Guilty",
       "duration": 175,
-      "url": "/audio/haryanvi_048.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_48.mp3",
       "category": "haryanvi"
     },
     {
@@ -5861,7 +5861,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Manisha Sharma",
       "album": "Unknown Album",
       "duration": 169,
-      "url": "/audio/haryanvi_049.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_49.mp3",
       "category": "haryanvi"
     },
     {
@@ -5870,7 +5870,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Guri Nimana",
       "album": "Phoolan Ki Kyari (She Blooms)",
       "duration": 145,
-      "url": "/audio/haryanvi_050.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_50.mp3",
       "category": "haryanvi"
     },
     {
@@ -5879,7 +5879,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Somveer Kathurwal",
       "album": "Raam Ki Su",
       "duration": 291,
-      "url": "/audio/haryanvi_051.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_51.mp3",
       "category": "haryanvi"
     },
     {
@@ -5888,7 +5888,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma, Sweta Chauhan, Yash Thukral",
       "album": "Raat Ke Shikari",
       "duration": 148,
-      "url": "/audio/haryanvi_052.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_52.mp3",
       "category": "haryanvi"
     },
     {
@@ -5897,7 +5897,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 139,
-      "url": "/audio/haryanvi_053.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_53.mp3",
       "category": "haryanvi"
     },
     {
@@ -5906,7 +5906,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Bintu Pabra",
       "album": "Roots",
       "duration": 263,
-      "url": "/audio/haryanvi_054.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_54.mp3",
       "category": "haryanvi"
     },
     {
@@ -5915,7 +5915,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Isha Sharma",
       "album": "Rose Garden",
       "duration": 171,
-      "url": "/audio/haryanvi_055.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_55.mp3",
       "category": "haryanvi"
     },
     {
@@ -5924,7 +5924,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dhanda Nyoliwala",
       "album": "Russian Bandana",
       "duration": 197,
-      "url": "/audio/haryanvi_056.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_56.mp3",
       "category": "haryanvi"
     },
     {
@@ -5933,7 +5933,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi, Sheenam Katholic",
       "album": "Solid Body",
       "duration": 176,
-      "url": "/audio/haryanvi_057.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_57.mp3",
       "category": "haryanvi"
     },
     {
@@ -5942,7 +5942,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu, Pranjal Dahiya",
       "album": "Superman Jat",
       "duration": 171,
-      "url": "/audio/haryanvi_058.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_58.mp3",
       "category": "haryanvi"
     },
     {
@@ -5951,7 +5951,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Raju Punjabi",
       "album": "Sweety",
       "duration": 221,
-      "url": "/audio/haryanvi_059.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_59.mp3",
       "category": "haryanvi"
     },
     {
@@ -5960,7 +5960,7 @@ export const TRACK_CATEGORIES = {
       "artist": "R Maan, Billa Sonipat Ala, Vikram Sarkar",
       "album": "System Pe System",
       "duration": 184,
-      "url": "/audio/haryanvi_060.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_60.mp3",
       "category": "haryanvi"
     },
     {
@@ -5969,7 +5969,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gagan Haryanvi, Ak Jatti",
       "album": "Tagdi",
       "duration": 202,
-      "url": "/audio/haryanvi_061.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_61.mp3",
       "category": "haryanvi"
     },
     {
@@ -5978,7 +5978,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Dhanda Nyoliwala",
       "album": "Tension",
       "duration": 143,
-      "url": "/audio/haryanvi_062.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_62.mp3",
       "category": "haryanvi"
     },
     {
@@ -5987,7 +5987,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Masoom Sharma, Sheenam Katholic, Mr. Boota, Aarohi Raghav, Kay D",
       "album": "Teri Ramjhol Bole Gi (feat. Kay D)",
       "duration": 147,
-      "url": "/audio/haryanvi_063.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_63.mp3",
       "category": "haryanvi"
     },
     {
@@ -5996,7 +5996,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sumit Goswami, Jerry",
       "album": "The Villagers",
       "duration": 185,
-      "url": "/audio/haryanvi_064.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_64.mp3",
       "category": "haryanvi"
     },
     {
@@ -6005,7 +6005,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Renuka Panwar, Aditya Kalkal, MST",
       "album": "Unchi Haveli",
       "duration": 161,
-      "url": "/audio/haryanvi_065.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_65.mp3",
       "category": "haryanvi"
     },
     {
@@ -6014,7 +6014,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Ndee Kundu",
       "album": "Unknown Album",
       "duration": 185,
-      "url": "/audio/haryanvi_066.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Haryanvi/haryanvi_66.mp3",
       "category": "haryanvi"
     }
   ],
@@ -6025,7 +6025,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Darshan Farswan",
       "album": "Aachhri",
       "duration": 290,
-      "url": "/audio/pahadi_001.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_1.mp3",
       "category": "pahadi"
     },
     {
@@ -6034,7 +6034,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Gajendra Rana, Meena Rana",
       "album": "Hima Maarchhyan",
       "duration": 366,
-      "url": "/audio/pahadi_002.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_2.mp3",
       "category": "pahadi"
     },
     {
@@ -6043,7 +6043,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Narendra Singh Negi",
       "album": "Unknown Album",
       "duration": 443,
-      "url": "/audio/pahadi_003.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_3.mp3",
       "category": "pahadi"
     },
     {
@@ -6052,7 +6052,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Anil Bisht",
       "album": "Unknown Album",
       "duration": 583,
-      "url": "/audio/pahadi_004.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_4.mp3",
       "category": "pahadi"
     },
     {
@@ -6061,7 +6061,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Prahlad Mehra",
       "album": "Unknown Album",
       "duration": 309,
-      "url": "/audio/pahadi_005.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_5.mp3",
       "category": "pahadi"
     },
     {
@@ -6070,7 +6070,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lalit Mohan Joshi",
       "album": "Unknown Album",
       "duration": 245,
-      "url": "/audio/pahadi_006.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_6.mp3",
       "category": "pahadi"
     },
     {
@@ -6079,7 +6079,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Sahab Singh Ramola",
       "album": "Unknown Album",
       "duration": 470,
-      "url": "/audio/pahadi_007.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_7.mp3",
       "category": "pahadi"
     },
     {
@@ -6088,7 +6088,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Mamta Arya",
       "album": "Unknown Album",
       "duration": 422,
-      "url": "/audio/pahadi_008.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_8.mp3",
       "category": "pahadi"
     },
     {
@@ -6097,7 +6097,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fauji Lalit Mohan Joshi",
       "album": "Ghur Ghur Almora",
       "duration": 245,
-      "url": "/audio/pahadi_009.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_9.mp3",
       "category": "pahadi"
     },
     {
@@ -6106,7 +6106,7 @@ export const TRACK_CATEGORIES = {
       "artist": "K. J. Yesudas",
       "album": "Chitchor",
       "duration": 307,
-      "url": "/audio/pahadi_010.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_10.mp3",
       "category": "pahadi"
     },
     {
@@ -6115,7 +6115,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Inder Arya",
       "album": "Gulabi Sharara",
       "duration": 206,
-      "url": "/audio/pahadi_011.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_11.mp3",
       "category": "pahadi"
     },
     {
@@ -6124,7 +6124,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Vicky Chauhan",
       "album": "Kindi Chale Bathade",
       "duration": 217,
-      "url": "/audio/pahadi_012.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_12.mp3",
       "category": "pahadi"
     },
     {
@@ -6133,7 +6133,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fauji Lalit Mohan Joshi",
       "album": "Unknown Album",
       "duration": 438,
-      "url": "/audio/pahadi_013.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_13.mp3",
       "category": "pahadi"
     },
     {
@@ -6142,7 +6142,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Diksha Dhoundiyal, Vijay Prakash",
       "album": "Lachima",
       "duration": 258,
-      "url": "/audio/pahadi_014.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_14.mp3",
       "category": "pahadi"
     },
     {
@@ -6151,7 +6151,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Prakash kahala",
       "album": "Unknown Album",
       "duration": 308,
-      "url": "/audio/pahadi_015.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_15.mp3",
       "category": "pahadi"
     },
     {
@@ -6160,7 +6160,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lalit Mohan Joshi",
       "album": "Meri Bhanu",
       "duration": 391,
-      "url": "/audio/pahadi_016.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_16.mp3",
       "category": "pahadi"
     },
     {
@@ -6169,7 +6169,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lalit Mohan Joshi",
       "album": "Unknown Album",
       "duration": 337,
-      "url": "/audio/pahadi_017.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_17.mp3",
       "category": "pahadi"
     },
     {
@@ -6178,7 +6178,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Nupur Pant",
       "album": "PAHADI - The Folk Songs of Uttarakhand",
       "duration": 259,
-      "url": "/audio/pahadi_018.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_18.mp3",
       "category": "pahadi"
     },
     {
@@ -6187,7 +6187,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Inder Arya",
       "album": "Photo Teri (Kumaoni)",
       "duration": 272,
-      "url": "/audio/pahadi_019.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_19.mp3",
       "category": "pahadi"
     },
     {
@@ -6196,7 +6196,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fauji Lalit Mohan Joshi",
       "album": "Pingli Sadee",
       "duration": 219,
-      "url": "/audio/pahadi_020.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_20.mp3",
       "category": "pahadi"
     },
     {
@@ -6205,7 +6205,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Satyendra Gangola",
       "album": "Unknown Album",
       "duration": 319,
-      "url": "/audio/pahadi_021.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_21.mp3",
       "category": "pahadi"
     },
     {
@@ -6214,7 +6214,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lalit Mohan Joshi",
       "album": "Unknown Album",
       "duration": 466,
-      "url": "/audio/pahadi_022.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_22.mp3",
       "category": "pahadi"
     },
     {
@@ -6223,7 +6223,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fauji Lalit Mohan Joshi",
       "album": "Rifle Meri Kani Ma",
       "duration": 334,
-      "url": "/audio/pahadi_023.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_23.mp3",
       "category": "pahadi"
     },
     {
@@ -6232,7 +6232,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Jitendra Tomkyal",
       "album": "Unknown Album",
       "duration": 350,
-      "url": "/audio/pahadi_024.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_24.mp3",
       "category": "pahadi"
     },
     {
@@ -6241,7 +6241,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Lalit Mohan Joshi",
       "album": "Unknown Album",
       "duration": 422,
-      "url": "/audio/pahadi_025.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_25.mp3",
       "category": "pahadi"
     },
     {
@@ -6250,7 +6250,7 @@ export const TRACK_CATEGORIES = {
       "artist": "Fauji Lalit Mohan Joshi",
       "album": "Ki Bhalo Tero Mann",
       "duration": 330,
-      "url": "/audio/pahadi_026.mp3",
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_26.mp3",
       "category": "pahadi"
     }
   ]

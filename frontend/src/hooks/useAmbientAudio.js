@@ -3,7 +3,7 @@ import { useRef, useCallback, useEffect } from "react";
 // Ambient soundscape (engine, road, wind, birds, horn) via Web Audio.
 // Rain is a real MP3 file played via HTMLAudioElement in a seamless loop.
 // Two mix buses: `bus` (vehicle) and `env` (environment). Music is handled separately.
-const HORN_FILES = ["/audio/horn_1.mp3", "/audio/horn_3.mp3"];
+const HORN_FILES = ["/audio/horn_1.mp3", "/audio/horn_2.mp3", "/audio/horn_3.mp3"];
 export function useAmbientAudio() {
   const ref = useRef(null);
 
@@ -182,10 +182,10 @@ export function useAmbientAudio() {
   }, []);
 
   const currentHornRef = useRef(null);
-  const hornIndexRef = useRef(0);
+  const lastHornIndexRef = useRef(-1);
 
   const hornHonk = useCallback(() => {
-    // If a horn is currently playing, immediately cut it off
+    // If a horn is currently playing, immediately cut it off and play next
     if (currentHornRef.current) {
       try {
         currentHornRef.current.pause();
@@ -197,11 +197,14 @@ export function useAmbientAudio() {
 
     if (!HORN_FILES.length) return;
 
-    // Pick next horn in sequence (alternates so you get a different horn each time)
-    const file = HORN_FILES[hornIndexRef.current % HORN_FILES.length];
-    hornIndexRef.current += 1;
+    // Pick a random horn, but never the same one twice in a row
+    let idx;
+    do {
+      idx = Math.floor(Math.random() * HORN_FILES.length);
+    } while (HORN_FILES.length > 1 && idx === lastHornIndexRef.current);
+    lastHornIndexRef.current = idx;
 
-    const audio = new Audio(file);
+    const audio = new Audio(HORN_FILES[idx]);
     audio.volume = 1.0;
     currentHornRef.current = audio;
 

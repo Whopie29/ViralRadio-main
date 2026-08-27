@@ -83,7 +83,7 @@ export const TIMES = {
 export const PLAYLIST_CATEGORIES = [
   { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: 225 },
   { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 162 },
-  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 23 },
+  { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 24 },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 86 },
   { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 98 },
@@ -3785,6 +3785,15 @@ export const TRACK_CATEGORIES = {
       "album": "Unknown Album",
       "duration": 507,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_023.mp3",
+      "category": "rajasthani"
+    },
+    {
+      "id": "rajasthani_24",
+      "title": "BANNI",
+      "artist": "Aneesh, Krtin Kay, Kunnu, Gargei Lavekar",
+      "album": "BANNI",
+      "duration": 125,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Rajasthani/rajasthani_024.mp3",
       "category": "rajasthani"
     }
   ],

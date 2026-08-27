@@ -127,7 +127,7 @@ for cat_cfg in categories_config:
     raw_files = sorted(glob.glob(os.path.join(folder, '*.mp3')))
     print(f"Processing category '{cat_key}' from '{folder}' ({len(raw_files)} files)...")
 
-    seen_titles = set()
+    seen_tracks = set()
     cat_tracks = []
     copied = 0
 
@@ -153,12 +153,14 @@ for cat_cfg in categories_config:
         artist = clean_artist(artist, default_artist)
         album = clean_album(album, default_album)
 
-        # Normalize title for deduplication
-        norm = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
-        if norm in seen_titles:
-            print(f"  Skipping duplicate title: {title} ({fn})")
+        # Normalize title and artist for deduplication
+        norm_title = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
+        norm_artist = re.sub(r'[^a-zA-Z0-9]', '', artist).lower()
+        track_key = (norm_title, norm_artist)
+        if track_key in seen_tracks:
+            print(f"  Skipping duplicate track: {title} - {artist} ({fn})")
             continue
-        seen_titles.add(norm)
+        seen_tracks.add(track_key)
 
         copied += 1
         safe_name = f"{prefix}_{copied:03d}.mp3"

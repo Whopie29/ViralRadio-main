@@ -153,8 +153,14 @@ def add_songs_for_category(cat_key, all_tracks, r2_keys):
 
     existing_tracks = all_tracks.get(cat_key, [])
 
-    # Build set of titles already tracked (to avoid duplicates)
-    seen_titles = {re.sub(r'[^a-zA-Z0-9]', '', t["title"]).lower() for t in existing_tracks}
+    # Build set of (title, artist) already tracked (to avoid duplicates of same song/artist)
+    seen_tracks = {
+        (
+            re.sub(r'[^a-zA-Z0-9]', '', t.get("title", "")).lower(),
+            re.sub(r'[^a-zA-Z0-9]', '', t.get("artist", "")).lower()
+        )
+        for t in existing_tracks
+    }
 
     # Next index starts after last existing track
     next_idx = len(existing_tracks) + 1
@@ -185,13 +191,16 @@ def add_songs_for_category(cat_key, all_tracks, r2_keys):
         artist = clean_artist(artist, default_artist)
         album  = clean_album(album, default_album)
 
-        # Skip if title already exists
-        norm = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
-        if norm in seen_titles:
-            print(f"  Skipping duplicate title: {title}")
+        # Skip if both title and artist already exist
+        norm_title = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
+        norm_artist = re.sub(r'[^a-zA-Z0-9]', '', artist).lower()
+        track_key = (norm_title, norm_artist)
+
+        if track_key in seen_tracks:
+            print(f"  Skipping duplicate track: {title} - {artist}")
             skipped_dup += 1
             continue
-        seen_titles.add(norm)
+        seen_tracks.add(track_key)
 
         # Assign cloud filename
         safe_name = f"{prefix}_{next_idx:03d}.mp3"

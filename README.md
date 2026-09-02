@@ -1,23 +1,28 @@
-<div align="center">
+<!-- Animated Header -->
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:8A2BE2,100:FF00E5&height=230&section=header&text=Karwaan%20Radio&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=A%2090s%20Hill-Road%20Bus%20Journey%2C%20Reimagined%20as%20a%20Music%20Player&descAlignY=58&descSize=15"/>
+</p>
 
-<img src="./icon.png" alt="Karwaan Radio logo" width="110" />
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=00F7FF&center=true&vCenter=true&width=800&lines=Rain+on+the+window.+A+cassette+clicks+in.;Parallax+Mountains+%2B+Live+Weather+FX+%F0%9F%8C%A7%EF%B8%8F;Ride+Together+with+Live+Chat+%26+Passenger+Count+%F0%9F%9A%8C;Turns+Music+Playback+Into+a+Road+Trip"/>
+</p>
 
-# 🚌 Karwaan Radio
+<p align="center">
+<a href="https://www.karwaanradio.website/"><img src="https://img.shields.io/badge/live-karwaanradio.website-ef4444?style=for-the-badge"/></a>
+<img src="https://img.shields.io/badge/React-19-149eca?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-0.110-009485?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-Motor-13aa52?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/license-Unspecified-lightgrey?style=for-the-badge"/>
+</p>
 
-**A nostalgic 90s Indian hill-road bus journey — reimagined as a living, breathing music player.**
-
-Rain on the window. A cassette clicking into place. The murmur of fellow passengers.
-Karwaan Radio turns music playback into a cinematic road-trip experience.
-
-[![Live Site](https://img.shields.io/badge/live-karwaanradio.website-ef4444?style=for-the-badge)](https://www.karwaanradio.website/)
-![React](https://img.shields.io/badge/React-19-149eca?style=for-the-badge&logo=react&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009485?style=for-the-badge&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Motor-13aa52?style=for-the-badge&logo=mongodb&logoColor=white)
-![License](https://img.shields.io/badge/license-Unspecified-lightgrey?style=for-the-badge)
-
-[**🌐 Live Demo**](https://www.karwaanradio.website/) · [Features](#-features) · [Tech Stack](#-tech-stack) · [Getting Started](#-getting-started) · [Project Structure](#-project-structure)
-
-</div>
+<p align="center">
+<a href="https://www.karwaanradio.website/"><b>🌐 Live Demo</b></a> •
+<a href="#-features">Features</a> •
+<a href="#-tech-stack">Tech Stack</a> •
+<a href="#-getting-started">Getting Started</a> •
+<a href="#-project-structure">Project Structure</a> •
+<a href="#-managing-music">Managing Music</a>
+</p>
 
 ---
 
@@ -26,6 +31,8 @@ Karwaan Radio turns music playback into a cinematic road-trip experience.
 **Karwaan Radio** simulates the feeling of a monsoon-evening bus ride through the Himalayan foothills. Pick a destination, a season, and a time of day, and the whole scene — sky, weather, ambient bus sounds, and a curated cassette-style playlist — shifts to match. It's part music player, part interactive diorama, part shared listening room.
 
 Under the hood it pairs a richly animated React frontend with a FastAPI + WebSocket backend that powers a **live passenger counter** and a **real-time chat drawer**, so everyone tuned in shares the same bus.
+
+---
 
 ## 🎬 Features
 
@@ -42,7 +49,13 @@ Under the hood it pairs a richly animated React frontend with a FastAPI + WebSoc
 | 🔊 **Layered ambient audio** | Independently mixed music, environment, and bus-engine volume channels |
 | ⚙️ **Persisted settings** | Location, weather, time, category, and volume preferences saved to local storage |
 
+---
+
 ## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **Frontend**
 - [React 19](https://react.dev/) bootstrapped with [Create React App](https://create-react-app.dev/) via [CRACO](https://craco.js.org/)
@@ -52,6 +65,9 @@ Under the hood it pairs a richly animated React frontend with a FastAPI + WebSoc
 - [Supabase JS](https://supabase.com/) client for auxiliary data
 - Deployed on [Vercel](https://vercel.com/)
 
+</td>
+<td width="50%" valign="top">
+
 **Backend**
 - [FastAPI](https://fastapi.tiangolo.com/) + [Uvicorn](https://www.uvicorn.org/)
 - [MongoDB](https://www.mongodb.com/) via [Motor](https://motor.readthedocs.io/) (async driver)
@@ -59,10 +75,13 @@ Under the hood it pairs a richly animated React frontend with a FastAPI + WebSoc
 - [Pydantic v2](https://docs.pydantic.dev/) for data models, [PyJWT](https://pyjwt.readthedocs.io/) / [passlib](https://passlib.readthedocs.io/) for auth primitives
 - [Boto3](https://boto3.amazonaws.com/) for audio asset storage on **Cloudflare R2**
 
-**Tooling**
-- `pytest` + `pytest-xdist` for parallel backend tests
-- `black`, `isort`, `flake8`, `mypy` for backend linting/formatting
-- `eslint` for frontend linting
+</td>
+</tr>
+</table>
+
+**Tooling** — `pytest` + `pytest-xdist` for parallel backend tests · `black`, `isort`, `flake8`, `mypy` for backend linting/formatting · `eslint` for frontend linting
+
+---
 
 ## 📂 Project Structure
 
@@ -88,23 +107,28 @@ ViralRadio-main/
 └── tests/                     # Backend test suite
 ```
 
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - [Node.js](https://nodejs.org/) 18+ and [Yarn](https://yarnpkg.com/)
 - [Python](https://www.python.org/) 3.10+
 - A running [MongoDB](https://www.mongodb.com/) instance (local or hosted)
 
-### 1. Clone the repo
+<table>
+<tr><td width="6%" align="center"><b>1</b></td><td>
 
+**Clone the repo**
 ```bash
 git clone https://github.com/Whopie29/ViralRadio-main.git
 cd ViralRadio-main
 ```
 
-### 2. Backend setup
+</td></tr>
+<tr><td align="center"><b>2</b></td><td>
 
+**Backend setup**
 ```bash
 cd backend
 python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
@@ -112,7 +136,6 @@ pip install -r requirements.txt
 ```
 
 Create a `.env` file inside `backend/`:
-
 ```env
 MONGO_URL=mongodb://localhost:27017
 DB_NAME=viral_radio
@@ -120,22 +143,21 @@ CORS_ORIGINS=http://localhost:3000
 ```
 
 Run the API:
-
 ```bash
 uvicorn server:app --reload --port 8000
 ```
-
 The API will be available at `http://localhost:8000/api`, with WebSocket endpoints at `/api/ws/passengers` and `/api/ws/chat`.
 
-### 3. Frontend setup
+</td></tr>
+<tr><td align="center"><b>3</b></td><td>
 
+**Frontend setup**
 ```bash
 cd frontend
 yarn install
 ```
 
 Create a `.env` file inside `frontend/`:
-
 ```env
 REACT_APP_BACKEND_PORT=8000
 REACT_APP_SUPABASE_URL=your_supabase_project_url
@@ -143,19 +165,24 @@ REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 Run the dev server:
-
 ```bash
 yarn start
 ```
-
 Visit `http://localhost:3000` and hop on board. 🚌
 
-### 4. Run backend tests
+</td></tr>
+<tr><td align="center"><b>4</b></td><td>
 
+**Run backend tests**
 ```bash
 cd backend
 pytest
 ```
+
+</td></tr>
+</table>
+
+---
 
 ## 🎼 Managing Music
 
@@ -166,7 +193,9 @@ The `old bangers/` directory holds source audio, processed via a small pipeline:
 3. `update_constants.py` — regenerates `frontend/src/lib/constants.js` with the latest catalog
 4. `add_songs.py` — helper for registering individual new tracks
 
-> ⚠️ **Note:** `upload_to_r2_custom.py` currently ships with hardcoded fallback R2 credentials. Move these into environment variables (and rotate the existing keys) before treating this repository as public-safe.
+> ⚠️ **Security note:** `upload_to_r2_custom.py` currently ships with hardcoded fallback R2 credentials. Move these into environment variables — and rotate the existing keys — before treating this repository as public-safe.
+
+---
 
 ## 🗺️ Roadmap Ideas
 
@@ -174,6 +203,8 @@ The `old bangers/` directory holds source audio, processed via a small pipeline:
 - [ ] Additional regional soundscapes and locations
 - [ ] Mobile app wrapper
 - [ ] Moderation tools for live chat
+
+---
 
 ## 🤝 Contributing
 
@@ -185,14 +216,16 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+---
+
 ## 📄 License
 
 No license has been specified for this repository yet. Consider adding one (e.g. [MIT](https://choosealicense.com/licenses/mit/)) so others know how they can use your code.
 
 ---
 
-<div align="center">
+<p align="center"><i>Made with 🎧 for anyone who misses the back seat of a hill-road bus.</i></p>
 
-Made with 🎧 for anyone who misses the back seat of a hill-road bus.
-
-</div>
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E5,50:8A2BE2,100:00F7FF&height=120&section=footer&animation=twinkling"/>
+</p>
